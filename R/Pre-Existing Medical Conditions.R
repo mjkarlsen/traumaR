@@ -1,0 +1,80 @@
+#' Pre-existing Medical Conditions
+#'
+#' @param col A column in PTOS data that typically starts with PEC_
+#'
+#' @return It translations of the code into human friendly values.
+#' @export
+#'
+#' @examples
+#' PEC_1 <- 'A.01'
+#' preexisting_condition(PEC_1)
+#' History of Cardiac Surgery
+preexisting_condition <- function(col) {
+  col_value <-  case.(col == '0.00',    'None',
+                      col == 'A.01',    'History of Cardiac Surgery',
+                      col == 'A.02',    'Coronary Artery Disease',
+                      col == 'A.03',    'Congestive Heart Failure',
+                      col == 'A.04',    'Cor Pulmonale',
+                      col == 'A.05',    'Myocardial Infarction',
+                      col == 'A.06',    'Hypertension',
+                      col == 'A.07',    'Congenital Cardiac Disease',
+                      col == 'B.03',    'Diabetes Mellitus',
+                      col == 'C.01',    'Peptic Ulcer Disease',
+                      col == 'C.02',    'Gastric or Esophageal Varices',
+                      col == 'C.03',    'Pancreatitis',
+                      col == 'C.04',    'Inflammatory Bowel Disease',
+                      col == 'C.05',    'Bariatric Surgery',
+                      col == 'D.01',    'Acquired Coagulopathy',
+                      col == 'D.02',    'Reversible Anticoagulant Therapy',
+                      col == 'D.04',    'Pre-existing Anemia',
+                      col == 'D.05',    'Anti-platelet Agents',
+                      col == 'D.07',    'Non-reversible Anticoagulant Therapy',
+                      col == 'D.08',    'Other Bleeding Disorder',
+                      col == 'E.00',    'History of Psychiatric Disorders',
+                      col == 'E.01',    'Attention Deficit Disorder',
+                      col == 'E.02',    'Mental Retardation',
+                      col == 'F.01',    'HIV/AIDS',
+                      col == 'F.02',    'Routine Steroid Therapy',
+                      col == 'F.03',    'Transplants',
+                      col == 'F.04',    'Active Chemotherapy',
+                      col == 'G.01',    'Bilirubin > 2 mg% (On Admission)',
+                      col == 'G.02',    'Documented History of Cirrhosis',
+                      col == 'H.01',    'Undergoing Current Therapy',
+                      col == 'H.02',    'Concurrent or Existence of Metastasis',
+                      col == 'H.03',    'History of Pediatric Malignancy',
+                      col == 'I.01',    'Arthritis',
+                      col == 'I.02',    'Systemic Lupus Erythematosus',
+                      col == 'I.03',    'Osteogenisis (OI)',
+                      col == 'J.01',    'Spinal Cord Injury',
+                      col == 'J.02',    'Multiple Sclerosis',
+                      col == 'J.03',    'Alzheimers Disease',
+                      col == 'J.04',    'Seizures',
+                      col == 'J.05',    'Chronic Demyelinating Disease',
+                      col == 'J.06',    'Chronic Dementia',
+                      col == 'J.07',    'Organic Brain Syndrome',
+                      col == 'J.08',    'Parkinsons Disease',
+                      col == 'J.09',    'CVA',
+                      col == 'J.10',    'Autism Spectrum',
+                      col == 'J.11',    'Cerebral Palsy (CP)',
+                      col == 'K.00',    'Obesity',
+                      col == 'L.05',    'Respiratory Disease',
+                      col == 'M.01',    'Serum Creatinine > 2 mg% (On Admission)',
+                      col == 'M.02',    'Dialysis (Excludes Transplant Patients)',
+                      col == 'N.01',    'Drug Use Disorder',
+                      col == 'N.02',    'Chronic Ongoing Alcohol Abuse',
+                      col == 'P.00',    'Pregnancy',
+                      col == 'Q.00',    'Any Previous History of Admission for Trauma or Burn',
+                      col == 'Q.01',    'Previous History of Head Trauma',
+                      col == 'R.01',    'Thyroid Disease',
+                      col == 'S.01',    'Ascites within 30 Days',
+                      col == 'S.02',    'Current Smoker',
+                      col == 'S.03',    'Advanced Directive Limiting Care',
+                      col == 'S.04',    'Functionally Dependent Health Status',
+                      col == 'S.05',    'History of Angina within 30 Days',
+                      col == 'S.06',    'History of PVD',
+                      col == 'S.07',    'Prematurity',
+                      col == 'S.08',    'Pre-hospital Cardiac Arrest',
+                      col == 'T.00',    'Congenital Disorder',
+                      default =          'Not Documented' )
+  return(col_value)
+}
