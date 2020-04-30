@@ -1,11 +1,14 @@
 Package: ptos
 Type: Package
-Title: This package was created to manipulate the Pennsliyvana Trauma Outcome System
+Title: This package was created to manipulate the Pennsylvania Trauma Outcome System (PTOS) data. 
 Version: 0.1.0
 Author: Matt Carlson
-Maintainer: Matt Carlson <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Matt Carlson <mattcarlson990@gmail.com>
+Description: The data requires a significant amount of manipulation to normalize and prepare it for 
+analysis. The PTOS data needs into normalized data structures focused on demographics, prehospital, 
+medical procedures, and outcomes.  
+    The PTOS data uses medical coding to classify causes of injury, examination results, processes, 
+    and treatments. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
