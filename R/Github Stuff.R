@@ -11,7 +11,7 @@ usethis::use_git_config(
 
 
 
-usethis::use_git_remote(name = "ptos",
+usethis::use_git_remote(name = "origin",
                         url = "https://github.com/ultramattyice/ptos.git",
                         overwrite = TRUE)
-usethis::use_git_remote(name = "origin", url = "https://github.com/ultramattyice/ptos.git")
+usethis::use_github()
