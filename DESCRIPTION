@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Matt",
            family = "Carlson",
            role = c("aut", "cre"),
-           email = "mattcarlson990@gmail.com"))
+           email = "mattcarlson990@gmail.com")
 Description: Created this package to take care of the necessary data manipulation to normalize the PTOS data. 
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -16,5 +16,4 @@ Imports:
     data.table,
     magrittr,
     tidytable,
-    lifecycle
-RdMacros: lifecycle
+    dplyr
