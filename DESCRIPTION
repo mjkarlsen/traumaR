@@ -1,18 +1,18 @@
 Package: ptos
-Title: What the Package Does (One Line, Title Case)
+Title: This package was created to manipulate the Pennsylvania Trauma Outcome System (PTOS) data. 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Matt",
+           family = "Carlson",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "mattcarlson990@gmail.com"))
+Description: Created this package to take care of the necessary data manipulation to normalize the PTOS data. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports: 
-    data.table
+    data.table,
+    magrittr,
+    tidytable
