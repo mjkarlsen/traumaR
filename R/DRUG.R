@@ -8,7 +8,7 @@
 #' @examples
 #' drug_test(drug_scr_1)
 
-drug_test <- function(col) {
+drug <- function(col) {
   col_value <-  case.(col == 0, "Not Tested",
                       col == 1, "None",
                       col == 2, "Cocaine",

@@ -1,14 +1,14 @@
 
 #' Medical Services
 #'
-#' @param col A column that typically ends in "_SV"
+#' @param col A column that typically ends in "_SV" or classified using logic ADM_SERV.
 #'
 #' @return It translations of the code into human friendly values.
 #' @export
 #'
 #' @examples
 #'
-admin_service <- function(col) {
+adm_serv <- function(col) {
   col_value <-  case.(col == 0,    'Not Admitted',
                       col == 1,    'Trauma Service (General Surgery)',
                       col == 2,    'Neurosurgery Service',

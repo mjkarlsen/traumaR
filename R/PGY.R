@@ -8,7 +8,7 @@
 #' @examples
 #' post_grad_year('Emergency Medicine Resident - PGY')
 #'
-post_grad_year <- function(col) {
+pgy <- function(col) {
   col_value <-  case.(col == 1 ,  'Year 1' ,
                       col == 2 ,  'Year 2' ,
                       col == 3 ,  'Year 3' ,

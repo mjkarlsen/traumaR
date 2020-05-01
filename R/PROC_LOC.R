@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' procedure_location(proc_01_lc)
-procedure_location <- function(col) {
+proc_lc <- function(col) {
   col_value <-  case.(col == 1, "ED",
                       col == 2, "OR",
                       col == 3, "ICU",
@@ -24,6 +24,6 @@ procedure_location <- function(col) {
                       col == 16, "Referring Facility",
                       col == 17, "Special Procedure Unit",
                       col == 18, "Angoigraphy",
-                      default = "Unknown")*
+                      default = "Unknown")
   return(col_value)
 }

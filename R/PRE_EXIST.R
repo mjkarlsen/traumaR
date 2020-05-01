@@ -9,7 +9,7 @@
 #' PEC_1 <- 'A.01'
 #' preexisting_condition(PEC_1)
 #' History of Cardiac Surgery
-preexisting_condition <- function(col) {
+pre_exist <- function(col) {
   col_value <-  case.(col == '0.00',    'None',
                       col == 'A.01',    'History of Cardiac Surgery',
                       col == 'A.02',    'Coronary Artery Disease',

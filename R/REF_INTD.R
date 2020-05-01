@@ -10,7 +10,7 @@
 #' intervention(ref_intd_01)
 #' 'Therapeutic ultrasound of peripheral vascular vessels'
 #'
-intervention <- function(col) {
+ref_intd <- function(col) {
   col_value <- case.(col == 00.00,    'None',
                      col == 00.01,    'Therapeutic ultrasound of vessels of head and neck',
                      col == 00.02,    'Therapeutic ultrasound of heart',

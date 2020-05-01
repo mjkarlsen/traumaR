@@ -1,4 +1,4 @@
-#  Occurances and Complications
+#  Occurances and Complications (pg. 122-125)
 #'
 #' @param col A column in PTOS data that typically starts with compr_.
 #'
@@ -6,8 +6,8 @@
 #' @export
 #'
 #' @examples
-#' complications(compr_01)
-complications <- function(col) {
+
+complic <- function(col) {
   col_value <-  case.(col == 1 , 'None' ,
                       col == 10 , 'Burn Graft Loss (of any percentage)' ,
                       col == 11 , 'Burn Wound Infection Post Excision' ,

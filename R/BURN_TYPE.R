@@ -1,0 +1,57 @@
+#' Burn Type
+#'
+#' @param col A column in PTOS data that falls under BURN_TYPE
+#'
+#' @return It translations of the code into human friendly values.
+#' @export
+#'
+#' @examples
+burn_type <- function(col) {
+  col_value <-  case.(col == 1000,    'Acids',
+                      col == 1001,    'Alkali',
+                      col == 1002,    'Petroleum Products/hydrocarbons',
+                      col == 1098,    'Chemical-Other',
+                      col == 1099,    'Chemical-Unknown',
+                      col == 1100,    'Contact with hot object',
+                      col == 1101,    'Hot tar and other non-water liquids',
+                      col == 1102,    'Hot liquid/food related to cooking',
+                      col == 1200,    'Domestic Wiring/Appliance',
+                      col == 1201,    'Electric power plants and lines',
+                      col == 1202,    'Industrial Wiring and machinery',
+                      col == 1203,    'Lightning',
+                      col == 1298,    'Other',
+                      col == 1299,    'Unknown',
+                      col == 1300,    'Burning Bedclothes',
+                      col == 1301,    'Conflagration (includes burning from conflagration)',
+                      col == 1303,    'Controlled/Localized Fire',
+                      col == 1304,    'Explosion from conflagration',
+                      col == 1305,    'Explosion of Fireworks/gunpowder',
+                      col == 1306,    'Explosive Gas',
+                      col == 1307,    'Fumes from PVC and other material',
+                      col == 1308,    'Ignition of clothing',
+                      col == 1309,    'Ignition of a highly flammable material',
+                      col == 1310,    'Injury from other smoke/fumes (no burn)',
+                      col == 1397,    'Conflagration - Other/Unspecified',
+                      col == 1398,    'Conflagration - Other/specified',
+                      col == 1399,    'Conflagration - Unknown',
+                      col == 1400,    'Lasers',
+                      col == 1401,    'Radioactive isotopes',
+                      col == 1402,    'Visible and ultraviolet sources',
+                      col == 1403,    'X-rays and other ionizing sources',
+                      col == 1498,    'Radiation - Other',
+                      col == 1499,    'Radiation - Unknown',
+                      col == 1500,    'Coffee or tea',
+                      col == 1502,    'Steam',
+                      col == 1503,    'Tap water',
+                      col == 1596,    'Other hot water related to cooking',
+                      col == 1597,    'Scald - Other hot water',
+                      col == 1598,    'Scald - Other',
+                      col == 1599,    'Scald - Unknown',
+                      col == 1600,    'Toxic Epidermal Necrolysis',
+                      col == 1698,    'Skin Disease - Other',
+                      col == 1699,    'Skin Disease - Unknown',
+                      col == 9998,    'Other, Non-Burn',
+                      col == 9999,    'Unknown Burn Etiology',
+                      default =   'Not Documented' )
+  return(col_value)
+}
