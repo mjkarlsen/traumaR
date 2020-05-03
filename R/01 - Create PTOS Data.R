@@ -2,13 +2,12 @@
 #' Create Human Friendly PTOS Data
 #'
 #' @param .data Imported and Raw PTOS Data
-#' @param remove_df Would you like to save some space and remove the raw data?
 #'
 #' @return A human friendly data set with normalized ouputs for patient demographics, and time series of medical events
 #' @export
 #'
 #' @examples
-create_ptos_data <- function(.data, remove_df = FALSE ) {
+create_ptos_data <- function(.data ) {
 
   ## Convert .data to data.table
   is_data_table <- is.data.table(.data)
@@ -24,20 +23,29 @@ create_ptos_data <- function(.data, remove_df = FALSE ) {
   message("Let's drop those useless columns with no observations")
   results <- drop_blank_columns(.data)
 
-  ## Age Clean Up
+  ## Age Clean-Up, DOB Clean-Up, and Injury Date Clean-Up
   message("Checking on the patient's age - its important to get the age of the patient right")
   results <- results %>%
-    mutate.(raw_age = age_cleanup(raw_age, d_birth_a, inj_date_a),
-            d_birth_a = dob_cleanup(raw_age, d_birth_a, inj_date_a),
-            inj_date_a = dob_cleanup(raw_age, d_birth_a, inj_date_a))
+    mutate.(age_in_yrs = age_cleanup(age_in_yrs, d_birth_a, inj_date_a),
+            d_birth_a = dob_cleanup(age_in_yrs, d_birth_a, inj_date_a),
+            inj_date_a = dob_cleanup(age_in_yrs, d_birth_a, inj_date_a)) %>%
+    filter.(!is.na(d_birth_a) & !is.na(age_in_yrs))
 
+  ## Create Unique ID
+  message("Creating a unique ID for the Patients using DOB and Trauma Number")
+  results <- results %>%
+    mutate.(id = paste0(str_remove_all(d_birth_a, "/"), trauma_num)) %>%
+    relocate.(id, .before = 1)
+
+  # ## Renaming Columns for Humans
+  # message("Renaming the columns so we actually understand what they mean")
+  # results <- results %>%
+  #   ptos_rename_columns()
 
   ## Return the data back to original form
   message("We are almost there!")
   if (!is_data_table) class(results) <- data_class
   knitr::opts_chunk$set(message = FALSE)
-
-  if (remove_df == T) rm(.data)
 
   ## Returns final results
   results

@@ -11,7 +11,7 @@
 #' @examples
 dob_cleanup <- function(age, dob, injury_dt) {
 
-  col_value <- ifelse.(is.na(dob), as.character(mdy(injury_dt)-years(age)), dob)
+  col_value <- ifelse(is.na(dob), as.character(mdy(injury_dt)-years(age)), dob)
 
   return(col_value)
 }
