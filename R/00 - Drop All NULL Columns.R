@@ -7,19 +7,17 @@
 #' @examples
 drop_blank_columns <- function(.data) {
 
-  total_obs <- .data %>%
-    summarize.(count = n.()) %>%
-    as.integer()
-
   complete_obs <- map_dfc.(.data, ~sum(is.na(.))) %>%
     rename_with.(~ sub(".x", "", .x)) %>%
-    pivot_longer.(cols = everything.(), names_to = "column_names", values_to = "missings_obs") %>%
-    mutate.(total_missing = missings_obs/total_observations)
-
+    pivot_longer.(cols = everything.(), names_to = "column_names", values_to = "missing_obs") %>%
+    mutate.(max_obs = max(missing_obs),
+            prct_missing = missing_obs/max_obs)
 
   drop_column_list <- complete_obs %>%
-    filter.(total_missing >= 1) %>%  #drop columns that have no observations
+    filter.(prct_missing >= 1) %>%  #drop columns that have no observations
     pull.(column_names)
+
+  message(paste("Dropping a few columns here... ", length(drop_column_list), "to be exact" ))
 
   .data <- .data %>%
     select.(-any_of.(drop_column_list))

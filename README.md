@@ -3,6 +3,7 @@
 
 
 <!-- badges: start -->
+[![R build status](https://github.com/ultramattyice/ptos/workflows/R-CMD-check/badge.svg)](https://github.com/ultramattyice/ptos/actions)
 <!-- badges: end -->
 
 The goal of ptos is to provide users with human friendly results in a normalized format.
