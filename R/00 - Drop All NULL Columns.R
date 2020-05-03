@@ -23,5 +23,7 @@ drop_blank_columns <- function(.data) {
   .data <- .data %>%
     select.(-any_of.(drop_column_list))
 
+  tidytable::inv_gc()
+
   return(.data)
 }

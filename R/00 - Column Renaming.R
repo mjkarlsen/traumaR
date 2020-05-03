@@ -223,6 +223,7 @@ ptos_rename_columns <- function(.data) {
                        old_names == 'icu_days',  'total_days_in_icu',
                        old_names == 'inj_date_a',  'injury_dt',
                        old_names == 'inj_time_a',  'injury_tm_s',
+                       old_names == 'inj_type',  'primary_injury_type',
                        old_names == 'inj_type2',  'secondary_injury_type',
                        old_names == 'intubat_2',  'interhospital_transport_intubated_with_artificial_airway',
                        old_names == 'intubat_a',  'admission_intubated_with_artificial_airway',

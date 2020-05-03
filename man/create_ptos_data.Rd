@@ -4,10 +4,12 @@
 \alias{create_ptos_data}
 \title{Create Human Friendly PTOS Data}
 \usage{
-create_ptos_data(.data)
+create_ptos_data(.data, remove_df = FALSE)
 }
 \arguments{
 \item{.data}{Imported and Raw PTOS Data}
+
+\item{remove_df}{Would you like to save some space and remove the raw data?}
 }
 \value{
 A human friendly data set with normalized ouputs for patient demographics, and time series of medical events
