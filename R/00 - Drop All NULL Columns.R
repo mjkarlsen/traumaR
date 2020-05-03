@@ -17,6 +17,7 @@ drop_blank_columns <- function(.data) {
     filter.(prct_missing >= 1) %>%  #drop columns that have no observations
     pull.(column_names)
 
+#  message(paste("Dropping a few columns here... ", length(drop_column_list), "to be exact" ))
   message(paste("Dropping a few columns here... ", length(drop_column_list), "to be exact" ))
 
   .data <- .data %>%
