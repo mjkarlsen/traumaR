@@ -6,7 +6,7 @@
 #'
 #' @return
 #'
-#' @examples
+#' @import stringr
 create_flat_trans <- function(.full_trans) {
 
   proc_codes <-  list('79.02', '79.12', '79.22', '79.32') #forearm surgery
