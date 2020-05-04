@@ -4,7 +4,7 @@
 #' @param col A column in PTOS data that typically starts with VER_RESP
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 verb_resp <- function(col) {
   col_value <-  case.(col == 1, "None",
                       col == 2, "Incomprehensible Sounds",

@@ -3,7 +3,7 @@
 #' @param .data USe the PTOS_DF
 #'
 #' @return Normalized dataframe
-#'
+#' @export
 create_diag_df <- function(.data) {
   .data <- .data %>%
     select.(id,

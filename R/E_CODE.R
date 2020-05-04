@@ -3,7 +3,7 @@
 #' @param col A column in PTOS data that typically starts with E_ACT_1
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 e_code <- function(col) {
   col_value <-  case.(col == 800.0,    'Railway Collision w/ Rolling Stock - Railway Employee',
                       col == 800.1,    'Railway Collision w/ Rolling Stock - Railway Passenger',

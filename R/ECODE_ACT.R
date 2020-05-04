@@ -3,6 +3,7 @@
 #' @param col A column in PTOS data that typically starts with E_ACT_1
 #'
 #' @return It translations of the code into human friendly values.
+#' @export
 ecode_act <- function(col) {
   col_value <-  case.(col == 001.0,    'Activities involving walking, marching and hiking',
                       col == 001.1,    'Activities involving running',

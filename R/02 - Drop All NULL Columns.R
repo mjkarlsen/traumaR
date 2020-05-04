@@ -3,7 +3,7 @@
 #' @param .data PTOS Data
 #'
 #' @return Cleaned PTOS Data
-#'
+#' @export
 drop_blank_columns <- function(.data) {
 
   complete_obs <- map_dfc.(.data, ~sum(is.na(.))) %>%

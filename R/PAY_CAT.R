@@ -3,7 +3,7 @@
 #' @param col A column in PTOS data that typically starts with PAY_CAT
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 pay_cat <- function(col) {
   col_value <-  case.(col == 1, "Medicare Indemnity",
                       col == 2, "Medicare Managed Care",

@@ -3,7 +3,7 @@
 #' @param col A column in PTOS data that typically starts with POST_ED_D
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 post_ed_d <- function(col) {
   col_value <-  case.(col == 1,    'ICU/Critical Care Unit',
                       col == 10,    'Home',

@@ -3,7 +3,7 @@
 #' @param .data USe the PTOS_DF
 #'
 #' @return Normalized dataframe
-#'
+#' @export
 create_proc_df <- function(.data) {
   .data <- .data %>%
     select.(id, starts_with.('proc_')) %>%

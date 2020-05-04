@@ -3,7 +3,7 @@
 #' @param .data A dataframe of PTOS data
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 ptos_rename_columns <- function(.data) {
 
   for(i in 1:length(colnames(.data))){

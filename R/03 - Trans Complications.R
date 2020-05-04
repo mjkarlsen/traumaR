@@ -3,6 +3,7 @@
 #' @param .data USe the PTOS_DF
 #'
 #' @return Normalized dataframe
+#' @export
 create_complic_df <- function(.data){
 
   .data %>%
@@ -28,7 +29,7 @@ create_complic_df <- function(.data){
             loc_desc = comp_lc(lc),
             code_cd = pr,
             code_desc = complic(pr),
-            data_source = "complications") %>%
+            data_source = "complication") %>%
     select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
 
 

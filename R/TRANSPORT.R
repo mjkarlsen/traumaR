@@ -4,7 +4,7 @@
 #' @param col A column in PTOS data that typically starts with TRANSP_
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 transport <- function(col) {
   col_value <-  case.(col == 1,    'Ambulance',
                       col == 2,    'Helicopter',

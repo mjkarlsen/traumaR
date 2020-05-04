@@ -3,6 +3,7 @@
 #' @param col A column in PTOS data that typically starts with PEC_
 #'
 #' @return It translations of the code into human friendly values.
+#' @export
 pre_exist <- function(col) {
   col_value <-  case.(col == '0.00',    'None',
                       col == 'A.01',    'History of Cardiac Surgery',

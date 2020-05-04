@@ -6,6 +6,7 @@
 #' @param injury_dt Date of Injury
 #'
 #' @return Returns the Date of Birth of Patient
+#' @export
 dob_cleanup <- function(age, dob, injury_dt) {
 
   col_value <- ifelse(is.na(dob), as.character(mdy(injury_dt)-years(age)), dob)

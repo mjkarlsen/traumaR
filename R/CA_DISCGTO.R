@@ -4,7 +4,7 @@
 #' @param col A column in PTOS data typically CA_DISCGTO
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 ca_discgto <- function(col) {
   col_value <-  case.(col == 1,    'Other Parent',
                       col == 2,    'Other Relative',

@@ -16,11 +16,22 @@ run_full_show <- function(.data) {
 
 
   ## Create PTOS Dataframe
+  message("Creating PTOS Data")
   ptos_df <- create_ptos_data(.data)
 
+  ## Create Transactional Dataframes
+  message("Creating Full Transactional Data")
+  .trans_full <- create_full_trans(ptos_df)
+  message("Creating Flat Transactional Data")
+  .trans_flat <- create_flat_trans(.trans_full)
+
+
   ## Create Patient Dataframe
+  message("Creating Patient Data")
+  create_patient_df(ptos_df, .trans_flat)
 
 
+  message("Complete!")
 
-  return(.data)
+
 }

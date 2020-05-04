@@ -3,7 +3,7 @@
 #' @param col A column in PTOS data that typically starts with XFER_TIME
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 xfer_time <- function(col) {
   col_value <-  case.(col == 1,    '< 1 Hour',
                       col == 2,    '1 to 8 Hours',

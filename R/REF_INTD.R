@@ -3,7 +3,7 @@
 #' @param col A column that typically starts with "REF_INTD" or "REF_INTT"
 #'
 #' @return It translations of the code into human friendly values.
-#'
+#' @export
 ref_intd <- function(col) {
   col_value <- case.(col == 00.00,    'None',
                      col == 00.01,    'Therapeutic ultrasound of vessels of head and neck',
