@@ -16,6 +16,7 @@ Imports:
     data.table,
     magrittr,
     tidytable,
-    dplyr
+    dplyr,
+    stringr
 Depends: 
     R (>= 2.10)

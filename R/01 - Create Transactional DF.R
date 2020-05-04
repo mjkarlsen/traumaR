@@ -24,6 +24,6 @@ create_full_trans <- function(.data){
 
   #return(.full_trans)
 
-  assign(paste("ptos_trans_df"), data.frame(.full_trans), envir = .GlobalEnv)
+  assign(paste("trans_full_df"), data.frame(.full_trans), envir = .GlobalEnv)
 
 }
