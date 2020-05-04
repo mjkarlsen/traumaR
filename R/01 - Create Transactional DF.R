@@ -22,7 +22,8 @@ create_full_trans <- function(.data){
   .full_trans <- .full_trans %>%
     arrange.(id, date)
 
+  #return(.full_trans)
 
-  return(.full_trans)
+  assign(paste("ptos_trans_df"), data.frame(.full_trans), envir = .GlobalEnv)
 
 }

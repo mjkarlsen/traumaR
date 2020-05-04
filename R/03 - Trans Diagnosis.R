@@ -27,7 +27,8 @@ create_diag_df <- function(.data) {
       code_cd = diag_code,
       code_desc = short_desc
     ) %>%
-    select.(id, date, time, loc_desc,  code_cd, code_desc, data_source)
+    select.(id, date, time, loc_desc, code_cd, code_desc, data_source) %>%
+    filter.(!is.na(code_cd))
 
   return(.data)
 }

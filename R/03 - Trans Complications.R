@@ -27,7 +27,7 @@ create_complic_df <- function(.data){
     ) %>%
     filter.(pr != 1) %>%
     mutate.(date = ifelse(!is.na(da), as.character(da), NULL),
-            time =  NA,
+            time =  "NA",
             loc_desc = comp_lc(lc),
             code_cd = pr,
             code_desc = complic(pr),

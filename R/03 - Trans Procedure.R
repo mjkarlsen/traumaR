@@ -27,7 +27,7 @@ create_proc_df <- function(.data) {
       values_fn = list
     ) %>%
     mutate.(
-      date = mdy(da),
+      date = as.character(da),
       time = as.character(ta),
       proc_code = as.character(pr),
       loc_desc = proc_lc(as.character(lc)),
