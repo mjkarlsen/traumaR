@@ -1,10 +1,9 @@
 #' Create Normalized Procedure Data
 #'
-#' @param .data
+#' @param .data USe the PTOS_DF
 #'
-#' @return
+#' @return Normalized dataframe
 #'
-#' @examples
 create_proc_df <- function(.data) {
   .data <- .data %>%
     select.(id, starts_with.('proc_')) %>%

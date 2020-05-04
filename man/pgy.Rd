@@ -15,7 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Post Graduate Year for Resident
 }
-\examples{
-post_grad_year('Emergency Medicine Resident - PGY')
-
-}

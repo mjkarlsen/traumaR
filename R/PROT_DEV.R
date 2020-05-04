@@ -3,9 +3,7 @@
 #' @param col A column in PTOS data that typically starts with PROT_DEV.
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 prot_dev <- function(col) {
   col_value <-  case.(col == 0,    'None',
                       col == 1,    'Seatbelt',

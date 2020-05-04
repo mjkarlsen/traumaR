@@ -15,6 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Record of drugs patient tested positive at referring hospital - Pg. 42
 }
-\examples{
-drug_test(drug_scr_1)
-}

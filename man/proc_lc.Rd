@@ -15,6 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Location of Medical Procedures
 }
-\examples{
-procedure_location(proc_01_lc)
-}

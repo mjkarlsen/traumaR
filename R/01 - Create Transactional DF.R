@@ -1,11 +1,9 @@
-
 #' Combines all the transactional data together
 #'
-#' @param .data
+#' @param .data Pulls the clean pto_df
 #'
-#' @return
+#' @return  Transactional dataframe
 #'
-#' @examples
 create_full_trans <- function(.data){
 
   .proc_df <- create_proc_df(.data)

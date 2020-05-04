@@ -3,9 +3,6 @@
 #' @param col A column in PTOS data that typically starts with COMP_ and ends with _LC
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
-#'
-#' @examples
 comp_lc <- function(col) {
   col <- as.double(col)
   col_value <-  case.(col == 1,    'ED',

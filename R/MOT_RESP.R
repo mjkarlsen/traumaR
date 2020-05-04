@@ -5,9 +5,7 @@
 #' @param col A column in PTOS data that typically starts with MOT_RESP
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 mot_resp <- function(col) {
   col_value <-  case.(col == 1, "None",
                       col == 2, "Extension",

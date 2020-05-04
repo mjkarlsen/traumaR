@@ -4,9 +4,7 @@
 #' @param col A column in PTOS data that typically starts with HGT_FALL
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 hgt_fall <- function(col) {
   col_value <-  case.(col == 0 , 'Fall on Same Level' ,
                       col == 1 , '<= 1 ft' ,

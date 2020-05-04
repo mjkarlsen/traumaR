@@ -1,10 +1,9 @@
 #' Create Normalized Diagnosis Data
 #'
-#' @param ptos_df
+#' @param .data USe the PTOS_DF
 #'
-#' @return
+#' @return Normalized dataframe
 #'
-#' @examples
 create_diag_df <- function(.data) {
   .data <- .data %>%
     select.(id,

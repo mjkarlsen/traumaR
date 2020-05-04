@@ -1,10 +1,9 @@
-#' Drop All Columns that contain only NA's, <n/a>, <unk>, NULL, etc
+#' Drop All Columns that contain only NA's
 #'
 #' @param .data PTOS Data
 #'
 #' @return Cleaned PTOS Data
 #'
-#' @examples
 drop_blank_columns <- function(.data) {
 
   complete_obs <- map_dfc.(.data, ~sum(is.na(.))) %>%

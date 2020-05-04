@@ -7,10 +7,10 @@
 create_full_trans(.data)
 }
 \arguments{
-\item{.data}{}
+\item{.data}{Pulls the clean pto_df}
 }
 \value{
-
+Transactional dataframe
 }
 \description{
 Combines all the transactional data together

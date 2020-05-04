@@ -15,6 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Service or Specialty (Not the same as surgical speciality)
 }
-\examples{
-service(C01_SERV)
-}

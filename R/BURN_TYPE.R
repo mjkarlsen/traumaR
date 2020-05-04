@@ -3,9 +3,7 @@
 #' @param col A column in PTOS data that falls under BURN_TYPE
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 burn_type <- function(col) {
   col_value <-  case.(col == 1000,    'Acids',
                       col == 1001,    'Alkali',

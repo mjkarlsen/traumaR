@@ -2,10 +2,10 @@
 #'
 #' @param .data PTOS Raw Data
 #'
-#' @return
+#' @return Creates dataframes for patients, medical sequences full, and medical sequences flat
 #' @export
 #'
-#' @examples
+
 run_full_show <- function(.data) {
 
   is_data_table <- is.data.table(.data)

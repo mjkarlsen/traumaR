@@ -3,10 +3,8 @@
 #' @param .data Raw PTOS Dataframe
 #' @param df_name Name of Dataframe
 #'
-#' @return
+#' @return Returns a data frame for patient information
 #'
-#'
-#' @examples
 create_patient_df <- function(.data, df_name = "patient_df"){
 
   patient_list <- c('trauma_num',

@@ -4,9 +4,7 @@
 #' @param col A column in PTOS data that typically ends in _PR.
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 procedure <- function(col) {
   col_value <-  case.(col == 00.01,    'Therapeutic ultrasound of vessels of head and neck',
                       col == 00.02,    'Therapeutic ultrasound of heart',

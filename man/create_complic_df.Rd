@@ -7,10 +7,10 @@
 create_complic_df(.data)
 }
 \arguments{
-\item{.data}{}
+\item{.data}{USe the PTOS_DF}
 }
 \value{
-
+Normalized dataframe
 }
 \description{
 Create Normalized Complications Data

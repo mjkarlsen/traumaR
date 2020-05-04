@@ -10,7 +10,7 @@ run_full_show(.data)
 \item{.data}{PTOS Raw Data}
 }
 \value{
-
+Creates dataframes for patients, medical sequences full, and medical sequences flat
 }
 \description{
 Rull the full show for PTOS Data Frame

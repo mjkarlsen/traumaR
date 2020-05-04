@@ -1,11 +1,8 @@
 #' Create Normalized Complications Data
 #'
-#' @param .data
+#' @param .data USe the PTOS_DF
 #'
-#' @return
-#'
-#' @examples
-
+#' @return Normalized dataframe
 create_complic_df <- function(.data){
 
   .data %>%

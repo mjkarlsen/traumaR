@@ -2,7 +2,7 @@
 % Please edit documentation in R/02 - Drop All NULL Columns.R
 \name{drop_blank_columns}
 \alias{drop_blank_columns}
-\title{Drop All Columns that contain only NA's, <n/a>, <unk>, NULL, etc}
+\title{Drop All Columns that contain only NA's}
 \usage{
 drop_blank_columns(.data)
 }
@@ -13,5 +13,5 @@ drop_blank_columns(.data)
 Cleaned PTOS Data
 }
 \description{
-Drop All Columns that contain only NA's, <n/a>, <unk>, NULL, etc
+Drop All Columns that contain only NA's
 }

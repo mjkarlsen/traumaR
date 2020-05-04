@@ -15,6 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Medical Services
 }
-\examples{
-
-}

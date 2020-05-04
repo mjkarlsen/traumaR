@@ -3,10 +3,7 @@
 #' @param col A column in PTOS data that typically ends with _lc
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
-#' procedure_location(proc_01_lc)
 proc_lc <- function(col) {
   col_value <-  case.(col == 1, "ED",
                       col == 2, "OR",

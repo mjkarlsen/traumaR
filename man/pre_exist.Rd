@@ -15,8 +15,3 @@ It translations of the code into human friendly values.
 \description{
 Pre-existing Medical Conditions
 }
-\examples{
-PEC_1 <- 'A.01'
-preexisting_condition(PEC_1)
-History of Cardiac Surgery
-}

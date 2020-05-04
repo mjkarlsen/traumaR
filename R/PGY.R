@@ -3,10 +3,6 @@
 #' @param col A column in PTOS data that typically ends in _PGY.
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
-#'
-#' @examples
-#' post_grad_year('Emergency Medicine Resident - PGY')
 #'
 pgy <- function(col) {
   col_value <-  case.(col == 1 ,  'Year 1' ,

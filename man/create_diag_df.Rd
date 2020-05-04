@@ -7,10 +7,10 @@
 create_diag_df(.data)
 }
 \arguments{
-\item{ptos_df}{}
+\item{.data}{USe the PTOS_DF}
 }
 \value{
-
+Normalized dataframe
 }
 \description{
 Create Normalized Diagnosis Data

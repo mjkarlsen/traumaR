@@ -4,7 +4,6 @@
 #'
 #' @return It translations of the code into human friendly values.
 #'
-#' @examples
 ptos_rename_columns <- function(.data) {
 
   for(i in 1:length(colnames(.data))){

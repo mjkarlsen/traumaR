@@ -5,9 +5,6 @@
 #' @param injury_dt Date of Injury
 #'
 #' @return Returns the AGE of Patient in Years
-#' @export
-#'
-#' @examples
 age_cleanup <- function(age, dob, injury_dt) {
 
   col_value <- ifelse(is.na(age) & !is.na(dob),

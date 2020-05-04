@@ -1,12 +1,9 @@
-#' # Service or Specialty (Not the same as surgical speciality)
+#' Service or Specialty (Not the same as surgical speciality)
 #'
 #' @param col A column typically ends with "_serv"
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
-#' service(C01_SERV)
 service <- function(col) {
   col_value <-  case.(col == 0,    'None',
                       col == 1,    'Trauma',

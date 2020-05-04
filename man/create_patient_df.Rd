@@ -12,7 +12,7 @@ create_patient_df(.data, df_name = "patient_df")
 \item{df_name}{Name of Dataframe}
 }
 \value{
-
+Returns a data frame for patient information
 }
 \description{
 Create the Patient Data Frame

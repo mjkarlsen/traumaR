@@ -3,9 +3,7 @@
 #' @param col A column in PTOS data that typically starts with e849_x
 #'
 #' @return It translations of the code into human friendly values.
-#' @export
 #'
-#' @examples
 injury_loc<- function(col) {
   col_value <-  case.(col == 0,    'Home',
                       col == 1,    'Farm',

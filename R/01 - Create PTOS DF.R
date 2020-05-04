@@ -1,12 +1,10 @@
-
 #' Create Human Friendly PTOS Data
 #'
 #' @param .data Imported and Raw PTOS Data
 #'
 #' @return A human friendly data set with normalized ouputs for patient demographics, and time series of medical events
 #' @export
-#'
-#' @examples
+
 create_ptos_data <- function(.data ) {
 
   ## Convert .data to data.table
