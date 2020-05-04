@@ -31,12 +31,13 @@ create_proc_df <- function(.data) {
       time = as.character(ta),
       proc_code = as.character(pr),
       loc_desc = proc_lc(as.character(lc)),
-      proc_code = as.double(proc_code)
+      proc_code = as.double(proc_code),
+      data_source = "procedure"
     ) %>%
     left_join.(icd_data, by = "proc_code") %>%
     rename.(code_cd = proc_code,
             code_desc = short_desc) %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc)
+    select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
 
 
   return(.data)

@@ -7,6 +7,7 @@
 #'
 #' @examples
 comp_lc <- function(col) {
+  col <- as.double(col)
   col_value <-  case.(col == 1,    'ED',
                       col == 2,    'OR',
                       col == 3,    'ICU',

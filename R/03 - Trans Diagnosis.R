@@ -18,7 +18,8 @@ create_diag_df <- function(.data) {
     ) %>%
     separate.(name, into = c("type", "serial"), sep = "_") %>%
     mutate.(diag_code = as.double(code),
-            loc_desc = "Diagnosis") %>%
+            loc_desc = "Diagnosis",
+            data_source = "diagnosis") %>%
     left_join.(diagnosis_data, by = "diag_code") %>%
     rename.(
       date = ref_ar_d_a,
@@ -26,7 +27,7 @@ create_diag_df <- function(.data) {
       code_cd = diag_code,
       code_desc = short_desc
     ) %>%
-    select.(id, date, time, loc_desc,  code_cd, code_desc)
+    select.(id, date, time, loc_desc,  code_cd, code_desc, data_source)
 
   return(.data)
 }
