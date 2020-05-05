@@ -1,0 +1,1292 @@
+﻿E_CODE,DIAGNOSIS CODE,LONG DESC,SHORT DESC
+0.0,0000,Civilian activity done for income or pay,Civilian activity-income
+0.1,0001,Military activity,Military activity
+0.2,0002,Volunteer activity,Volunteer activity
+0.8,0008,Other external cause status,Externl cause status NEC
+0.9,0009,Unspecified external cause status,Externl cause status NOS
+1.0,0010,"Activities involving walking, marching and hiking","Walking,marching,hiking"
+1.1,0011,Activities involving running,Running
+2.0,0020,Activities involving swimming,Swimming
+2.1,0021,Activities involving springboard and platform diving,Springboard/platfrm dive
+2.2,0022,Activities involving water polo,Water polo
+2.3,0023,Activities involving water aerobics and water exercise,Water aerobics/exercise
+2.4,0024,Activities involving underwater diving and snorkeling,Underwater dive/snorkel
+2.5,0025,"Activities involving rowing, canoeing, kayaking, rafting and tubing","Row,canoe,kayk,raft,tube"
+2.6,0026,Activities involving water skiing and wake boarding,Water ski/wake boarding
+2.7,0027,"Activities involving surfing, windsurfing and boogie boarding","Surf,windsrf,boogie brd"
+2.8,0028,Activities involving water sliding,Water sliding
+2.9,0029,Other activity involving water and watercraft,Water/watercraft
+3.0,0030,Activities involving ice skating,Ice Skating
+3.1,0031,Activities involving ice hockey,Ice hockey
+3.2,0032,"Activities involving snow (alpine) (downhill) skiing, snow boarding, sledding, tobogganing and snow tubing","Ski,snow brd,sled,tobagn"
+3.3,0033,Activities involving cross country skiing,Cross country skiing
+3.9,0039,Other activity involving ice and snow,Ice and snow
+4.0,0040,"Activities involving mountain climbing, rock climbing and wall climbing","Mountain,rock/wall climb"
+4.1,0041,Activities involving rappelling,Rappelling
+4.2,0042,Activities involving BASE jumping,BASE jumping
+4.3,0043,Activities involving bungee jumping,Bungee jumping
+4.4,0044,Activities involving hang gliding,Hang gliding
+4.9,0049,"Other activity involving climbing, rappelling and jumping off","Climb,rappell,jump off"
+5.0,0050,Activities involving dancing,Dancing
+5.1,0051,Activities involving yoga,Yoga
+5.2,0052,Activities involving gymnastics,Gymnastics
+5.3,0053,Activities involving trampoline,Trampoline
+5.4,0054,Activities involving cheerleading,Cheerleading
+5.9,0059,Other activity involving dancing and other rhythmic movements,"Dancing,rhythm movements"
+6.0,0060,Activities involving roller skating (inline) and skateboarding,"Roller skate,skateboard"
+6.1,0061,Activities involving horseback riding,Horseback riding
+6.2,0062,Activities involving golf,Golf
+6.3,0063,Activities involving bowling,Bowling
+6.4,0064,Activities involving bike riding,Bike riding
+6.5,0065,Activities involving jumping rope,Jumping rope
+6.6,0066,Activities involving non-running track and field events,Non-running track/field
+6.9,0069,Other activity involving other sports and athletics played individually,"Individ sports,athletics"
+7.0,0070,Activities involving american tackle football,Tackle football
+7.1,0071,Activities involving american flag or touch football,Amer flag/touch football
+7.2,0072,Activities involving rugby,Rugby
+7.3,0073,Activities involving baseball,Baseball
+7.4,0074,Activities involving lacrosse and field hockey,"Lacrosse,field hockey"
+7.5,0075,Activities involving soccer,Soccer
+7.6,0076,Activities involving basketball,Basketball
+7.7,0077,Activities involving volleyball (beach) (court),"Volleyball (beach,court)"
+7.8,0078,"Activities involving physical games generally associated with school recess, summer camp and children","School recess,camp"
+7.9,0079,Other activity involving other sports and athletes played as a team or group,"Team sports,athletes"
+8.0,0080,Activities involving boxing,Boxing
+8.1,0081,Activities involving wrestling,Wrestling
+8.2,0082,Activities involving racquet and hand sports,Racquet/hand sports
+8.3,0083,Activities involving frisbee,Frisbee
+8.4,0084,Activities involving martial arts,Martial arts
+8.9,0089,Other specified sports and athletics activity,"Sports,athletics NEC"
+9.0,0090,Activity involving exercise machines primarily for cardiorespiratory conditioning,Exercise mach(cardiorsp)
+9.1,0091,Activity involving calisthenics,Calisthenics
+9.2,0092,Activity involving aerobic and step exercise,"Aerobic,step exercise"
+9.3,0093,Activity involving circuit training,Circuit training
+9.4,0094,Activity involving obstacle course,Obstacle course
+9.5,0095,Activity involving grass drills,Grass drills
+9.9,0099,Other activity involving cardiorespiratory exercise,Cardioresp exercise NEC
+10.0,0100,Activity involving exercise machines primarily for muscle strengthening,Muscle strength mach
+10.1,0101,"Activity involving push-ups, pull-ups, sit-ups","Push-ups,pull-ups,sit-up"
+10.2,0102,Activity involving free weights,Free weights
+10.3,0103,Activity involving pilates,Pilates
+10.9,0109,Other activity involving other muscle strengthening exercises,Muscle strength exer NEC
+11.0,0110,Activities involving computer keyboarding,Computer keyboarding
+11.1,0111,Activities involving hand held interactive electronic device,Handheld interac elec dv
+11.9,0119,Other activity involving computer technology and electronic devices,Computer tech NEC
+12.0,0120,Activities involving knitting and crocheting,Knitting & crocheting
+12.1,0121,Activities involving sewing,Sewing
+12.2,0122,Activities involving furniture building and finishing,Furniture build/finish
+12.9,0129,Activity involving other arts and handcrafts,Arts & handcrafts NEC
+13.0,0130,Activities involving personal bathing and showering,Personal bathing/shower
+13.1,0131,Activities involving laundry,Laundry
+13.2,0132,Activities involving vacuuming,Vacuuming
+13.3,0133,Activities involving ironing,Ironing
+13.4,0134,Activities involving floor mopping and cleaning,Floor mopping/cleaning
+13.5,0135,Activities involving residential relocation,Residential relocation
+13.8,0138,Other personal hygiene activity,Personal hygiene NEC
+13.9,0139,Other household maintenance,Househld maintenance NEC
+14.0,0140,Caregiving involving bathing,Caregiving-bathing
+14.1,0141,Caregiving involving lifting,Caregiving-lifting
+14.9,0149,Other activity involving person providing caregiving,Caregiving NEC
+15.0,0150,Activities involving food preparation and clean up,Food prep & cleanup
+15.1,0151,Activities involving grilling and smoking food,Grilling & smoking food
+15.2,0152,Activities involving cooking and baking,Cooking & baking
+15.9,0159,Other activity involving cooking and grilling,Cooking & grilling NEC
+16.0,0160,"Activities involving digging, shoveling and raking","Digging,shovel,rake"
+16.1,0161,Activities involving gardening and landscaping,Gardening/landscaping
+16.2,0162,Activities involving building and construction,Building & construction
+16.9,0169,"Other activity involving property and land maintenance, building and construction",Land maintain/cnstrt NEC
+17.0,0170,Roller coaster riding,Roller coaster riding
+17.9,0179,Other activity involving external motion,External motion NEC
+18.0,0180,Activities involving piano playing,Piano playing
+18.1,0181,Activities involving drum and other percussion instrument playing,Drum/percussion playing
+18.2,0182,Activities involving string instrument playing,String instrument play
+18.3,0183,Activities involving winds and brass instrument playing,Winds/brass instru play
+19.0,0190,Activities involving walking an animal,Walking an animal
+19.1,0191,Activities involving milking an animal,Milking an animal
+19.2,0192,Activities involving grooming and shearing an animal,Groom/shearing animal
+19.9,0199,Other activity involving animal care,Animal care NEC
+29.0,0290,Refereeing a sports activity,Refereeing sports
+29.1,0291,Spectator at an event,Spectator at event
+29.2,0292,Rough housing and horseplay,Rough housing/horseplay
+29.9,0299,Other activity,Activity NEC
+30.0,0300,Unspecified activity,Activity NOS
+800.0,8000,Railway accident involving collision with rolling stock and injuring railway employee,RR collision NOS-employ
+800.1,8001,Railway accident involving collision with rolling stock and injuring passenger on railway,RR coll NOS-passenger
+800.2,8002,Railway accident involving collision with rolling stock and injuring pedestrian,RR coll NOS-pedestrian
+800.3,8003,Railway accident involving collision with rolling stock and injuring pedal cyclist,RR coll NOS-ped cyclist
+800.8,8008,Railway accident involving collision with rolling stock and injuring other specified person,RR coll NOS-person NEC
+800.9,8009,Railway accident involving collision with rolling stock and injuring unspecified person,RR coll NOS-person NOS
+801.0,8010,Railway accident involving collision with other object and injuring railway employee,RR coll w oth obj-employ
+801.1,8011,Railway accident involving collision with other object and injuring passenger on railway,RR coll w oth obj-pasngr
+801.2,8012,Railway accident involving collision with other object and injuring pedestrian,RR coll w oth obj-pedest
+801.3,8013,Railway accident involving collision with other object and injuring pedal cyclist,RR coll w oth obj-cycl
+801.8,8018,Railway accident involving collision with other object and injuring other specified person,RR col w oth obj-per NEC
+801.9,8019,Railway accident involving collision with other object and injuring unspecified person,RR col w oth obj-per NOS
+802.0,8020,Railway accident involving derailment without antecedent collision injuring railway employee,RR acc w derail-employee
+802.1,8021,Railway accident involving derailment without antecedent collision injuring passenger on railway,RR acc w derail-passeng
+802.2,8022,Railway accident involving derailment without antecedent collision injuring pedestrian,RR acc w derail-pedest
+802.3,8023,Railway accident involving derailment without antecedent collision injuring pedal cyclist,RR acc w derail-ped cycl
+802.8,8028,Railway accident involving derailment without antecedent collision injuring other specified person,RR acc w derail-pers NEC
+802.9,8029,Railway accident involving derailment without antecedent collision injuring unspecified person,RR acc w derail-pers NOS
+803.0,8030,"Railway accident involving explosion, fire, or burning injuring railway employee",RR acc w explosion-empl
+803.1,8031,"Railway accident involving explosion, fire, or burning injuring passenger on railway",RR acc w explos-pasngr
+803.2,8032,"Railway accident involving explosion, fire, or burning injuring pedestrian",RR acc w explos-pedest
+803.3,8033,"Railway accident involving explosion, fire, or burning injuring pedal cyclist",RR acc w explos-ped cycl
+803.8,8038,"Railway accident involving explosion, fire, or burning injuring other specified person",RR acc w explos-pers NEC
+803.9,8039,"Railway accident involving explosion, fire, or burning injuring unspecified person",RR acc w explos-pers NOS
+804.0,8040,"Fall in, on, or from railway train injuring railway employee",Fall on/from train-empl
+804.1,8041,"Fall in, on, or from railway train injuring passenger on railway",Fall from train-passengr
+804.2,8042,"Fall in, on, or from railway train injuring pedestrian",Fall from train-pedest
+804.3,8043,"Fall in, on, or from railway train injuring pedal cyclist",Fall from train-ped cycl
+804.8,8048,"Fall in, on, or from railway train injuring other specified person",Fall from train-pers NEC
+804.9,8049,"Fall in, on, or from railway train injuring unspecified person",Fall from train-pers NOS
+805.0,8050,Railway employee hit by rolling stock,Hit by train-employee
+805.1,8051,Passenger on railway hit by rolling stock,Hit by train-passenger
+805.2,8052,Pedestrian hit by rolling stock,Hit by train-pedestrian
+805.3,8053,Pedal cyclist hit by rolling stock,Hit by train-ped cyclist
+805.8,8058,Other specified person hit by rolling stock,Hit by train-person NEC
+805.9,8059,Unspecified person hit by rolling stock,Hit by train-person NOS
+806.0,8060,Other specified railway accident injuring railway employee,RR acc NEC-employee
+806.1,8061,Other specified railway accident injuring passenger on railway,RR acc NEC-passenger
+806.2,8062,Other specified railway accident injuring pedestrian,RR acc NEC-pedestrian
+806.3,8063,Other specified railway accident injuring pedal cyclist,RR acc NEC-ped cyclist
+806.8,8068,Other specified railway accident injuring other specified person,RR acc NEC-person NEC
+806.9,8069,Other specified railway accident injuring unspecified person,RR acc NEC-person NOS
+807.0,8070,Railway accident of unspecified nature injuring railway employee,RR accident NOS-employee
+807.1,8071,Railway accident of unspecified nature injuring passenger on railway,RR acc NOS-passenger
+807.2,8072,Railway accident of unspecified nature injuring pedestrian,RR acc NOS-pedestrian
+807.3,8073,Railway accident of unspecified nature injuring pedal cyclist,RR acc NOS-ped cyclist
+807.8,8078,Railway accident of unspecified nature injuring other specified person,RR acc NOS-person NEC
+807.9,8079,Railway accident of unspecified nature injuring unspecified person,RR acc NOS-person NOS
+810.0,8100,Motor vehicle traffic accident involving collision with train injuring driver of motor vehicle other than motorcycle,Mv-train coll-driver
+810.1,8101,Motor vehicle traffic accident involving collision with train injuring passenger in motor vehicle other than motorcycle,Mv-train coll-pasngr
+810.2,8102,Motor vehicle traffic accident involving collision with train injuring motorcyclist,Mv-train coll-motorcycl
+810.3,8103,Motor vehicle traffic accident involving collision with train injuring passenger on motorcycle,Mv-train coll-mcycl psgr
+810.4,8104,Motor vehicle traffic accident involving collision with train injuring occupant of streetcar,Mv-train coll-st car
+810.5,8105,Motor vehicle traffic accident involving collision with train injuring rider of animal; occupant of animal-drawn vehicle,Mv-train coll-anim rid
+810.6,8106,Motor vehicle traffic accident involving collision with train injuring pedal cyclist,Mv-train coll-ped cycl
+810.7,8107,Motor vehicle traffic accident involving collision with train injuring pedestrian,Mv-train coll-pedest
+810.8,8108,Motor vehicle traffic accident involving collision with train injuring other specified person,Mv-train coll-pers NEC
+810.9,8109,Motor vehicle traffic accident involving collision with train injuring unspecified person,Mv-train coll-pers NOS
+811.0,8110,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring driver of motor vehicle other than motorcycle,Reentrant mv coll-driver
+811.1,8111,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring passenger in motor vehicle other than motorcycle,Reentrant mv coll-pasngr
+811.2,8112,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring motorcyclist,Reentrant coll-motcycl
+811.3,8113,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring passenger on motorcycle,Reentrant coll-mcyc psgr
+811.4,8114,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring occupant of streetcar,Reentrant coll-st car
+811.5,8115,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring rider of animal; occupant of animal-drawn vehicle,Reentrant coll-anim rid
+811.6,8116,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring pedal cyclist,Reentrant coll-ped cycl
+811.7,8117,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring pedestrian,Reentrant coll-pedest
+811.8,8118,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring other specified person,Reentrant coll-pers NEC
+811.9,8119,Motor vehicle traffic accident involving re-entrant collision with another motor vehicle injuring unspecified person,Reentrant coll-pers NOS
+812.0,8120,Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle,Mv collision NOS-driver
+812.1,8121,Other motor vehicle traffic accident involving collision with motor vehicle injuring passenger in motor vehicle other than motorcycle,Mv collision NOS-pasngr
+812.2,8122,Other motor vehicle traffic accident involving collision with motor vehicle injuring motorcyclist,Mv collis NOS-motorcycl
+812.3,8123,Other motor vehicle traffic accident involving collision with motor vehicle injuring passenger on motorcycle,Mv coll NOS-mcycl psngr
+812.4,8124,Other motor vehicle traffic accident involving collision with motor vehicle injuring occupant of streetcar,Mv collision NOS-st car
+812.5,8125,Other motor vehicle traffic accident involving collision with motor vehicle injuring rider of animal; occupant of animal-drawn vehicle,Mv coll NOS-anim rid
+812.6,8126,Other motor vehicle traffic accident involving collision with motor vehicle injuring pedal cyclist,Mv coll NOS-ped cycl
+812.7,8127,Other motor vehicle traffic accident involving collision with motor vehicle injuring pedestrian,Mv collision NOS-pedest
+812.8,8128,Other motor vehicle traffic accident involving collision with motor vehicle injuring other specified person,Mv collis NOS-pers NEC
+812.9,8129,Other motor vehicle traffic accident involving collision with motor vehicle injuring unspecified person,Mv collis NOS-pers NOS
+813.0,8130,Motor vehicle traffic accident involving collision with other vehicle injuring driver of motor vehicle other than motorcycle,Mv-oth veh coll-driver
+813.1,8131,Motor vehicle traffic accident involving collision with other vehicle injuring passenger in motor vehicle other than motorcycle,Mv-oth veh coll-pasngr
+813.2,8132,Motor vehicle traffic accident involving collision with other vehicle injuring motorcyclist,Mv-oth veh coll-motcycl
+813.3,8133,Motor vehicle traffic accident involving collision with other vehicle injuring passenger on motorcycle,Mv-oth veh coll-mcyc psg
+813.4,8134,Motor vehicle traffic accident involving collision with other vehicle injuring occupant of streetcar,Mv-oth veh coll-st car
+813.5,8135,Motor vehicle traffic accident involving collision with other vehicle injuring rider of animal; occupant of animal-drawn vehicle,Mv-oth veh coll-anim rid
+813.6,8136,Motor vehicle traffic accident involving collision with other vehicle injuring pedal cyclist,Mv-oth veh coll-ped cycl
+813.7,8137,Motor vehicle traffic accident involving collision with other vehicle injuring pedestrian,Mv-oth veh coll-pedest
+813.8,8138,Motor vehicle traffic accident involving collision with other vehicle injuring other specified person,Mv-oth veh coll-pers NEC
+813.9,8139,Motor vehicle traffic accident involving collision with other vehicle injuring unspecified person,Mv-oth veh coll-pers NOS
+814.0,8140,Motor vehicle traffic accident involving collision with pedestrian injuring driver of motor vehicle other than motorcycle,Mv coll w pedest-driver
+814.1,8141,Motor vehicle traffic accident involving collision with pedestrian injuring passenger in motor vehicle other than motorcycle,Mv coll w pedest-pasngr
+814.2,8142,Motor vehicle traffic accident involving collision with pedestrian injuring motorcyclist,Mv coll w pedest-motcycl
+814.3,8143,Motor vehicle traffic accident involving collision with pedestrian injuring passenger on motorcycle,Mv coll w ped-mcycl psgr
+814.4,8144,Motor vehicle traffic accident involving collision with pedestrian injuring occupant of streetcar,Mv coll w pedest-st car
+814.5,8145,Motor vehicle traffic accident involving collision with pedestrian injuring rider of animal; occupant of animal drawn vehicle,Mv coll w ped-anim rid
+814.6,8146,Motor vehicle traffic accident involving collision with pedestrian injuring pedal cyclist,Mv coll w ped-ped cycl
+814.7,8147,Motor vehicle traffic accident involving collision with pedestrian injuring pedestrian,Mv coll w pedest-pedest
+814.8,8148,Motor vehicle traffic accident involving collision with pedestrian injuring other specified person,Mv coll w pedes-pers NEC
+814.9,8149,Motor vehicle traffic accident involving collision with pedestrian injuring unspecified person,Mv coll w pedes-pers NOS
+815.0,8150,Other motor vehicle traffic accident involving collision on the highway injuring driver of motor vehicle other than motorcycle,Mv coll w oth obj-driver
+815.1,8151,Other motor vehicle traffic accident involving collision on the highway injuring passenger in motor vehicle other than motorcycle,Mv coll w oth obj-pasngr
+815.2,8152,Other motor vehicle traffic accident involving collision on the highway injuring motorcyclist,Mv coll w oth obj-mocycl
+815.3,8153,Other motor vehicle traffic accident involving collision on the highway injuring passenger on motorcycle,Mv coll w obj-mcycl psgr
+815.4,8154,Other motor vehicle traffic accident involving collision on the highway injuring occupant of streetcar,Mv coll w obj-st car
+815.5,8155,Other motor vehicle traffic accident involving collision on the highway injuring rider of animal; occupant of animal-drawn vehicle,Mv coll w obj-anim rider
+815.6,8156,Other motor vehicle traffic accident involving collision on the highway injuring pedal cyclist,Mv coll w obj-ped cycl
+815.7,8157,Other motor vehicle traffic accident involving collision on the highway injuring pedestrian,Mv coll w obj-pedest
+815.8,8158,Other motor vehicle traffic accident involving collision on the highway injuring other specified person,Mv coll w obj-pers NEC
+815.9,8159,Other motor vehicle traffic accident involving collision on the highway injuring unspecified person,Mv coll w obj-pers NOS
+816.0,8160,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring driver of motor vehicle other than motorcycle",Loss control mv acc-driv
+816.1,8161,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring passenger in motor vehicle other than motorcycle",Loss control mv acc-psgr
+816.2,8162,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring motorcyclist",Loss control mv-mocycl
+816.3,8163,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring passenger on motorcycle",Loss control mv-mcyc psg
+816.4,8164,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring occupant of streetcar",Loss cont mv acc-st car
+816.5,8165,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring rider of animal; occupant of animal-drawn vehicle",Loss cont mv-anim rider
+816.6,8166,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring pedal cyclist",Loss control mv-ped cycl
+816.7,8167,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring pedestrian",Loss control mv-pedest
+816.8,8168,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring other specified person",Loss control mv-pers NEC
+816.9,8169,"Motor vehicle traffic accident due to loss of control, without collision on the highway, injuring unspecified person",Loss control mv-pers NOS
+817.0,8170,Noncollision motor vehicle traffic accident while boarding or alighting injuring driver of motor vehicle other than motorcycle,Mv acc board/alight-driv
+817.1,8171,Noncollision motor vehicle traffic accident while boarding or alighting injuring passenger in motor vehicle other than motorcycle,Mv acc board/alight-psgr
+817.2,8172,Noncollision motor vehicle traffic accident while boarding or alighting injuring motorcyclist,Mv board/alight-motcycl
+817.3,8173,Noncollision motor vehicle traffic accident while boarding or alighting injuring passenger on motorcycle,Mv brd/alight-mcycl psgr
+817.4,8174,Noncollision motor vehicle traffic accident while boarding or alighting injuring occupant of streetcar,Mv acc brd/alight-st car
+817.5,8175,Noncollision motor vehicle traffic accident while boarding or alighting injuring rider of animal; occupant of animal-drawn vehicle,Mv brd/alight-anim rider
+817.6,8176,Noncollision motor vehicle traffic accident while boarding or alighting injuring pedal cyclist,Mv brd/alight-ped cycl
+817.7,8177,Noncollision motor vehicle traffic accident while boarding or alighting injuring pedestrian,Mv brd/alight-pedestrian
+817.8,8178,Noncollision motor vehicle traffic accident while boarding or alighting injuring other specified person,Mv board/alight-pers NEC
+817.9,8179,Noncollision motor vehicle traffic accident while boarding or alighting injuring unspecified person,Mv board/alight-pers NOS
+818.0,8180,Other noncollision motor vehicle traffic accident injuring driver of motor vehicle other than motorcycle,Mv traff acc NEC-driver
+818.1,8181,Other noncollision motor vehicle traffic accident injuring passenger in motor vehicle other than motorcycle,Mv traff acc NEC-pasngr
+818.2,8182,Other noncollision motor vehicle traffic accident injuring motorcyclist,Mv traff acc NEC-mocycl
+818.3,8183,Other noncollision motor vehicle traffic accident injuring passenger on motorcycle,Mv traff acc-mcycl psgr
+818.4,8184,Other noncollision motor vehicle traffic accident injuring occupant of streetcar,Mv traff acc NEC-st car
+818.5,8185,Other noncollision motor vehicle traffic accident injuring rider of animal; occupant of animal-drawn vehicle,Mv traff acc-anim rider
+818.6,8186,Other noncollision motor vehicle traffic accident injuring pedal cyclist,Mv traff acc-ped cyc
+818.7,8187,Other noncollision motor vehicle traffic accident injuring pedestrian,Mv traff acc NEC-pedest
+818.8,8188,Other noncollision motor vehicle traffic accident injuring other specified person,Mv traff acc-pers NEC
+818.9,8189,Other noncollision motor vehicle traffic accident injuring unspecified person,Mv traff acc-pers NOS
+819.0,8190,Motor vehicle traffic accident of unspecified nature injuring driver of motor vehicle other than motorcycle,Traffic acc NOS-driver
+819.1,8191,Motor vehicle traffic accident of unspecified nature injuring passenger in motor vehicle other than motorcycle,Traffic acc NOS-pasngr
+819.2,8192,Motor vehicle traffic accident of unspecified nature injuring motorcyclist,Traffic acc NOS-motcycl
+819.3,8193,Motor vehicle traffic accident of unspecified nature injuring passenger on motorcycle,Traff acc NOS-mcycl psgr
+819.4,8194,Motor vehicle traffic accident of unspecified nature injuring occupant of streetcar,Traffic acc NOS-st car
+819.5,8195,Motor vehicle traffic accident of unspecified nature injuring rider of animal; occupant of animal-drawn vehicle,Traff acc NOS-anim rider
+819.6,8196,Motor vehicle traffic accident of unspecified nature injuring pedal cyclist,Traffic acc NOS-ped cycl
+819.7,8197,Motor vehicle traffic accident of unspecified nature injuring pedestrian,Traffic acc NOS-pedest
+819.8,8198,Motor vehicle traffic accident of unspecified nature injuring other specified person,Traffic acc NOS-pers NEC
+819.9,8199,Motor vehicle traffic accident of unspecified nature injuring unspecified person,Traffic acc NOS-pers NOS
+820.0,8200,Nontraffic accident involving motor-driven snow vehicle injuring driver of motor vehicle other than motorcycle,Snow veh acc-driver
+820.1,8201,Nontraffic accident involving motor-driven snow vehicle injuring passenger in motor vehicle other than motorcycle,Snow veh acc-pasngr
+820.2,8202,Nontraffic accident involving motor-driven snow vehicle injuring motorcyclist,Snow veh acc-motorcycl
+820.3,8203,Nontraffic accident involving motor-driven snow vehicle injuring passenger on motorcycle,Snow veh acc-mcycl psgr
+820.4,8204,Nontraffic accident involving motor-driven snow vehicle injuring occupant of streetcar,Snow veh acc-st car
+820.5,8205,Nontraffic accident involving motor-driven snow vehicle injuring rider of animal; occupant of animal-drawn vehicle,Snow veh acc-anim rider
+820.6,8206,Nontraffic accident involving motor-driven snow vehicle injuring pedal cyclist,Snow veh acc-ped cycl
+820.7,8207,Nontraffic accident involving motor-driven snow vehicle injuring pedestrian,Snow veh acc-pedest
+820.8,8208,Nontraffic accident involving motor-driven snow vehicle injuring other specified person,Snow veh acc-pers NEC
+820.9,8209,Nontraffic accident involving motor-driven snow vehicle injuring unspecified person,Snow veh acc-pers NOS
+821.0,8210,Nontraffic accident involving other off-road motor vehicle injuring driver of motor vehicle other than motorcycle,Oth off-road mv acc-driv
+821.1,8211,Nontraffic accident involving other off-road motor vehicle injuring passenger in motor vehicle other than motorcycle,Oth off-road mv acc-psgr
+821.2,8212,Nontraffic accident involving other off-road motor vehicle injuring motorcyclist,Oth off-road mv-mocycl
+821.3,8213,Nontraffic accident involving other off-road motor vehicle injuring passenger on motorcycle,Oth off-road mv-mcyc psg
+821.4,8214,Nontraffic accident involving other off-road motor vehicle injuring occupant of streetcar,Oth off-road mv-st car
+821.5,8215,Nontraffic accident involving other off-road motor vehicle injuring rider of animal; occupant of animal-drawn vehicle,Oth off-road mv-anim rid
+821.6,8216,Nontraffic accident involving other off-road motor vehicle injuring pedal cyclist,Oth off-road mv-ped cycl
+821.7,8217,Nontraffic accident involving other off-road motor vehicle injuring pedestrian,Oth off-road mv-pedest
+821.8,8218,Nontraffic accident involving other off-road motor vehicle injuring other specified person,Oth off-road mv-pers NEC
+821.9,8219,Nontraffic accident involving other off-road motor vehicle injuring unspecified person,Oth off-road mv-pers NOS
+822.0,8220,Other motor vehicle nontraffic accident involving collision with moving object injuring driver of motor vehicle other than motorcycle,Oth coll w mov obj-driv
+822.1,8221,Other motor vehicle nontraffic accident involving collision with moving object injuring passenger in motor vehicle other than motorcycle,Oth coll w mov obj-psgr
+822.2,8222,Other motor vehicle nontraffic accident involving collision with moving object injuring motorcyclist,Oth coll mov obj-mocycl
+822.3,8223,Other motor vehicle nontraffic accident involving collision with moving object injuring passenger on motorcycle,Oth coll mov obj-cyc psg
+822.4,8224,Other motor vehicle nontraffic accident involving collision with moving object injuring occupant of streetcar,Oth coll mov obj-st car
+822.5,8225,Other motor vehicle nontraffic accident involving collision with moving object injuring rider of animal; occupant of animal-drawn vehicle,Oth coll mov obj-rider
+822.6,8226,Other motor vehicle nontraffic accident involving collision with moving object injuring pedal cyclist,Oth coll mov obj-ped cyc
+822.7,8227,Other motor vehicle nontraffic accident involving collision with moving object injuring pedestrian,Oth coll mov obj-pedest
+822.8,8228,Other motor vehicle nontraffic accident involving collision with moving object injuring other specified person,Oth coll mov obj-per NEC
+822.9,8229,Other motor vehicle nontraffic accident involving collision with moving object injuring unspecified person,Oth coll mov obj-per NOS
+823.0,8230,Other motor vehicle nontraffic accident involving collision with stationary object injuring driver of motor vehicle other than motorcycle,Oth coll stndng obj-driv
+823.1,8231,Other motor vehicle nontraffic accident involving collision with stationary object injuring passenger in motor vehicle other than motorcycle,Oth coll stndng obj-psgr
+823.2,8232,Other motor vehicle nontraffic accident involving collision with stationary object injuring motorcyclist,Oth coll stnd obj-mocycl
+823.3,8233,Other motor vehicle nontraffic accident involving collision with stationary object injuring passenger on motorcycle,Oth coll stn obj-cyc psg
+823.4,8234,Other motor vehicle nontraffic accident involving collision with stationary object injuring occupant of streetcar,Oth coll stnd obj-st car
+823.5,8235,Other motor vehicle nontraffic accident involving collision with stationary object injuring rider of animal; occupant of animal-drawn vehicle,Oth coll stnd obj-rider
+823.6,8236,Other motor vehicle nontraffic accident involving collision with stationary object injuring pedal cyclist,Oth coll stn obj-ped cyc
+823.7,8237,Other motor vehicle nontraffic accident involving collision with stationary object injuring pedestrian,Oth coll stnd obj-pedest
+823.8,8238,Other motor vehicle nontraffic accident involving collision with stationary object injuring other specified person,Oth coll stn obj-per NEC
+823.9,8239,Other motor vehicle nontraffic accident involving collision with stationary object injuring unspecified person,Oth col-stnd-obj-per NOS
+824.0,8240,Other motor vehicle nontraffic accident while boarding and alighting injuring driver of motor vehicle other than motorcycle,N-traf board/alight-driv
+824.1,8241,Other motor vehicle nontraffic accident while boarding and alighting injuring passenger in motor vehicle other than motorcycle,N-traf board/alight-psgr
+824.2,8242,Other motor vehicle nontraffic accident while boarding and alighting injuring motorcyclist,N-traf brd/alight-mocycl
+824.3,8243,Other motor vehicle nontraffic accident while boarding and alighting injuring passenger on motorcycle,N-traf brd/alit-mcyc psg
+824.4,8244,Other motor vehicle nontraffic accident while boarding and alighting injuring occupant of streetcar,N-traf brd/alit-st car
+824.5,8245,Other motor vehicle nontraffic accident while boarding and alighting injuring rider of animal; occupant of animal-drawn vehicle,N-traf brd/alit-anim rid
+824.6,8246,Other motor vehicle nontraffic accident while boarding and alighting injuring pedal cyclist,N-traf brd/alit-ped cycl
+824.7,8247,Other motor vehicle nontraffic accident while boarding and alighting injuring pedestrian,N-traf brd/alit-pedest
+824.8,8248,Other motor vehicle nontraffic accident while boarding and alighting injuring other specified person,N-traf brd/alit-pers NEC
+824.9,8249,Other motor vehicle nontraffic accident while boarding and alighting injuring unspecified person,N-traf brd/alit-pers NOS
+825.0,8250,Other motor vehicle nontraffic accident of other and unspecified nature injuring driver of motor vehicle other than motorcycle,Mv n-traff acc NEC-driv
+825.1,8251,Other motor vehicle nontraffic accident of other and unspecified nature injuring passenger in motor vehicle other than motorcycle,Mv n-traff NEC/NOS-psgr
+825.2,8252,Other motor vehicle nontraffic accident of other and unspecified nature injuring motorcyclist,Mv n-traf acc NEC-mocycl
+825.3,8253,Other motor vehicle nontraffic accident of other and unspecified nature injuring passenger on motorcycle,Mv n-traff NEC-mcyc psgr
+825.4,8254,Other motor vehicle nontraffic accident of other and unspecified nature injuring occupant of streetcar,Mv n-traff NEC-st car
+825.5,8255,Other motor vehicle nontraffic accident of other and unspecified nature injuring rider of animal; occupant of animal-drawn vehicle,Mv n-traf NEC-anim rider
+825.6,8256,Other motor vehicle nontraffic accident of other and unspecified nature injuring pedal cyclist,Mv n-traff NEC-ped cycl
+825.7,8257,Other motor vehicle nontraffic accident of other and unspecified nature injuring pedestrian,Mv n-traff NEC-pedest
+825.8,8258,Other motor vehicle nontraffic accident of other and unspecified nature injuring other specified person,Mv n-traff NEC-pers NEC
+825.9,8259,Other motor vehicle nontraffic accident of other and unspecified nature injuring unspecified person,Mv n-traff NEC-pers NOS
+826.0,8260,Pedal cycle accident injuring pedestrian,Pedal cycle acc-pedest
+826.1,8261,Pedal cycle accident injuring pedal cyclist,Ped cycl acc-ped cyclist
+826.2,8262,Pedal cycle accident injuring rider of animal,Ped cycle acc-anim rider
+826.3,8263,Pedal cycle accident injuring occupant of animal-drawn vehicle,Ped cyc acc-occ anim veh
+826.4,8264,Pedal cycle accident injuring occupant of streetcar,Ped cycle acc-occ st car
+826.8,8268,Pedal cycle accident injuring other specified person,Ped cycle acc-pers NEC
+826.9,8269,Pedal cycle accident injuring unspecified person,Ped cycle acc-pers NOS
+827.0,8270,Animal-drawn vehicle accident injuring pedestrian,Animal drawn veh-pedest
+827.2,8272,Animal-drawn vehicle accident injuring rider of animal,Anim drawn veh-anim rid
+827.3,8273,Animal-drawn vehicle accident injuring occupant of animal drawn vehicle,Animal drawn veh-occupan
+827.4,8274,Animal-drawn vehicle accident injuring occupant of streetcar,Anim drawn-occ st car
+827.8,8278,Animal-drawn vehicle accident injuring other specified person,Anim drawn veh-pers NEC
+827.9,8279,Animal-drawn vehicle accident injuring unspecified person,Anim drawn veh-pers NOS
+828.0,8280,Accident involving animal being ridden injuring pedestrian,Ridden animal acc-pedest
+828.2,8282,Accident involving animal being ridden injuring rider of animal,Ridden animal acc-rider
+828.4,8284,Accident involving animal being ridden injuring occupant of streetcar,Ridden animal acc-st car
+828.8,8288,Accident involving animal being ridden injuring other specified person,Ridden anim acc-pers NEC
+828.9,8289,Accident involving animal being ridden injuring unspecified person,Ridden anim acc-pers NOS
+829.0,8290,Other road vehicle accidents injuring pedestrian,Oth road veh acc-pedest
+829.4,8294,Other road vehicle accidents injuring occupant of streetcar,Oth rd veh acc-st car
+829.8,8298,Other road vehicle accidents injuring other specified person,Oth rd veh acc-pers NEC
+829.9,8299,Other road vehicle accidents injuring unspecified person,Oth rd veh acc-pers NOS
+830.0,8300,"Accident to watercraft causing submersion injuring occupant of small boat, unpowered",Boat acc w submers-unpow
+830.1,8301,"Accident to watercraft causing submersion injuring occupant of small boat, powered",Boat acc w submers-power
+830.2,8302,Accident to watercraft causing submersion injuring occupant of other watercraft -- crew,Boat acc w submers-crew
+830.3,8303,Accident to watercraft causing submersion injuring occupant of other watercraft -- other than crew,Boat acc w submers-psgr
+830.4,8304,Accident to watercraft causing submersion injuring water skier,Boat submers-water skier
+830.5,8305,Accident to watercraft causing submersion injuring swimmer,Boat submers-swimmer
+830.6,8306,"Accident to watercraft causing submersion injuring dockers, stevedores",Boat submers-dockers
+830.7,8307,"Accident to watercraft causing submersion, occupant of military watercraft, any type",Boat submers-military
+830.8,8308,Accident to watercraft causing submersion injuring other specified person,Boat submers-pers NEC
+830.9,8309,Accident to watercraft causing submersion injuring unspecified person,Boat submers-pers NOS
+831.0,8310,"Accident to watercraft causing other injury to occupant of small boat, unpowered",Boat acc inj NEC-unpower
+831.1,8311,"Accident to watercraft causing other injury to occupant of small boat, powered",Boat acc inj NEC-power
+831.2,8312,Accident to watercraft causing other injury to occupant of other watercraft -- crew,Boat acc inj NEC-crew
+831.3,8313,Accident to watercraft causing other injury to occupant of other watercraft -- other than crew,Boat acc inj NEC-passeng
+831.4,8314,Accident to watercraft causing other injury to water skier,Boat acc inj NEC-skier
+831.5,8315,Accident to watercraft causing other injury to swimmer,Boat acc inj NEC-swim
+831.6,8316,"Accident to watercraft causing other injury to dockers, stevedores",Boat acc inj NEC-docker
+831.7,8317,"Accident to watercraft causing other injury, occupant of military watercraft, any type",Boat acc inj NEC-militry
+831.8,8318,Accident to watercraft causing other injury to other specified person,Boat inj NEC-person NEC
+831.9,8319,Accident to watercraft causing other injury to unspecified person,Boat inj NEC-person NOS
+832.0,8320,"Other accidental submersion or drowning in water transport accident injuring occupant of small boat, unpowered",Submers NEC-unpow boat
+832.1,8321,"Other accidental submersion or drowning in water transport accident injuring occupant of small boat, powered",Submers NEC-power boat
+832.2,8322,Other accidental submersion or drowning in water transport accident injuring occupant of other watercraft -- crew,Submers NEC-crew
+832.3,8323,Other accidental submersion or drowning in water transport accident injuring occupant of other watercraft -- other than crew,Submers NEC-passenger
+832.4,8324,Other accidental submersion or drowning in water transport accident injuring water skier,Submers NEC-water skier
+832.5,8325,Other accidental submersion or drowning in water transport accident injuring swimmer,Submers NEC-swimmer
+832.6,8326,"Other accidental submersion or drowning in water transport accident injuring dockers, stevedores",Submers NEC-docker
+832.7,8327,"Other accidental submersion or drowning in water transport accident, occupant of military watercraft, any type",Submersion NEC-military
+832.8,8328,Other accidental submersion or drowning in water transport accident injuring other specified person,Submers NEC-person NEC
+832.9,8329,Other accidental submersion or drowning in water transport accident injuring unspecified person,Submers NEC-person NOS
+833.0,8330,"Fall on stairs or ladders in water transport injuring occupant of small boat, unpowered",W/craft stair fall-unpow
+833.1,8331,"Fall on stairs or ladders in water transport injuring occupant of small boat, powered",W/craft stair fall-power
+833.2,8332,Fall on stairs or ladders in water transport injuring occupant of other watercraft -- crew,Wtrcraft stair fall-crew
+833.3,8333,Fall on stairs or ladders in water transport injuring occupant of other watercraft -- other than crew,Wtrcraft stair fall-psgr
+833.4,8334,Fall on stairs or ladders in water transport injuring water skier,W/craft stair fall-skier
+833.5,8335,Fall on stairs or ladders in water transport injuring swimmer,W/craft stair fall-swim
+833.6,8336,"Fall on stairs or ladders in water transport injuring dockers, stevedores",W/crf stair fall-docker
+833.7,8337,"Fall on stairs or ladders in water transport, occupant of military watercraft, any type",W/crf stair fall-militry
+833.8,8338,Fall on stairs or ladders in water transport injuring other specified person,W/crf stair fall-per NEC
+833.9,8339,Fall on stairs or ladders in water transport injuring unspecified person,W/crf stair fall-per NOS
+834.0,8340,"Other fall from one level to another in water transport injuring occupant of small boat, unpowered",W/craft fall NEC-unpow
+834.1,8341,"Other fall from one level to another in water transport injuring occupant of small boat, powered",W/craft fall NEC-power
+834.2,8342,Other fall from one level to another in water transport injuring occupant of other watercraft -- crew,Watercraft fall NEC-crew
+834.3,8343,Other fall from one level to another in water transport injuring occupant of other watercraft -- other than crew,Wtrcraft fall NEC-pasngr
+834.4,8344,Other fall from one level to another in water transport injuring water skier,W/craft fall NEC-skier
+834.5,8345,Other fall from one level to another in water transport injuring swimmer,W/craft fall NEC-swim
+834.6,8346,"Other fall from one level to another in water transport injuring dockers, stevedores",Wtrcraft fall NEC-docker
+834.7,8347,"Other fall from one level to another in water transport, occupant of military watercraft, any type",W/crft fall NEC-military
+834.8,8348,Other fall from one level to another in water transport injuring other specified person,W/crft fall NEC-pers NEC
+834.9,8349,Other fall from one level to another in water transport injuring unspecified person,W/crft fall NEC-pers NOS
+835.0,8350,"Other and unspecified fall in water transport injuring occupant of small boat, unpowered",W/craft fall NOS-unpow
+835.1,8351,"Other and unspecified fall in water transport injuring occupant of small boat, powered",W/craft fall NOS-power
+835.2,8352,Other and unspecified fall in water transport injuring occupant of other watercraft -- crew,Wtrcraft fall NOS-crew
+835.3,8353,Other and unspecified fall in water transport injuring occupant of other watercraft -- other than crew,Wtrcraft fall NOS-pasngr
+835.4,8354,Other and unspecified fall in water transport injuring water skier,W/craft fall NOS-skier
+835.5,8355,Other and unspecified fall in water transport injuring swimmer,W/craft fall NOS-swim
+835.6,8356,"Other and unspecified fall in water transport injuring dockers, stevedores",Wtrcraft fall NOS-docker
+835.7,8357,"Other and unspecified fall in water transport, occupant of military watercraft, any type",W/crft fall NEC/NOS-mil
+835.8,8358,Other and unspecified fall in water transport injuring other specified person,W/crft fall NOS-pers NEC
+835.9,8359,Other and unspecified fall in water transport injuring unspecified person,W/crft fall NOS-pers NOS
+836.0,8360,"Machinery accident in water transport injuring occupant of small boat, unpowered",Machine acc-unpow boat
+836.1,8361,"Machinery accident in water transport injuring occupant of small boat, powered",Mach acc-occ power boat
+836.2,8362,Machinery accident in water transport injuring occupant of other watercraft -- crew,Machinery accident-crew
+836.3,8363,Machinery accident in water transport injuring occupant of other watercraft -- other than crew,Machinery acc-pasngr
+836.4,8364,Machinery accident in water transport injuring water skier,Machine accident-skier
+836.5,8365,Machinery accident in water transport injuring swimmer,Machine accident-swim
+836.6,8366,"Machinery accident in water transport injuring dockers, stevedores",Machinery acc-docker
+836.7,8367,"Machinery accident in water transport, occupant of military watercraft, any type",W/crft machine-military
+836.8,8368,Machinery accident in water transport injuring other specified person,Machinery acc-pers NEC
+836.9,8369,Machinery accident in water transport injuring unspecified person,Machinery acc-pers NOS
+837.0,8370,"Explosion, fire, or burning in watercraft injuring occupant of small boat, unpowered",Explosion-occ unpow boat
+837.1,8371,"Explosion, fire, or burning in watercraft injuring occupant of small boat, powered",Explosion-occ power boat
+837.2,8372,"Explosion, fire, or burning in watercraft injuring occupant of other watercraft -- crew",Watercraft explos-crew
+837.3,8373,"Explosion, fire, or burning in watercraft injuring occupant of other watercraft -- other than crew",Watercraft explos-pasngr
+837.4,8374,"Explosion, fire, or burning in watercraft injuring water skier",Watercraft explos-skier
+837.5,8375,"Explosion, fire, or burning in watercraft injuring swimmer",Watercraft explos-swim
+837.6,8376,"Explosion, fire, or burning in watercraft injuring dockers, stevedores",Watercraft explos-docker
+837.7,8377,"Explosion, fire, or burning in watercraft, occupant of military watercraft, any type",W/crft explosn-military
+837.8,8378,"Explosion, fire, or burning in watercraft injuring other specified person",Watercraft expl-pers NEC
+837.9,8379,"Explosion, fire, or burning in watercraft injuring unspecified person",Watercraft expl-pers NOS
+838.0,8380,"Other and unspecified water transport accident injuring occupant of small boat, unpowered",Watercraft acc NEC-unpow
+838.1,8381,"Other and unspecified water transport accident injuring occupant of small boat, powered",Watercraft acc NEC-power
+838.2,8382,Other and unspecified water transport accident injuring occupant of other watercraft -- crew,Watercraft acc NEC-crew
+838.3,8383,Other and unspecified water transport accident injuring occupant of other watercraft -- other than crew,Watercrft acc NEC-pasngr
+838.4,8384,Other and unspecified water transport accident injuring water skier,Watercraft acc NEC-skier
+838.5,8385,Other and unspecified water transport accident injuring swimmer,Watrcrft acc NEC-swimmer
+838.6,8386,"Other and unspecified water transport accident injuring dockers, stevedores",Watercrft acc NEC-docker
+838.7,8387,"Other and unspecified water transport accident, occupant of military watercraft, any type",W/crft-military NEC/NOS
+838.8,8388,Other and unspecified water transport accident injuring other specified person,Wtrcrft acc NEC-pers NEC
+838.9,8389,Other and unspecified water transport accident injuring unspecified person,Wtrcrft acc NEC-pers NOS
+840.0,8400,Accident to powered aircraft at takeoff or landing injuring occupant of spacecraft,Tk off/land-spcrft
+840.1,8401,"Accident to powered aircraft at takeoff or landing injuring occupant of military aircraft, any",Tk off/land-milit craft
+840.2,8402,Accident to powered aircraft at takeoff or landing injuring crew of commercial aircraft (powered) in surface to surface transport,Tk off/land-crew aircrft
+840.3,8403,Accident to powered aircraft at takeoff or landing injuring other occupant of commercial aircraft (powered) in surface to surface transport,Tk off/land-psng aircrft
+840.4,8404,Accident to powered aircraft at takeoff or landing injuring occupant of commercial aircraft (powered) in surface to air transport,Tk off/land-comm crf NEC
+840.5,8405,Accident to powered aircraft at takeoff or landing injuring occupant of other powered aircraft,Tk off/land-aircraft NEC
+840.6,8406,"Accident to powered aircraft at takeoff or landing injuring occupant of unpowered aircraft, except parachutist",Tk off/land-unp aircrft
+840.7,8407,Accident to powered aircraft at takeoff or landing injuring parachutist (military) (other),Tk off/land-parachutist
+840.8,8408,"Accident to powered aircraft at takeoff or landing injuring ground crew, airline employee",Tk off/land-ground crew
+840.9,8409,Accident to powered aircraft at takeoff or landing injuring other person,Tk off/land-pers NEC
+841.0,8410,"Accident to powered aircraft, other and unspecified, injuring occupant of spacecraft",Pow aircraft acc-spcrft
+841.1,8411,"Accident to powered aircraft, other and unspecified, injuring occupant of military aircraft, any",Power aircraft acc-milit
+841.2,8412,"Accident to powered aircraft, other and unspecified, injuring crew of commercial aircraft (powered) in surface to surface transport",Power aircraft acc-crew
+841.3,8413,"Accident to powered aircraft, other and unspecified, injuring other occupant of commercial aircraft (powered) in surface to surface transport",Power aircraft acc-psngr
+841.4,8414,"Accident to powered aircraft, other and unspecified, injuring occupant of commercial aircraft (powered) in surface to air transport",Aircraf acc-occ comm NEC
+841.5,8415,"Accident to powered aircraft, other and unspecified, injuring occupant of other powered aircraft",Oth powered aircraft acc
+841.6,8416,"Accident to powered aircraft, other and unspecified, injuring occupant of unpowered aircraft, except parachutist",Pow airc acc-unp aircr
+841.7,8417,"Accident to powered aircraft, other and unspecified, injuring parachutist (military) (other)",Aircraft acc-parachutist
+841.8,8418,"Accident to powered aircraft, other and unspecified, injuring ground crew, airline employee",Aircraft acc-ground crew
+841.9,8419,"Accident to powered aircraft, other and unspecified, injuring other person",Aircrft acc NOS-pers NEC
+842.6,8426,"Accident to unpowered aircraft injuring occupant of unpowered aircraft, except parachutist",Unpower aircraft acc-occ
+842.7,8427,Accident to unpowered aircraft injuring parachutist (military) (other),Unpow aircrf acc-chutist
+842.8,8428,"Accident to unpowered aircraft injuring ground crew, airline employee",Unpow aircrf acc-gr crew
+842.9,8429,Accident to unpowered aircraft injuring other person,Unpow aircrf acc-per NEC
+843.0,8430,"Fall in, on, or from aircraft injuring occupant of spacecraft",Fall-occ spacecraft
+843.1,8431,"Fall in, on, or from aircraft injuring occupant of military aircraft, any",Fall-milit aircraft occp
+843.2,8432,"Fall in, on, or from aircraft injuring crew of commercial aircraft (powered) in surface to surface transport",Fall-crew comm aircraft
+843.3,8433,"Fall in, on, or from aircraft injuring other occupant of commercial aircraft (powered) in surface to surface transport",Fall-psng comm aircraft
+843.4,8434,"Fall in, on, or from aircraft injuring occupant of commercial aircraft (powered) in surface to air transport",Fall-occ comm aircrf NEC
+843.5,8435,"Fall in, on, or from aircraft injuring occupant of other powered aircraft",Fall-occup oth aircraft
+843.6,8436,"Fall in, on, or from aircraft injuring occupant of unpowered aircraft, except parachutist",Fall-occ unpower aircraf
+843.7,8437,"Fall in, on, or from aircraft injuring parachutist (military) (other)",Fall-parachutist
+843.8,8438,"Fall in, on, or from aircraft injuring ground crew, airline employee",Aircrft fall-ground crew
+843.9,8439,"Fall in, on, or from aircraft injuring other person",Aircraft fall-person NEC
+844.0,8440,Other specified air transport accidents injuring occupant of spacecraft,Aircrft acc NEC-spcrft
+844.1,8441,"Other specified air transport accidents injuring occupant of military aircraft, any",Aircrft acc NEC-military
+844.2,8442,Other specified air transport accidents injuring crew of commercial aircraft (powered) in surface to surface transport,Aircrft acc NEC-crew
+844.3,8443,Other specified air transport accidents injuring other occupant of commercial aircraft (powered) in surface to surface transport,Aircrft acc NEC-pasngr
+844.4,8444,Other specified air transport accidents injuring occupant of commercial aircraft (powered) in surface to air transport,Aircrft acc NEC-comm NEC
+844.5,8445,Other specified air transport accidents injuring occupant of other powered aircraft,Aircrft acc NEC-occp NEC
+844.6,8446,"Other specified air transport accidents injuring occupant of unpowered aircraft, except parachutist",Aircr acc NEC-unp aircr
+844.7,8447,Other specified air transport accidents injuring parachutist (military) (other),Aircrft acc-parachutist
+844.8,8448,"Other specified air transport accidents injuring ground crew, airline employee",Aircrft acc NEC-grd crew
+844.9,8449,Other specified air transport accidents injuring other person,Aircrft acc NEC-pers NEC
+845.0,8450,Accident involving spacecraft injuring occupant of spacecraft,Spacecraft acc-occupant
+845.8,8458,"Accident involving spacecraft injuring ground crew, airline employee",Spacecraft acc-grnd crew
+845.9,8459,Accident involving spacecraft injuring other person,Spacecraft acc-pers NEC
+846.0,8460,Accidents involving powered vehicles used solely within the buildings and premises of industrial or commercial establishment,Indus veh acc on premise
+847.0,8470,Accidents involving cable cars not running on rails,Cabl car acc not on rail
+848.0,8480,"Accidents involving other vehicles, not elsewhere classifiable",Oth vehicle acc NEC
+849.0,8490,Home accidents,Accident in home
+849.1,8491,Farm accidents,Accident on farm
+849.2,8492,Mine and quarry accidents,Accident in mine/quarry
+849.3,8493,Accidents occurring in industrial places and premises,Acc on industr premises
+849.4,8494,Accidents occurring in place for recreation and sport,Accid in recreation area
+849.5,8495,Street and highway accidents,Accid on street/highway
+849.6,8496,Accidents occurring in public building,Accident in public bldg
+849.7,8497,Accidents occurring in residential institution,Accid in resident instit
+849.8,8498,Accidents occurring in other specified places,Accident in place NEC
+849.9,8499,Accidents occurring in unspecified place,Accident in place NOS
+850.0,8500,Accidental poisoning by heroin,Acc poison-heroin
+850.1,8501,Accidental poisoning by methadone,Acc poison-methadone
+850.2,8502,Accidental poisoning by other opiates and related narcotics,Acc poison-opiates NEC
+850.3,8503,Accidental poisoning by salicylates,Acc poison-salicylates
+850.4,8504,"Accidental poisoning by aromatic analgesics, not elsewhere classified",Acc poison-arom analgesc
+850.5,8505,Accidental poisoning by pyrazole derivatives,Acc poison-pyrazole derv
+850.6,8506,Accidental poisoning by antirheumatics (antiphlogistics),Acc poison-antirheumatic
+850.7,8507,Accidental poisoning by other non-narcotic analgesics,Acc poison-nonnarc analg
+850.8,8508,Accidental poisoning by other specified analgesics and antipyretics,Acc poison-analgesic NEC
+850.9,8509,Accidental poisoning by unspecified analgesic or antipyretic,Acc poison-analgesic NOS
+851.0,8510,Accidental poisoning by barbiturates,Acc poison-barbiturates
+852.0,8520,Accidental poisoning by chloral hydrate group,Acc poisn-chlorl hydrate
+852.1,8521,Accidental poisoning by paraldehyde,Acc poison-paraldehyde
+852.2,8522,Accidental poisoning by bromine compounds,Acc poison-bromine cmpnd
+852.3,8523,Accidental poisoning by methaqualone compounds,Acc poison-methaqualone
+852.4,8524,Accidental poisoning by glutethimide group,Acc poison-glutethimide
+852.5,8525,"Accidental poisoning by mixed sedatives, not elsewhere classified",Acc poison-mix sedtv NEC
+852.8,8528,Accidental poisoning by other specified sedatives and hypnotics,Acc poison-sedatives NEC
+852.9,8529,Accidental poisoning by unspecified sedative or hypnotic,Acc poison-sedatives NOS
+853.0,8530,Accidental poisoning by phenothiazine-based tranquilizers,Acc pois-phenthiaz tranq
+853.1,8531,Accidental poisoning by butyrophenone-based tranquilizers,Acc pois-butyrphen tranq
+853.2,8532,Accidental poisoning by benzodiazepine-based tranquilizers,Acc poisn-benzdiaz tranq
+853.8,8538,Accidental poisoning by other specified tranquilizers,Acc poisn-tranquilzr NEC
+853.9,8539,Accidental poisoning by unspecified tranquilizer,Acc poisn-tranquilzr NOS
+854.0,8540,Accidental poisoning by antidepressants,Acc poison-antidepressnt
+854.1,8541,Accidental poisoning by psychodysleptics [hallucinogens],Acc poison-hallucinogens
+854.2,8542,Accidental poisoning by psychostimulants,Acc poisn-psychstimulant
+854.3,8543,Accidental poisoning by central nervous system stimulants,Acc poison-cns stimulant
+854.8,8548,Accidental poisoning by other psychotropic agents,Acc poisn psychotrop NEC
+855.0,8550,Accidental poisoning by anticonvulsant and anti-parkinsonism drugs,Acc poisn-anticonvulsant
+855.1,8551,Accidental poisoning by other central nervous system depressants,Acc poisn-cns depres NEC
+855.2,8552,Accidental poisoning by local anesthetics,Acc poisn-local anesthet
+855.3,8553,Accidental poisoning by parasympathomimetics [cholinergics],Acc poison-cholinergics
+855.4,8554,Accidental poisoning by parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics,Acc poisn-anticholinerg
+855.5,8555,Accidental poisoning by sympathomimetics [adrenergics],Acc poison-adrenergics
+855.6,8556,Accidental poisoning by sympatholytics [antiadrenergics],Acc poisn-sympatholytics
+855.8,8558,Accidental poisoning by other specified drugs acting on central and autonomic nervous systems,Acc poison-cns drug NEC
+855.9,8559,Accidental poisoning by unspecified drug acting on central and autonomic nervous systems,Acc poison-cns drug NOS
+856.0,8560,Accidental poisoning by antibiotics,Acc poison-antibiotics
+857.0,8570,Accidental poisoning by other anti-infectives,Acc pois-oth anti-infect
+858.0,8580,Accidental poisoning by hormones and synthetic substitutes,Acc poison-hormones
+858.1,8581,Accidental poisoning by primarily systemic agents,Acc poisn-systemic agent
+858.2,8582,Accidental poisoning by agents primarily affecting blood constituents,Acc poison-blood agent
+858.3,8583,Accidental poisoning by agents primarily affecting cardiovascular system,Acc poisn-cardiovasc agt
+858.4,8584,Accidental poisoning by agents primarily affecting gastrointestinal system,Acc poison-gi agent
+858.5,8585,"Accidental poisoning by water, mineral, and uric acid metabolism drugs",Acc poisn-metabol agnt
+858.6,8586,Accidental poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system,Acc poisn-muscl/resp agt
+858.7,8587,"Accidental poisoning by agents primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological, and dental drugs",Acc poisn-skin/eent agnt
+858.8,8588,Accidental poisoning by other specified drugs,Acc poisoning-drug NEC
+858.9,8589,Accidental poisoning by unspecified drug,Acc poisoning-drug NOS
+860.0,8600,Accidental poisoning by alcoholic beverages,Acc poisn-alcohol bevrag
+860.1,8601,Accidental poisoning by other and unspecified ethyl alcohol and its products,Acc poison-ethyl alcohol
+860.2,8602,Accidental poisoning by methyl alcohol,Acc poisn-methyl alcohol
+860.3,8603,Accidental poisoning by isopropyl alcohol,Acc poisn-isopropyl alc
+860.4,8604,Accidental poisoning by fusel oil,Acc poison-fusel oil
+860.8,8608,Accidental poisoning by other specified alcohols,Acc poison-alcohol NEC
+860.9,8609,Accidental poisoning by unspecified alcohol,Acc poison-alcohol NOS
+861.0,8610,Accidental poisoning by synthetic detergents and shampoos,Acc pois-synth detergent
+861.1,8611,Accidental poisoning by soap products,Acc poison-soap products
+861.2,8612,Accidental poisoning by polishes,Acc poison-polishes
+861.3,8613,Accidental poisoning by other cleansing and polishing agents,Acc poison-cleanser NEC
+861.4,8614,Accidental poisoning by disinfectants,Acc poison-disinfectants
+861.5,8615,Accidental poisoning by lead paints,Acc poison-lead paints
+861.6,8616,Accidental poisoning by other paints and varnishes,Acc poison-paints NEC
+861.9,8619,"Accidental poisoning by unspecified cleansing and polishing agents, disinfectants, paints, and varnishes",Acc poison-cleanser NOS
+862.0,8620,Accidental poisoning by petroleum solvents,Acc poisn-petrol solvent
+862.1,8621,Accidental poisoning by petroleum fuels and cleaners,Acc poisn-petroleum fuel
+862.2,8622,Accidental poisoning by lubricating oils,Acc pois-lubricating oil
+862.3,8623,Accidental poisoning by petroleum solids,Acc pois-petroleum solid
+862.4,8624,"Accidental poisoning by other specified solvents, not elsewhere classified",Acc poisn-solvents NEC
+862.9,8629,"Accidental poisoning by unspecified solvent, not elsewhere classified",Acc poisn-solvent NOS
+863.0,8630,Accidental poisoning by insecticides of organochlorine compounds,Acc pois-chlorine pestic
+863.1,8631,Accidental poisoning by insecticides of organophosphorus compounds,Acc pois-phosph pesticid
+863.2,8632,Accidental poisoning by carbamates,Acc poison-carbamates
+863.3,8633,Accidental poisoning by mixtures of insecticides,Acc poisn-mixed pesticid
+863.4,8634,Accidental poisoning by other and unspecified insecticides,Acc poison-pesticide NEC
+863.5,8635,Accidental poisoning by herbicides,Acc poison-herbicides
+863.6,8636,Accidental poisoning by fungicides,Acc poison-fungicides
+863.7,8637,Accidental poisoning by rodenticides,Acc poison-rodenticides
+863.8,8638,Accidental poisoning by fumigants,Acc poison-fumigants
+863.9,8639,Accidental poisoning by other and unspecified agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers,Acc pois-agrcult NEC/NOS
+864.0,8640,Accidental poisoning by corrosive aromatics not elsewhere classified,Acc pois-corrosiv aromat
+864.1,8641,Accidental poisoning by acids not elsewhere classified,Acc poison-acids
+864.2,8642,Accidental poisoning by caustic alkalis not elsewhere classified,Acc poisn-caustic alkali
+864.3,8643,Accidental poisoning by other specified corrosives and caustics not elsewhere classified,Acc poison-caustic NEC
+864.4,8644,Accidental poisoning by unspecified corrosives and caustics not elsewhere classified,Acc poison-caustic NOS
+865.0,8650,Accidental poisoning by meat,Acc poison-meat
+865.1,8651,Accidental poisoning by shellfish,Acc poison-shellfish
+865.2,8652,Accidental poisoning from other fish,Acc poison-fish NEC
+865.3,8653,Accidental poisoning from berries and seeds,Acc poison-berries/seeds
+865.4,8654,Accidental poisoning from other specified plants,Acc poison-plants NEC
+865.5,8655,Accidental poisoning from mushrooms and other fungi,Acc poison-mushrooms
+865.8,8658,Accidental poisoning from other specified foods,Acc poison-food NEC
+865.9,8659,Accidental poisoning from unspecified foodstuff or poisonous plant,Acc poisn-food/plant NOS
+866.0,8660,Accidental poisoning by lead and its compounds and fumes,Acc poisoning-lead
+866.1,8661,Accidental poisoning by mercury and its compounds and fumes,Acc poisoning-mercury
+866.2,8662,Accidental poisoning by antimony and its compounds and fumes,Acc poisoning-antimony
+866.3,8663,Accidental poisoning by arsenic and its compounds and fumes,Acc poisoning-arsenic
+866.4,8664,Accidental poisoning by other metals and their compounds and fumes,Acc poison-metals NEC
+866.5,8665,Accidental poisoning by plant foods and fertilizers,Acc poison-plant food
+866.6,8666,Accidental poisoning by glues and adhesives,Acc poison-glues
+866.7,8667,Accidental poisoning by cosmetics,Acc poison-cosmetics
+866.8,8668,Accidental poisoning by other specified solid or liquid substances,Acc pois-solid/liq NEC
+866.9,8669,Accidental poisoning by unspecified solid or liquid substance,Acc pois-solid/liq NOS
+867.0,8670,Accidental poisoning by gas distributed by pipeline,Acc poison-piped gas
+868.0,8680,Accidental poisoning by liquefied petroleum gas distributed in mobile containers,Acc pois-liq petrol gas
+868.1,8681,Accidental poisoning by other and unspecified utility gas,Acc pois-utl gas NEC/NOS
+868.2,8682,Accidental poisoning by motor vehicle exhaust gas,Acc poison-exhaust gas
+868.3,8683,Accidental poisoning by carbon monoxide from incomplete combustion of other domestic fuels,Acc pois-co/domestc fuel
+868.8,8688,Accidental poisoning by carbon monoxide from other sources,Acc pois-carbn monox NEC
+868.9,8689,Accidental poisoning by unspecified carbon monoxide,Acc pois-carbn monox NOS
+869.0,8690,Accidental poisoning by nitrogen oxides,Acc poisn-nitrogen oxide
+869.1,8691,Accidental poisoning by sulfur dioxide,Acc poisn-sulfur dioxide
+869.2,8692,Accidental poisoning by freon,Acc poison-freon
+869.3,8693,Accidental poisoning by lacrimogenic gas [tear gas],Acc poison-tear gas
+869.4,8694,Second hand tobacco smoke,Scndhnd tbcco smoke
+869.8,8698,Accidental poisoning by other specified gases and vapors,Acc poison-gas/vapor NEC
+869.9,8699,Accidental poisoning by unspecified gases and vapors,Acc poison-gas/vapor NOS
+870.0,8700,"Accidental cut, puncture, perforation or hemorrhage during surgical operation",Acc cut/hem in surgery
+870.1,8701,"Accidental cut, puncture, perforation or hemorrhage during infusion or transfusion",Acc cut/hem in infusion
+870.2,8702,"Accidental cut, puncture, perforation or hemorrhage during kidney dialysis or other perfusion",Acc cut/hem-perfusn NEC
+870.3,8703,"Accidental cut, puncture, perforation or hemorrhage during injection or vaccination",Acc cut/hem in injection
+870.4,8704,"Accidental cut, puncture, perforation or hemorrhage during endoscopic examination",Acc cut/hem w scope exam
+870.5,8705,"Accidental cut, puncture, perforation or hemorrhage during aspiration of fluid or tissue, puncture, and catheterization",Acc cut/hem w catheteriz
+870.6,8706,"Accidental cut, puncture, perforation or hemorrhage during heart catheterization",Acc cut/hem w heart cath
+870.7,8707,"Accidental cut, puncture, perforation or hemorrhage during administration of enema",Acc cut/hem w enema
+870.8,8708,"Accidental cut, puncture, perforation or hemorrhage during other specified medical care",Acc cut in med care NEC
+870.9,8709,"Accidental cut, puncture, perforation or hemorrhage during unspecified medical care",Acc cut in med care NOS
+871.0,8710,Foreign object left in body during surgical operation,Post-surgical forgn body
+871.1,8711,Foreign object left in body during infusion or transfusion,Postinfusion foreign bdy
+871.2,8712,Foreign object left in body during kidney dialysis or other perfusion,Postperfusion forgn body
+871.3,8713,Foreign object left in body during injection or vaccination,Postinjection forgn body
+871.4,8714,Foreign object left in body during endoscopic examination,Postendoscopy forgn body
+871.5,8715,"Foreign object left in body during aspiration of fluid or tissue, puncture, and catheterization",Postcatheter forgn body
+871.6,8716,Foreign object left in body during heart catheterization,FB post heart catheter
+871.7,8717,Foreign object left in body during removal of catheter or packing,FB post-catheter removal
+871.8,8718,Foreign object left in body during other specified procedures,Post-op foreign body NEC
+871.9,8719,Foreign object left in body during unspecified procedure,Post-op foreign body NOS
+872.0,8720,Failure of sterile precautions during surgical operation,Failure sterile surgery
+872.1,8721,Failure of sterile precautions during infusion or transfusion,Failure sterile infusion
+872.2,8722,Failure of sterile precautions during kidney dialysis and other perfusion,Fail sterile perfusn NEC
+872.3,8723,Failure of sterile precautions during injection or vaccination,Fail sterile injection
+872.4,8724,Failure of sterile precautions during endoscopic examination,Fail sterile endoscopy
+872.5,8725,"Failure of sterile precautions during aspiration of fluid or tissue, puncture, and catheterization",Fail sterile catheter
+872.6,8726,Failure of sterile precautions during heart catheterization,Fail sterile heart cath
+872.8,8728,Failure of sterile precautions during other specified procedures,Fail sterile proced NEC
+872.9,8729,Failure of sterile precautions during unspecified procedure,Fail sterile proced NOS
+873.0,8730,Excessive amount of blood or other fluid during transfusion or infusion,Excess fluid in infusion
+873.1,8731,Incorrect dilution of fluid during infusion,Incor dilut infusn fluid
+873.2,8732,Overdose of radiation in therapy,Therap radiation overdos
+873.3,8733,Inadvertent exposure of patient to radiation during medical care,Inadv radiat exp-medical
+873.4,8734,Failure in dosage in electroshock or insulin-shock therapy,Dosag fail-shock therapy
+873.5,8735,Inappropriate [too hot or too cold] temperature in local application and packing,Wrng temp in applic/pack
+873.6,8736,Nonadministration of necessary drug or medicinal substance,Nonadmin necess medicine
+873.8,8738,Other specified failure in dosage,Failure in dosage NEC
+873.9,8739,Unspecified failure in dosage,Failure in dosage NOS
+874.0,8740,Mechanical failure of instrument or apparatus during surgical operation,Instrmnt fail in surgery
+874.1,8741,Mechanical failure of instrument or apparatus during infusion and transfusion,Instrumnt fail-infusion
+874.2,8742,Mechanical failure of instrument or apparatus during kidney dialysis and other perfusion,Instrmnt fail-perfus NEC
+874.3,8743,Mechanical failure of instrument or apparatus during endoscopic examination,Instrumnt fail-endoscopy
+874.4,8744,"Mechanical failure of instrument or apparatus during aspiration of fluid or tissue, puncture, and catheterization",Instrmnt fail-catheteriz
+874.5,8745,Mechanical failure of instrument or apparatus during heart catheterization,Instrmnt fail-heart cath
+874.8,8748,Mechanical failure of instrument or apparatus during other specified procedures,Instrmnt fail-proced NEC
+874.9,8749,Mechanical failure of instrument or apparatus during unspecified procedure,Instrmnt fail-proced NOS
+875.0,8750,Contaminated substance transfused or infused,Contaminated transfusion
+875.1,8751,Contaminated substance injected or used for vaccination,Contaminated injection
+875.2,8752,Contaminated drug or biological substance administered by other means,Contaminated drug NEC
+875.8,8758,Misadventure to patient from other contamination,Contamination NEC
+875.9,8759,Misadventure to patient from unspecified contamination,Contamination NOS
+876.0,8760,Mismatched blood in transfusion,Mismatch blood-transfusn
+876.1,8761,Wrong fluid in infusion,Wrong fluid in infusion
+876.2,8762,Failure in suture and ligature during surgical operation,Failure in suture
+876.3,8763,Endotracheal tube wrongly placed during anesthetic procedure,Misplaced endotrach tube
+876.4,8764,Failure to introduce or to remove other tube or instrument,Fail introd/remove tube
+876.5,8765,Performance of wrong operation (procedure) on correct patient,Perfrm wrong op/right pt
+876.6,8766,Performance of operation (procedure) on patient not scheduled for surgery,Proc-pt not sched surg
+876.7,8767,Performance of correct operation (procedure) on wrong side/body part,Rt proc-wrong side/part
+876.8,8768,Other specified misadventures during medical care,Medical misadventure NEC
+876.9,8769,Unspecified misadventure during medical care,Medical misadventure NOS
+878.0,8780,"Surgical operation with transplant of whole organ causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-org transplant
+878.1,8781,"Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",Abn react-artif implant
+878.2,8782,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-anastom/graft
+878.3,8783,"Surgical operation with formation of external stoma causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-external stoma
+878.4,8784,"Other restorative surgery causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-plast surg NEC
+878.5,8785,"Amputation of limb(s) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-limb amputat
+878.6,8786,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn reac-organ rem NEC
+878.8,8788,"Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-surg proc NEC
+878.9,8789,"Unspecified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",Abn react-surg proc NOS
+879.0,8790,"Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-cardiac cath
+879.1,8791,"Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-renal dialysis
+879.2,8792,"Radiological procedure and radiotherapy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-radiotherapy
+879.3,8793,"Shock therapy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-shock therapy
+879.4,8794,"Aspiration of fluid as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-fluid aspirat
+879.5,8795,"Insertion of gastric or duodenal sound as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure of time of procedure",Abn react-gastric sound
+879.6,8796,"Urinary catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-urinary cath
+879.7,8797,"Blood sampling as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-blood sampling
+879.8,8798,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-procedure NEC
+879.9,8799,"Unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",Abn react-procedure NOS
+880.0,8800,Accidental fall on or from escalator,Fall on escalator
+880.1,8801,Accidental fall on or from sidewalk curb,Fall on sidewalk curb
+880.9,8809,Accidental fall on or from other stairs or steps,Fall on stair/step NEC
+881.0,8810,Accidental fall from ladder,Fall from ladder
+881.1,8811,Accidental fall from scaffolding,Fall from scaffolding
+882.0,8820,Accidental fall from or out of building or other structure,Fall from building
+883.0,8830,Accident from diving or jumping into water [swimming pool],Diving accident
+883.1,8831,Accidental fall into well,Fall into well
+883.2,8832,Accidental fall into storm drain or manhole,Fall into storm drain
+883.9,8839,Accidental fall into other hole or other opening in surface,Fall into other hole
+884.0,8840,Accidental fall from playground equipment,Fall from playgrnd equip
+884.1,8841,Accidental fall from cliff,Fall from cliff
+884.2,8842,Accidental fall from chair,Fall from chair
+884.3,8843,Accidental fall from wheelchair,Fall from wheelchair
+884.4,8844,Accidental fall from bed,Fall from bed
+884.5,8845,Accidental fall from other furniture,Fall from furniture NEC
+884.6,8846,Accidental fall from commode,Fall from commode
+884.9,8849,Other accidental fall from one level to another,Fall-1 level to oth NEC
+885.0,8850,Fall from (nonmotorized) scooter,Fall-nonmotor scooter
+885.1,8851,Fall from roller skates,Fall from roller skates
+885.2,8852,Fall from skateboard,Fall from skateboard
+885.3,8853,Fall from skis,Fall from skis
+885.4,8854,Fall from snowboard,Fall from snowboard
+885.9,8859,"Fall from other slipping, tripping, or stumbling",Fall from slipping NEC
+886.0,8860,"Fall on same level from collision, pushing, or shoving, by or with other person in sports",Fall in sports
+886.9,8869,"Other and unspecified falls on same level from collision, pushing, or shoving, by or with other person",Fall on level NEC/NOS
+887.0,8870,"Fracture, cause unspecified","Fracture, cause NOS"
+888.0,8880,Fall resulting in striking against sharp object,Fall striking sharp obj
+888.1,8881,Fall resulting in striking against other object,Fall striking object NEC
+888.8,8888,Other fall,Fall NEC
+888.9,8889,Unspecified fall,Fall NOS
+890.0,8900,Explosion caused by conflagration in private dwelling,Privat dwell fire-explos
+890.1,8901,Fumes from combustion of polyvinylchloride [pvc] and similar material in conflagration in private dwelling,Priv dwel fire-pvc fumes
+890.2,8902,Other smoke and fumes from conflagration in private dwelling,Priv dwel fire-fumes NOS
+890.3,8903,Burning caused by conflagration in private dwelling,Priv dwel fire-burning
+890.8,8908,Other accident resulting from conflagration in private dwelling,Priv dwel fire-accid NEC
+890.9,8909,Unspecified accident resulting from conflagration in private dwelling,Priv dwel fire-accid NOS
+891.0,8910,Explosion caused by conflagration in other and unspecified building or structure,Fire in bldg-explosion
+891.1,8911,Fumes from combustion of polyvinylchloride [pvc] and similar material in conflagration in other and unspecified building or structure,Fire in bldg-pvc fumes
+891.2,8912,Other smoke and fumes from conflagration in other and unspecified building or structure,Fire in bldg-fumes NOS
+891.3,8913,Burning caused by conflagration in other and unspecified building or structure,Fire in bldg-burning
+891.8,8918,Other accident resulting from conflagration in other and unspecified building or structure,Fire in bldg-accid NEC
+891.9,8919,Unspecified accident resulting from conflagration of other and unspecified building or structure,Fire in bldg-accid NOS
+892.0,8920,Conflagration not in building or structure,Fire not in building
+893.0,8930,Accident caused by ignition of clothing from controlled fire in private dwelling,Clothing fire-priv dwell
+893.1,8931,Accident caused by ignition of clothing from controlled fire in other building or structure,Clothing fire-bldg NEC
+893.2,8932,Accident caused by ignition of clothing from controlled fire not in building or structure,Clothing fire not in bld
+893.8,8938,Accident caused by ignition of clothing from other specified sources,Clothing fire NEC
+893.9,8939,Accident caused by ignition of clothing by unspecified source,Clothing fire NOS
+894.0,8940,Ignition of highly inflammable material,Fire-highly inflam mater
+895.0,8950,Accident caused by controlled fire in private dwelling,Burn acc in privat dwell
+896.0,8960,Accident caused by controlled fire in other and unspecified building or structure,Burn acc in bldg NEC
+897.0,8970,Accident caused by controlled fire not in building or structure,Burn acc not in bldg
+898.0,8980,Accident caused by burning bedclothes,Burning bedclothes
+898.1,8981,Accident caused by other burning materials,Fire accident NEC
+899.0,8990,Accident caused by unspecified fire,Fire accident NOS
+900.0,9000,Accident caused by excessive heat due to weather conditions,Excessive heat: weather
+900.1,9001,Accidents due to excessive heat of man-made origin,"Excessive heat, man-made"
+900.9,9009,Accidents due to excessive heat of unspecified origin,Excessive heat NOS
+901.0,9010,Accident due to excessive cold due to weather conditions,Excessive cold: weather
+901.1,9011,Accident due to excessive cold of man-made origin,"Excessive cold, man-made"
+901.8,9018,Accident due to excessive cold of other specified origin,Excessive cold NEC
+901.9,9019,Accident due to excessive cold of unspecified origin,Excessive cold NOS
+902.0,9020,Accident due to residence or prolonged visit at high altitude,High altitude residence
+902.1,9021,Accident due to changes in air pressure in aircraft,Air press chnge: aircrft
+902.2,9022,Accident due to changes in air pressure due to diving,Air press change: diving
+902.8,9028,Accident due to changes in air pressure due to other specified causes,Air pressure change NEC
+902.9,9029,Accident due to changes in air pressure from unspecified cause,Air pressure change NOS
+903.0,9030,Accident caused by travel and motion,Travel and motion
+904.0,9040,Accident due to abandonment or neglect of infants and helpless persons,Abandonment/lack of care
+904.1,9041,Accident due to lack of food,Lack of food
+904.2,9042,Accident due to lack of water,Lack of water
+904.3,9043,"Accident due to exposure (to weather conditions), not elsewhere classifiable",Exposure NEC
+904.9,9049,"Accident due to privation, unqualified",Privation NOS
+905.0,9050,Venomous snakes and lizards causing poisoning and toxic reactions,Venomous snake bite
+905.1,9051,Venomous spiders causing poisoning and toxic reactions,Venomous spider bite
+905.2,9052,Scorpion sting causing poisoning and toxic reactions,Scorpion sting
+905.3,9053,"Sting of hornets, wasps, and bees causing poisoning and toxic reactions",Hornet/wasp/bee sting
+905.4,9054,Centipede and venomous millipede (tropical) bite causing poisoning and toxic reactions,Centipede bite
+905.5,9055,Other venomous arthropods causing poisoning and toxic reactions,Venomous arthropods NEC
+905.6,9056,Venomous marine animals and plants causing poisoning and toxic reactions,Venom sea animals/plants
+905.7,9057,Poisoning and toxic reactions caused by other plants,Poisoning by other plant
+905.8,9058,Poisoning and toxic reactions caused by other specified animals and plants,Venomous bite/sting NEC
+905.9,9059,Poisoning and toxic reactions caused by unspecified animals and plants,Venomous bite/sting NOS
+906.0,9060,Dog bite,Dog bite
+906.1,9061,Rat bite,Rat bite
+906.2,9062,Bite of nonvenomous snakes and lizards,Nonvenomous snake bite
+906.3,9063,Bite of other animal except arthropod,Animal bite NEC
+906.4,9064,Bite of nonvenomous arthropod,Nonvenom arthropod bite
+906.5,9065,Bite by unspecified animal,Animal bite NOS
+906.8,9068,Other specified injury caused by animal,Inj NEC caused by animal
+906.9,9069,Unspecified injury caused by animal,Inj NOS caused by animal
+907.0,9070,Accident due to lightning,Acc due to lightning
+908.0,9080,Hurricane,Accident d/t hurricane
+908.1,9081,Tornado,Accident d/t tornado
+908.2,9082,Floods,Accident d/t floods
+908.3,9083,Blizzard (snow) (ice),Acc d/t snow blizzard
+908.4,9084,Dust storm,Accident d/t dust storm
+908.8,9088,Other cataclysmic storms,Accident d/t storm NEC
+908.9,9089,"Unspecified cataclysmic storms, and floods resulting from storms",Acc d/t storm/flood NOS
+909.0,9090,Earthquakes,Acc d/t earthquakes
+909.1,9091,Volcanic eruptions,Acc d/t volcanic erupt
+909.2,9092,"Avalanche, landslide, or mudslide",Acc d/t avalanche
+909.3,9093,Collapse of dam or man-made structure,Acc d/t dam collapse
+909.4,9094,Tidalwave caused by earthquake,Acc d/t tidalwave NOS
+909.8,9098,Other cataclysmic earth surface movements and eruptions,Acc d/t eruptions NEC
+909.9,9099,Unspecified cataclysmic earth surface movements and eruptions,Acc d/t eruptions NOS
+910.0,9100,Accidental drowning and submersion while water-skiing,Water-skiing accident
+910.1,9101,Accidental drowning and submersion while engaged in other sport or recreational activity with diving equipment,Skin/scuba diving acc
+910.2,9102,Accidental drowning and submersion while engaged in other sport or recreational activity without diving equipment,Swimming accident NOS
+910.3,9103,Accidental drowning and submersion while swimming or diving for purposes other than recreation or sport,Swimming/diving acc NEC
+910.4,9104,Accidental drowning and submersion in bathtub,Drowning in bathtub
+910.8,9108,Other accidental drowning or submersion,Accidental drowning NEC
+910.9,9109,Unspecified accidental drowning or submersion,Accidental drowning NOS
+911.0,9110,Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation,Resp obstr-food inhal
+912.0,9120,Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation,Resp obstr-inhal obj NEC
+913.0,9130,Accidental mechanical suffocation in bed or cradle,Suffocat in bed/cradle
+913.1,9131,Accidental mechanical suffocation by plastic bag,Suffocation-plastic bag
+913.2,9132,Accidental mechanical suffocation due to lack of air (in closed place),Suffocation-lack of air
+913.3,9133,Accidental mechanical suffocation by falling earth or other substance,Cave-in NOS
+913.8,9138,Accidental mechanical suffocation by other specified means,Suffocation NEC
+913.9,9139,Accidental mechanical suffocation by unspecified means,Suffocation NOS
+914.0,9140,Foreign body accidentally entering eye and adnexa,FB entering eye
+915.0,9150,Foreign body accidentally entering other orifice,FB entering oth orifice
+916.0,9160,Struck accidentally by falling object,Struck by falling object
+917.0,9170,Striking against or struck accidentally by objects or persons in sports,Sports acc w/o sub fall
+917.1,9171,"Striking against or struck accidentally by a crowd, by collective fear or panic",Crowd w/o sub fall
+917.2,9172,Striking against or struck accidentally in running water,Run water w/o sub fall
+917.3,9173,Striking against or struck accidentally by furniture without subsequent fall,Furnit w/o sub fall
+917.4,9174,Striking against or struck accidentally by other stationary object without subsequent fall,Stat ob w/o sub fall NEC
+917.5,9175,Striking against or struck accidentally by object in sports with subsequent fall,Sports acc w sub fall
+917.6,9176,"Striking against or struck accidentally caused by a crowd, by collective fear or panic with subsequent fall",Crowd accidnt w sub fall
+917.7,9177,Striking against or struck accidentally by furniture with subsequent fall,Furniture acc w sub fall
+917.8,9178,Striking against or struck accidentally by other stationary object with subsequent fall,Stat obj w sub fall NEC
+917.9,9179,Other accident caused by striking against or being struck accidentally by objects or persons,Obj w-w/o sub fall NEC
+918.0,9180,Caught accidentally in or between objects,Caught between objects
+919.0,9190,Accidents caused by agricultural machines,Machine accid-agricult
+919.1,9191,Accidents caused by mining and earth-drilling machinery,Machine accid-mining
+919.2,9192,Accidents caused by lifting machines and appliances,Lifting machine accident
+919.3,9193,Accidents caused by metalworking machines,Metalworking machine acc
+919.4,9194,Accidents caused by woodworking and forming machines,Woodworking machine acc
+919.5,9195,"Accidents caused by prime movers, except electrical motors",Prime mover machine acc
+919.6,9196,Accidents caused by transmission machinery,Transmission machine acc
+919.7,9197,"Accidents caused by earth moving, scraping, and other excavating machines",Earth moving machine acc
+919.8,9198,Accidents caused by other specified machinery,Machinery accident NEC
+919.9,9199,Accidents caused by unspecified machinery,Machinery accident NOS
+920.0,9200,Accidents caused by powered lawn mower,Acc-powered lawn mower
+920.1,9201,Accidents caused by other powered hand tools,Acc-power hand tool NEC
+920.2,9202,Accidents caused by powered household appliances and implements,Acc-power house applianc
+920.3,9203,"Accidents caused by knives, swords, and daggers",Knife/sword/dagger acc
+920.4,9204,Accidents caused by other hand tools and implements,Accid-other hand tools
+920.5,9205,Accidents caused by hypodermic needle,Acc-hypodermic needle
+920.8,9208,Accidents caused by other specified cutting and piercing instruments or objects,Acc-cutting instrum NEC
+920.9,9209,Accidents caused by unspecified cutting and piercing instrument or object,Acc-cutting instrum NOS
+921.0,9210,Accident caused by explosion of boilers,Boiler explosion
+921.1,9211,Accident caused by explosion of gas cylinders,Gas cylinder explosion
+921.8,9218,Accident caused by explosion of other specified pressure vessels,Press vessel explos NEC
+921.9,9219,Accident caused by explosion of unspecified pressure vessel,Press vessel explos NOS
+922.0,9220,Accident caused by handgun,Handgun accident
+922.1,9221,Accident caused by shotgun (automatic),Shotgun accident
+922.2,9222,Accident caused by hunting rifle,Hunting rifle accident
+922.3,9223,Accident caused by military firearms,Military firearm accid
+922.4,9224,Accident caused by air gun,Accident - air gun
+922.5,9225,Accident caused by paintball gun,Accident-paintball gun
+922.8,9228,Accident caused by other specified firearm missile,Firearm accident NEC
+922.9,9229,Accident caused by unspecified firearm missile,Firearm accident NOS
+923.0,9230,Accident caused by fireworks,Fireworks accident
+923.1,9231,Accident caused by blasting materials,Blasting materials accid
+923.2,9232,Accident caused by explosive gases,Explosive gases accident
+923.8,9238,Accident caused by other explosive materials,Explosives accident NEC
+923.9,9239,Accident caused by unspecified explosive material,Explosives accident NOS
+924.0,9240,"Accident caused by hot liquids and vapors, including steam",Acc-hot liquid & steam
+924.1,9241,Accident caused by caustic and corrosive substances,Accid-caustic substance
+924.2,9242,Accident caused by hot (boiling) tap water,Acc-hot tap water
+924.8,9248,Accident caused by other hot substance or object,Hot substance accid NEC
+924.9,9249,Accident caused by unspecified hot substance or object,Hot substance accid NOS
+925.0,9250,Accident caused by domestic wiring and appliances,Domestic wiring accident
+925.1,9251,"Accident caused by electric current in electric power generating plants, distribution stations, transmission lines",Electr power generat acc
+925.2,9252,"Accident caused by industrial wiring, appliances, and electrical machinery",Indust wiring/machin acc
+925.8,9258,Accident caused by other electric current,Electric current acc NEC
+925.9,9259,Accident caused by unspecified electric current,Electric current acc NOS
+926.0,9260,Exposure to radiofrequency radiation,Radiofreq radiat exposur
+926.1,9261,Exposure to infra-red radiation from heaters and lamps,Infra-red appl rad exos
+926.2,9262,Exposure to visible and ultraviolet light sources,Vis/ultraviol lght expos
+926.3,9263,Exposure to x-rays and other electromagnetic ionizing radiation,X-ray/gamma ray exposure
+926.4,9264,Exposure to lasers,Laser exposure
+926.5,9265,Exposure to radioactive isotopes,Radioact isotope exposur
+926.8,9268,Exposure to other specified radiation,Radiation exposure NEC
+926.9,9269,Exposure to unspecified radiation,Radiation exposure NOS
+927.0,9270,Overexertion from sudden strenuous movement,Overxrt-sudn stren mvmt
+927.1,9271,Overexertion from prolonged static position,Overxrt-prolng stc postn
+927.2,9272,Excessive physical exertion,Excess physical exert
+927.3,9273,Cumulative trauma from repetitive motion,Cumltv trma-repetv motn
+927.4,9274,Cumulative trauma from repetitive impact,Cumltv trma-repetv impct
+927.8,9278,Other overexertion and strenuous and repetitive movements or loads,Overexert reptv mvmt NEC
+927.9,9279,Unspecified overexertion and strenuous and repetitive movements or loads,Overexert reptv mvmt NOS
+928.0,9280,Prolonged stay in weightless environment,Acc d/t weightless envir
+928.1,9281,Exposure to noise,Exposure to noise
+928.2,9282,Vibration,Exposure to vibration
+928.3,9283,Human bite,Human bite - accidental
+928.4,9284,External constriction caused by hair,Ext constriction-hair
+928.5,9285,External constriction caused by other object,Ext constriction-obj NEC
+928.6,9286,Environmental exposure to harmful algae and toxins,Envir expose algae/toxin
+928.7,9287,"Environmental and accidental causes, mechanism or component of firearm and air gun",Accidnt-mech firearm/gun
+928.8,9288,Other accidents,Accident NEC
+928.9,9289,Unspecified accident,Accident NOS
+929.0,9290,Late effects of motor vehicle accident,Late eff motor vehic acc
+929.1,9291,Late effects of other transport accident,Late eff transport acc
+929.2,9292,Late effects of accidental poisoning,Late eff acc poisoning
+929.3,9293,Late effects of accidental fall,Late eff accidental fall
+929.4,9294,Late effects of accident caused by fire,Late eff fire acc
+929.5,9295,Late effects of accident due to natural and environmental factors,Late eff environment acc
+929.8,9298,Late effects of other accidents,Late eff accident NEC
+929.9,9299,Late effects of unspecified accident,Late eff accident NOS
+930.0,9300,Penicillins causing adverse effects in therapeutic use,Adv eff penicillins
+930.1,9301,Antifungal antibiotics causing adverse effects in therapeutic use,Adv eff antifung antbiot
+930.2,9302,Chloramphenicol group causing adverse effects in therapeutic use,Adv eff chloramphenicol
+930.3,9303,Erythromycin and other macrolides causing adverse effects in therapeutic use,Adv eff erythromycin
+930.4,9304,Tetracycline group causing adverse effects in therapeutic use,Adv eff tetracycline
+930.5,9305,Cephalosporin group causing adverse effects in therapeutic use,Adv eff cephalosporin
+930.6,9306,Antimycobacterial antibiotics causing adverse effects in therapeutic use,Adv eff antmycob antbiot
+930.7,9307,Antineoplastic antibiotics causing adverse effects in therapeutic use,Adv eff antineop antbiot
+930.8,9308,Other specified antibiotics causing adverse effects in therapeutic use,Adv eff antibiotics NEC
+930.9,9309,Unspecified antibiotic causing adverse effects in therapeutic use,Adv eff antibiotic NOS
+931.0,9310,Sulfonamides causing adverse effects in therapeutic use,Adv eff sulfonamides
+931.1,9311,Arsenical anti-infectives causing adverse effects in therapeutic use,Adv eff arsenic anti-inf
+931.2,9312,Heavy metal anti-infectives causing adverse effects in therapeutic use,Adv eff metal anti-inf
+931.3,9313,Quinoline and hydroxyquinoline derivatives causing adverse effects in therapeutic use,Adv eff quinoline
+931.4,9314,Antimalarials and drugs acting on other blood protozoa causing adverse effects in therapeutic use,Adv eff antimalarials
+931.5,9315,Other antiprotozoal drugs causing adverse effects in therapeutic use,Adv eff antprotazoal NEC
+931.6,9316,Anthelmintics causing adverse effects in therapeutic use,Adv eff anthelmintics
+931.7,9317,Antiviral drugs causing adverse effects in therapeutic use,Adv eff antiviral drugs
+931.8,9318,Other antimycobacterial drugs causing adverse effects in therapeutic use,Adv eff antimycobac NEC
+931.9,9319,Other and unspecified anti-infectives causing adverse effects in therapeutic use,Adv eff antinfct NEC/NOS
+932.0,9320,Adrenal cortical steroids causing adverse effects in therapeutic use,Adv eff corticosteroids
+932.1,9321,Androgens and anabolic congeners causing adverse effects in therapeutic use,Adv eff androgens
+932.2,9322,Ovarian hormones and synthetic substitutes causing adverse effects in therapeutic use,Adv eff ovarian hormones
+932.3,9323,Insulins and antidiabetic agents causing adverse effects in therapeutic use,Adv eff insulin/antidiab
+932.4,9324,Anterior pituitary hormones causing adverse effects in therapeutic use,Adv eff ant pituitary
+932.5,9325,Posterior pituitary hormones causing adverse effects in therapeutic use,Adv eff post pituitary
+932.6,9326,Parathyroid and parathyroid derivatives causing adverse effects in therapeutic use,Adv eff parathyroid
+932.7,9327,Thyroid and thyroid derivatives causing adverse effects in therapeutic use,Adv eff thyroid & deriv
+932.8,9328,Antithyroid agents causing adverse effects in therapeutic use,Adv eff antithyroid agnt
+932.9,9329,Other and unspecified hormones and synthetic substitutes causing adverse effects in therapeutic use,Adv eff hormones NEC/NOS
+933.0,9330,Antiallergic and antiemetic drugs causing adverse effects in therapeutic use,Adv eff anallrg/antemet
+933.1,9331,Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use,Adv eff antineoplastic
+933.2,9332,Acidifying agents causing adverse effects in therapeutic use,Adv eff acidifying agent
+933.3,9333,Alkalizing agents causing adverse effects in therapeutic use,Adv eff alkalizing agent
+933.4,9334,"Enzymes, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff enzymes NEC
+933.5,9335,"Vitamins, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff vitamins NEC
+933.6,9336,Oral bisphosphonates,Oral bisphosphonates
+933.7,9337,Intravenous bisphosphonates,IV bisphosphonates
+933.8,9338,"Other systemic agents, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff systemic agt NEC
+933.9,9339,Unspecified systemic agent causing adverse effects in therapeutic use,Adv eff systemic agt NOS
+934.0,9340,Iron and its compounds causing adverse effects in therapeutic use,Adv eff iron & compounds
+934.1,9341,Liver preparations and other antianemic agents causing adverse effects in therapeutic use,Adv eff liver/antianemic
+934.2,9342,Anticoagulants causing adverse effects in therapeutic use,Adv eff anticoagulants
+934.3,9343,Vitamin k [phytonadione] causing adverse effects in therapeutic use,Adv eff vitamin k
+934.4,9344,Fibrinolysis-affecting drugs causing adverse effects in therapeutic use,Adv eff fibrinolysis agt
+934.5,9345,Anticoagulant antagonists and other coagulants causing adverse effects in therapeutic use,Adv eff coagulants
+934.6,9346,Gamma globulin causing adverse effects in therapeutic use,Adv eff gamma globulin
+934.7,9347,Natural blood and blood products causing adverse effects in therapeutic use,Adv eff blood products
+934.8,9348,Other agents affecting blood constituents causing adverse effects in therapeutic use,Adv eff blood agent NEC
+934.9,9349,Unspecified agent affecting blood constituents causing adverse effects in therapeutic use,Adv eff blood agent NOS
+935.0,9350,Heroin causing adverse effects in therapeutic use,Adv eff heroin
+935.1,9351,Methadone causing averse effects in therapeutic use,Adv eff methadone
+935.2,9352,Other opiates and related narcotics causing adverse effects in therapeutic use,Adv eff opiates
+935.3,9353,Salicylates causing adverse effects in therapeutic use,Adv eff salicylates
+935.4,9354,"Aromatic analgesics, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff arom analgsc NEC
+935.5,9355,Pyrazole derivatives causing adverse effects in therapeutic use,Adv eff pyrazole deriv
+935.6,9356,Antirheumatics [antiphlogistics] causing adverse effects in therapeutic use,Adv eff antirheumatics
+935.7,9357,Other non-narcotic analgesics causing adverse effects in therapeutic use,Adv eff non-narc analgsc
+935.8,9358,Other specified analgesics and antipyretics causing adverse effects in therapeutic use,Adv eff analgesics NEC
+935.9,9359,Unspecified analgesic and antipyretic causing adverse effects in therapeutic use,Adv eff analgesic NOS
+936.0,9360,Oxazolidine derivatives causing adverse effects in therapeutic use,Adv eff oxazolidin deriv
+936.1,9361,Hydantoin derivatives causing adverse effects in therapeutic use,Adv eff hydantoin deriv
+936.2,9362,Succinimides causing adverse effects in therapeutic use,Adv eff succinimides
+936.3,9363,Other and unspecified anticonvulsants causing adverse effects in therapeutic use,Adv eff antconvl NEC/NOS
+936.4,9364,Anti-parkinsonism drugs causing adverse effects in therapeutic use,Adv eff anti-parkinson
+937.0,9370,Barbiturates causing adverse effects in therapeutic use,Adv eff barbiturates
+937.1,9371,Chloral hydrate group causing adverse effects in therapeutic use,Adv eff chloral hydrate
+937.2,9372,Paraldehyde causing adverse effects in therapeutic use,Adv eff paraldehyde
+937.3,9373,Bromine compounds causing adverse effects in therapeutic use,Adv eff bromine compnds
+937.4,9374,Methaqualone compounds causing adverse effects in therapeutic use,Adv eff methaqualone
+937.5,9375,Glutethimide group causing adverse effects in therapeutic use,Adv eff glutethimide
+937.6,9376,"Mixed sedatives, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff mix sedative
+937.8,9378,Other sedatives and hypnotics causing adverse effects in therapeutic use,Adv eff sedat/hypnot NEC
+937.9,9379,Unspecified sedatives and hypnotics causing adverse effects in therapeutic use,Adv eff sedat/hypnot NOS
+938.0,9380,Central nervous system muscle-tone depressants causing adverse effects in therapeutic use,Adv eff cns muscl depres
+938.1,9381,Halothane causing adverse effects in therapeutic use,Adv eff halothane
+938.2,9382,Other gaseous anesthetics causing adverse effects in therapeutic use,Adv eff gas anesthet NEC
+938.3,9383,Intravenous anesthetics causing adverse effects in therapeutic use,Adv eff intraven anesth
+938.4,9384,Other and unspecified general anesthetics causing adverse effects in therapeutic use,Adv eff gen anes NEC/NOS
+938.5,9385,Surface and infiltration anesthetics causing adverse effects in therapeutic use,Adv eff topic/infil anes
+938.6,9386,Peripheral nerve- and plexus-blocking anesthetics causing adverse effects in therapeutic use,Adv eff nerve-block anes
+938.7,9387,Spinal anesthetics causing adverse effects in therapeutic use,Adv eff spinal anesthet
+938.9,9389,Other and unspecified local anesthetics causing adverse effects in therapeutic use,Adv eff loc anes NEC/NOS
+939.0,9390,Antidepressants causing adverse effects in therapeutic use,Adv eff antidepressants
+939.1,9391,Phenothiazine-based tranquilizers causing adverse effects in therapeutic use,Adv eff phenothiaz tranq
+939.2,9392,Butyrophenone-based tranquilizers causing adverse effects in therapeutic use,Adv eff butyrophen tranq
+939.3,9393,"Other antipsychotics, neuroleptics, and major tranquilizers causing adverse effects in therapeutic use",Adv eff antipsychotc NEC
+939.4,9394,Benzodiazepine-based tranquilizers causing adverse effects in therapeutic use,Adv eff benzodiaz tranq
+939.5,9395,Other tranquilizers causing adverse effects in therapeutic use,Adv eff tranquilizer NEC
+939.6,9396,Psychodysleptics [hallucinogens] causing adverse effects in therapeutic use,Adv eff hallucinogens
+939.7,9397,Psychostimulants causing adverse effects in therapeutic use,Adv eff psychostimulants
+939.8,9398,Other psychotropic agents causing adverse effects in therapeutic use,Adv eff psychotropic NEC
+939.9,9399,Unspecified psychotropic agent causing adverse effects in therapeutic use,Adv eff psychotropic NOS
+940.0,9400,Analeptics causing adverse effects in therapeutic use,Adv eff analeptics
+940.1,9401,Opiate antagonists causing adverse effects in therapeutic use,Adv eff opiat antagonist
+940.8,9408,Other specified central nervous system stimulants causing adverse effects in therapeutic use,Adv eff cns stimulnt NEC
+940.9,9409,Unspecified central nervous system stimulant causing adverse effects in therapeutic use,Adv eff cns stimulnt NOS
+941.0,9410,Parasympathomimetics [cholinergics] causing adverse effects in therapeutic use,Adv eff cholinergics
+941.1,9411,Parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics causing adverse effects in therapeutic use,Adv eff parasympatholytc
+941.2,9412,Sympathomimetics [adrenergics] causing adverse effects in therapeutic use,Adv eff sympathomimetics
+941.3,9413,Sympatholytics [antiadrenergics] causing adverse effects in therapeutic use,Adv eff sympatholytics
+941.9,9419,Unspecified drug primarily affecting the autonomic nervous system causing adverse effects in therapeutic use,Adv eff autonom agnt NOS
+942.0,9420,Cardiac rhythm regulators causing adverse effects in therapeutic use,Adv eff card rhyth regul
+942.1,9421,Cardiotonic glycosides and drugs of similar action causing adverse effects in therapeutic use,Adv eff cardiotonics
+942.2,9422,Antilipemic and antiarteriosclerotic drugs causing adverse effects in therapeutic use,Adv eff antilipemics
+942.3,9423,Ganglion-blocking agents causing adverse effects in therapeutic use,Adv eff ganglion-block
+942.4,9424,Coronary vasodilators causing adverse effects in therapeutic use,Adv eff coronary vasodil
+942.5,9425,Other vasodilators causing adverse effects in therapeutic use,Adv eff vasodilators NEC
+942.6,9426,Other antihypertensive agents causing adverse effects in therapeutic use,Adv eff antihyperten agt
+942.7,9427,"Antivaricose drugs, including sclerosing agents, causing adverse effects in therapeutic use",Adv eff antivaricose
+942.8,9428,Capillary-active drugs causing adverse effects in therapeutic use,Adv eff capillary-act
+942.9,9429,Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use,Adv eff cardiovasc NEC
+943.0,9430,Antacids and antigastric secretion drugs causing adverse effects in therapeutic use,Adv eff antacids
+943.1,9431,Irritant cathartics causing adverse effects in therapeutic use,Adv eff irrit cathartic
+943.2,9432,Emollient cathartics causing adverse effects in therapeutic use,Adv eff emoll cathartics
+943.3,9433,"Other cathartics, including intestinal atonia drugs, causing adverse effects in therapeutic use",Adv eff cathartics NEC
+943.4,9434,Digestants causing adverse effects in therapeutic use,Adv eff digestants
+943.5,9435,Antidiarrheal drugs causing adverse effects in therapeutic use,Adv eff antidiarrhea agt
+943.6,9436,Emetics causing adverse effects in therapeutic use,Adv eff emetics
+943.8,9438,Other specified agents primarily affecting the gastro-intestinal system causing adverse effects in therapeutic use,Adv eff GI agent NEC
+943.9,9439,Unspecified agent primarily affecting the gastrointestinal system causing adverse effects in therapeutic use,Adv eff GI agent NOS
+944.0,9440,Mercurial diuretics causing adverse effects in therapeutic use,Adv eff mercury diuretic
+944.1,9441,Purine derivative diuretics causing adverse effects in therapeutic use,Adv eff purine diuretics
+944.2,9442,Carbonic acid anhydrase inhibitors causing adverse effects in therapeutic use,Adv eff acetazolamide
+944.3,9443,Saluretics causing adverse effects in therapeutic use,Adv eff saluretics
+944.4,9444,Other diuretics causing adverse effects in therapeutic use,Adv eff diuretics NEC
+944.5,9445,"Electrolytic, caloric, and water-balance agents causing adverse effects in therapeutic use",Adv eff electrolyte agnt
+944.6,9446,"Other mineral salts, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff mineral salt NEC
+944.7,9447,Uric acid metabolism drugs causing adverse effects in therapeutic use,Adv eff uric acid metab
+945.0,9450,Oxytocic agents causing adverse effects in therapeutic use,Adv eff oxytocic agents
+945.1,9451,Smooth muscle relaxants causing adverse effects in therapeutic use,Adv eff smooth musc relx
+945.2,9452,Skeletal muscle relaxants causing adverse effects in therapeutic use,Adv eff skelet musc relx
+945.3,9453,Other and unspecified drugs acting on muscles causing adverse effects in therapeutic use,Adv eff musc agt NEC/NOS
+945.4,9454,Antitussives causing adverse effects in therapeutic use,Adv eff antitussives
+945.5,9455,Expectorants causing adverse effects in therapeutic use,Adv eff expectorants
+945.6,9456,Anti-common cold drugs causing adverse effects in therapeutic use,Adv eff anti-common cold
+945.7,9457,Antiasthmatics causing adverse effects in therapeutic use,Adv eff antiasthmatics
+945.8,9458,Other and unspecified respiratory drugs causing adverse effects in therapeutic use,Adv eff resp drg NEC/NOS
+946.0,9460,Local anti-infectives and anti-inflammatory drugs causing adverse effects in therapeutic use,Adv eff loc anti-infectv
+946.1,9461,Antipruritics causing adverse effects in therapeutic use,Adv eff antipruritics
+946.2,9462,Local astringents and local detergents causing adverse effects in therapeutic use,Adv eff local astringent
+946.3,9463,"Emollients, demulcents, and protectants causing adverse effects in therapeutic use",Adv eff emollient/demulc
+946.4,9464,"Keratolytics, keratoplastics, other hair treatment drugs and preparations causing adverse effects in therapeutic use",Adv eff hair/scalp prep
+946.5,9465,Eye anti-infectives and other eye drugs causing adverse effects in therapeutic use,Adv eff eye anti-inf/drg
+946.6,9466,"Anti-infectives and other drugs and preparations for ear, nose, and throat causing adverse effects in therapeutic use",Adv eff ent anti-inf/drg
+946.7,9467,Dental drugs topically applied causing adverse effects in therapeutic use,Adv eff topic dental drg
+946.8,9468,Other agents primarily affecting skin and mucous membrane causing adverse effects in therapeutic use,Adv eff skin agent NEC
+946.9,9469,Unspecified agent primarily affecting skin and mucous membrane causing adverse effects in therapeutic use,Adv eff skin agent NOS
+947.0,9470,Dietetics causing adverse effects in therapeutic use,Adv eff dietetics
+947.1,9471,Lipotropic drugs causing adverse effects in therapeutic use,Adv eff lipotropic drugs
+947.2,9472,"Antidotes and chelating agents, not elsewhere classified, causing adverse effects in therapeutic use",Adv eff antidotes NEC
+947.3,9473,Alcohol deterrents causing adverse effects in therapeutic use,Adv eff alcohol deter
+947.4,9474,Pharmaceutical excipients causing adverse effects in therapeutic use,Adv eff pharmaceut excip
+947.8,9478,Other drugs and medicinal substances causing adverse effects in therapeutic use,Adv eff medicinal NEC
+947.9,9479,Unspecified drug or medicinal substance causing adverse effects in therapeutic use,Adv eff medicinal NOS
+948.0,9480,Bcg vaccine causing adverse effects in therapeutic use,Adv eff bcg vaccine
+948.1,9481,Typhoid and paratyphoid vaccines causing adverse effects in therapeutic use,Adv eff typhoid vaccine
+948.2,9482,Cholera vaccine causing adverse effects in therapeutic use,Adv eff cholera vaccine
+948.3,9483,Plague vaccine causing adverse effects in therapeutic use,Adv eff plague vaccine
+948.4,9484,Tetanus vaccine causing adverse effects in therapeutic use,Adv eff tetanus vaccine
+948.5,9485,Diphtheria vaccine causing adverse effects in therapeutic use,Adv eff diphther vaccine
+948.6,9486,"Pertussis vaccine, including combinations with a pertussis component, causing adverse effects in therapeutic use",Adv eff pertussis vaccin
+948.8,9488,Other and unspecified bacterial vaccines causing adverse effects in therapeutic use,Adv eff bact vac NEC/NOS
+948.9,9489,"Mixed bacterial vaccines, except combinations with a pertussis component, causing adverse effects in therapeutic use",Adv eff mix bact vaccine
+949.0,9490,Smallpox vaccine causing adverse effects in therapeutic use,Adv eff smallpox vaccine
+949.1,9491,Rabies vaccine causing adverse effects in therapeutic use,Adv eff rabies vaccine
+949.2,9492,Typhus vaccine causing adverse effects in therapeutic use,Adv eff typhus vaccine
+949.3,9493,Yellow fever vaccine causing adverse effects in therapeutic use,Adv eff yellow fever vac
+949.4,9494,Measles vaccine causing adverse effects in therapeutic use,Adv eff measles vaccine
+949.5,9495,Poliomyelitis vaccine causing adverse effects in therapeutic use,Adv eff polio vaccine
+949.6,9496,Other and unspecified viral and rickettsial vaccines causing adverse effects in therapeutic use,Adv eff viral vacc NEC
+949.7,9497,"Mixed viral-rickettsial and bacterial vaccines, except combinations with a pertussis component, causing adverse effects in therapeutic use",Adv eff mixed viral-bact
+949.9,9499,Other and unspecified vaccines and biological substances causing adverse effects in therapeutic use,Adv eff biologic NEC/NOS
+950.0,9500,"Suicide and self-inflicted poisoning by analgesics, antipyretics, and antirheumatics",Poison-analgesics
+950.1,9501,Suicide and self-inflicted poisoning by barbiturates,Poison-barbiturates
+950.2,9502,Suicide and self-inflicted poisoning by other sedatives and hypnotics,Poison-sedat/hypnotic
+950.3,9503,Suicide and self-inflicted poisoning by tranquilizers and other psychotropic agents,Poison-psychotropic agt
+950.4,9504,Suicide and self-inflicted poisoning by other specified drugs and medicinal substances,Poison-drug/medicin NEC
+950.5,9505,Suicide and self-inflicted poisoning by unspecified drug or medicinal substance,Poison-drug/medicin NOS
+950.6,9506,Suicide and self-inflicted poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers,Poison-agricult agent
+950.7,9507,Suicide and self-inflicted poisoning by corrosive and caustic substances,Poison-corrosiv/caustic
+950.8,9508,Suicide and self-inflicted poisoning by arsenic and its compounds,Poison-arsenic
+950.9,9509,Suicide and self-inflicted poisoning by other and unspecified solid and liquid substances,Poison-solid/liquid NEC
+951.0,9510,Suicide and self-inflicted poisoning by gas distributed by pipeline,Poison-piped gas
+951.1,9511,Suicide and self-inflicted poisoning by liquefied petroleum gas distributed in mobile containers,Poison-gas in container
+951.8,9518,Suicide and self-inflicted poisoning by other utility gas,Poison-utility gas NEC
+952.0,9520,Suicide and self-inflicted poisoning by motor vehicle exhaust gas,Poison-exhaust gas
+952.1,9521,Suicide and self-inflicted poisoning by other carbon monoxide,Poison-co NEC
+952.8,9528,Suicide and self-inflicted poisoning by other specified gases and vapors,Poison-gas/vapor NEC
+952.9,9529,Suicide and self-inflicted poisoning by unspecified gases and vapors,Poison-gas/vapor NOS
+953.0,9530,Suicide and self-inflicted injury by hanging,Injury-hanging
+953.1,9531,Suicide and self-inflicted injury by suffocation by plastic bag,Injury-suff w plas bag
+953.8,9538,Suicide and self-inflicted injury by other specified means,Injury-strang/suff NEC
+953.9,9539,Suicide and self-inflicted injury by unspecified means,Injury-strang/suff NOS
+954.0,9540,Suicide and self-inflicted injury by submersion [drowning],Injury-submersion
+955.0,9550,Suicide and self-inflicted injury by handgun,Injury-handgun
+955.1,9551,Suicide and self-inflicted injury by shotgun,Injury-shotgun
+955.2,9552,Suicide and self-inflicted injury by hunting rifle,Injury-hunting rifle
+955.3,9553,Suicide and self-inflicted injury by military firearms,Injury-military firearm
+955.4,9554,Suicide and self-inflicted injury by other and unspecified firearm,Injury-firearm NEC
+955.5,9555,Suicide and self-inflicted injury by explosives,Injury-explosives
+955.6,9556,Suicide and self-inflicted injury by air gun,Self inflict acc-air gun
+955.7,9557,Suicide and self-inflicted injury by paintball gun,Self inj-paintball gun
+955.9,9559,"Suicide and self-inflicted injury by firearms and explosives, unspecified",Injury-firearm/expl NOS
+956.0,9560,Suicide and self-inflicted injury by cutting and piercing instrument,Injury-cut instrument
+957.0,9570,Suicide and self-inflicted injuries by jumping from residential premises,Injury-jump fm residence
+957.1,9571,Suicide and self-inflicted injuries by jumping from other man-made structures,Injury-jump fm struc NEC
+957.2,9572,Suicide and self-inflicted injuries by jumping from natural sites,Injury-jump fm natur sit
+957.9,9579,Suicide and self-inflicted injuries by jumping from unspecified site,Injury-jump NEC
+958.0,9580,Suicide and self-inflicted injury by jumping or lying before moving object,Injury-moving object
+958.1,9581,"Suicide and self-inflicted injury by burns, fire","Injury-burn, fire"
+958.2,9582,Suicide and self-inflicted injury by scald,Injury-scald
+958.3,9583,Suicide and self-inflicted injury by extremes of cold,Injury-extreme cold
+958.4,9584,Suicide and self-inflicted injury by electrocution,Injury-electrocution
+958.5,9585,Suicide and self-inflicted injury by crashing of motor vehicle,Injury-motor veh crash
+958.6,9586,Suicide and self-inflicted injury by crashing of aircraft,Injury-aircraft crash
+958.7,9587,"Suicide and self-inflicted injury by caustic substances, except poisoning",Injury-caustic substance
+958.8,9588,Suicide and self-inflicted injury by other specified means,Injury-NEC
+958.9,9589,Suicide and self-inflicted injury by unspecified means,Injury-NOS
+959.0,9590,Late effects of self-inflicted injury,Late eff of self-injury
+960.0,9600,Unarmed fight or brawl,Unarmed fight or brawl
+960.1,9601,Rape,Rape
+961.0,9610,"Assault by corrosive or caustic substance, except poisoning",Assault-corrosiv/caust
+962.0,9620,Assault by drugs and medicinal substances,Assault-pois w medic agt
+962.1,9621,Assault by other solid and liquid substances,Assault-pois w solid/liq
+962.2,9622,Assault by other gases and vapors,Assault-pois w gas/vapor
+962.9,9629,Assault by unspecified poisoning,Assault-poisoning NOS
+963.0,9630,Assault by hanging and strangulation,Assault-hanging/strangul
+964.0,9640,Assault by submersion [drowning],Assault-submersion
+965.0,9650,Assault by handgun,Assault-handgun
+965.1,9651,Assault by shotgun,Assault-shotgun
+965.2,9652,Assault by hunting rifle,Assault-hunting rifle
+965.3,9653,Assault by military firearms,Assault-military weapon
+965.4,9654,Assault by other and unspecified firearm,Assault-firearm NEC
+965.5,9655,Assault by antipersonnel bomb,Assault-antiperson bomb
+965.6,9656,Assault by gasoline bomb,Assault-gasoline bomb
+965.7,9657,Assault by letter bomb,Assault-letter bomb
+965.8,9658,Assault by other specified explosive,Assault-explosive NEC
+965.9,9659,Assault by unspecified explosive,Assault-explosive NOS
+966.0,9660,Assault by cutting and piercing instrument,Assault-cutting instr
+967.0,9670,"Perpetrator of child and adult abuse, by father, stepfather, or boyfriend",Abuse by fther/stpfth/bf
+967.1,9671,"Perpetrator of child and adult abuse, by other specified person",Child abuse by pers NEC
+967.2,9672,"Perpetrator of child and adult abuse, by mother, stepmother, or girlfriend",Abuse by mther/stpmth/gf
+967.3,9673,"Perpetrator of child and adult abuse, by spouse or partner",Batter by spouse/partner
+967.4,9674,"Perpetrator of child and adult abuse, by child",Battering by child
+967.5,9675,"Perpetrator of child and adult abuse, by sibling",Battering by sibling
+967.6,9676,"Perpetrator of child and adult abuse, by grandparent",Battering by grandparent
+967.7,9677,"Perpetrator of child and adult abuse, by other relative",Batter by other relative
+967.8,9678,"Perpetrator of child and adult abuse, by non-related caregiver",Batter by non-relative
+967.9,9679,"Perpetrator of child and adult abuse, by unspecified person",Child abuse NOS
+968.0,9680,Assault by fire,Assault-fire
+968.1,9681,Assault by pushing from a high place,Asslt-push from hi place
+968.2,9682,Assault by striking by blunt or thrown object,Assault-striking w obj
+968.3,9683,Assault by hot liquid,Assault-hot liquid
+968.4,9684,Assault by criminal neglect,Assault-criminal neglect
+968.5,9685,Assault by transport vehicle,Asslt-transport vehicle
+968.6,9686,Assault by air gun,Assault - air gun
+968.7,9687,Assault by human bite,Human bite - assault
+968.8,9688,Assault by other specified means,Assault NEC
+968.9,9689,Assault by unspecified means,Assault NOS
+969.0,9690,Late effects of injury purposely inflicted by other person,Late effect assault
+970.0,9700,Injury due to legal intervention by firearms,Legal intervent-firearm
+971.0,9710,Injury due to legal intervention by explosives,Legal intervent-explosiv
+972.0,9720,Injury due to legal intervention by gas,Legal intervent-gas
+973.0,9730,Injury due to legal intervention by blunt object,Legal interven-blunt obj
+974.0,9740,Injury due to legal intervention by cutting and piercing instrument,Legal interven-cut instr
+975.0,9750,Injury due to legal intervention by other specified means,Legal intervention NEC
+976.0,9760,Injury due to legal intervention by unspecified means,Legal intervention NOS
+977.0,9770,Late effects of injuries due to legal intervention,Late eff-legal intervent
+978.0,9780,Legal execution,Legal execution
+979.0,9790,Terrorism involving explosion of marine weapons,"Terrorism,marine weapons"
+979.1,9791,Terrorism involving destruction of aircraft,"Terrorism,dest aircraft"
+979.2,9792,Terrorism involving other explosions and fragments,"Terrorism,explosions"
+979.3,9793,Terrorism involving fires,"Terrorism, fires"
+979.4,9794,Terrorism involving firearms,"Terrorism, firearms"
+979.5,9795,Terrorism involving nuclear weapons,"Terrorism, nuc weapons"
+979.6,9796,Terrorism involving biological weapons,"Terrorism, biologicals"
+979.7,9797,Terrorism involving chemical weapons,"Terrorism, chemicals"
+979.8,9798,Terrorism involving other means,"Terrorism, NEC/NOS"
+979.9,9799,Terrorism secondary effects,"Terrorism, secondary"
+980.0,9800,"Poisoning by analgesics, antipyretics, and antirheumatics, undetermined whether accidentally or purposely inflicted",Undeterm pois-analgesics
+980.1,9801,"Poisoning by barbiturates, undetermined whether accidentally or purposely inflicted",Undeterm pois-barbiturat
+980.2,9802,"Poisoning by other sedatives and hypnotics, undetermined whether accidentally or purposely inflicted",Undet pois-sed/hypn NEC
+980.3,9803,"Poisoning by tranquilizers and other psychotropic agents, undetermined whether accidentally or purposely inflicted",Undeterm pois-psychotrop
+980.4,9804,"Poisoning by other specified drugs and medicinal substances, undetermined whether accidentally or purposely inflicted",Undet pois-med agnt NEC
+980.5,9805,"Poisoning by unspecified drug or medicinal substance, undetermined whether accidentally or purposely inflicted",Undet pois-med agnt NOS
+980.6,9806,"Poisoning by corrosive and caustic substances, undetermined whether accidentally or purposely inflicted",Undet pois-corros/caust
+980.7,9807,"Poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers, undetermined whether accidentally or purposely inflicted",Undet pois-agricult agnt
+980.8,9808,"Poisoning by arsenic and its compounds, undetermined whether accidentally or purposely inflicted",Undeter pois-arsenic
+980.9,9809,"Poisoning by other and unspecified solid and liquid substances, undetermined whether accidentally or purposely inflicted",Undeter pois-sol/liq NEC
+981.0,9810,"Poisoning by gas distributed by pipeline, undetermined whether accidentally or purposely inflicted",Undeter pois-piped gas
+981.1,9811,"Poisoning by liquefied petroleum gas distributed in mobile containers, undetermined whether accidentally or purposely inflicted",Undet pois-container gas
+981.8,9818,"Poisoning by other utility gas, undetermined whether accidentally or purposely inflicted",Undet pois-util gas NEC
+982.0,9820,"Poisoning by motor vehicle exhaust gas, undetermined whether accidentally or purposely inflicted",Undeter pois-exhaust gas
+982.1,9821,"Poisoning by other carbon monoxide, undetermined whether accidentally or purposely inflicted",Undetermin poison-co NEC
+982.8,9828,"Poisoning by other specified gases and vapors, undetermined whether accidentally or purposely inflicted",Undet pois-gas/vapor NEC
+982.9,9829,"Poisoning by unspecified gases and vapors, undetermined whether accidentally or purposely inflicted",Undet pois-gas/vapor NOS
+983.0,9830,"Hanging, undetermined whether accidentally or purposely inflicted",Undetermin circ-hanging
+983.1,9831,"Suffocation by plastic bag, undetermined whether accidentally or purposely inflicted",Undet circ-suf plast bag
+983.8,9838,"Strangulation or suffocation by other specified means, undetermined whether accidentally or purposely inflicted",Undet circ-suffocate NEC
+983.9,9839,"Strangulation or suffocation by unspecified means, undetermined whether accidentally or purposely inflicted",Undet circ-suffocate NOS
+984.0,9840,"Submersion (drowning), undetermined whether accidentally or purposely inflicted",Undeterm circ-submersion
+985.0,9850,"Injury by handgun, undetermined whether accidentally or purposely inflicted",Undetermin circ-handgun
+985.1,9851,"Injury by shotgun, undetermined whether accidentally or purposely inflicted",Undetermin circ-shotgun
+985.2,9852,"Injury by hunting rifle, undetermined whether accidentally or purposely inflicted",Undet circ-hunting rifle
+985.3,9853,"Injury by military firearms, undetermined whether accidentally or purposely inflicted",Undet circ-military arms
+985.4,9854,"Injury by other and unspecified firearm, undetermined whether accidentally or purposely inflicted",Undeter circ-firearm NEC
+985.5,9855,"Injury by explosives, undetermined whether accidentally or purposely inflicted",Undeterm circ-explosive
+985.6,9856,"Injury by air gun, undetermined whether accidental or purposely inflicted",Undetrmine accid-air gun
+985.7,9857,"Injury by paintball gun, undetermined whether accidental or purposely inflicted",Injury paintball gun NOS
+986.0,9860,"Injury by cutting and piercing instruments, undetermined whether accidentally or purposely inflicted",Undet circ-cut instrumnt
+987.0,9870,"Falling from residential premises, undetermined whether accidentally or purposely inflicted",Undet circ-fall residenc
+987.1,9871,"Falling from other man-made structures, undetermined whether accidentally or purposely inflicted",Undet fall structure NEC
+987.2,9872,"Falling from natural sites, undetermined whether accidentally or purposely inflicted",Undet fall natural site
+987.9,9879,"Falling from unspecified site, undetermined whether accidentally or purposely inflicted",Undet circ-fall site NOS
+988.0,9880,"Injury by jumping or lying before moving object, undetermined whether accidentally or purposely inflicted",Undeterm circ-moving obj
+988.1,9881,"Injury by burns or fire, undetermined whether accidentally or purposely inflicted","Undeterm circ-burn, fire"
+988.2,9882,"Injury by scald, undetermined whether accidentally or purposely inflicted",Undeterm circ-scald
+988.3,9883,"Injury by extremes of cold, undetermined whether accidentally or purposely inflicted",Undeterm circ-extrm cold
+988.4,9884,"Injury by electrocution, undetermined whether accidentally or purposely inflicted",Undeterm circ-electrocut
+988.5,9885,"Injury by crashing of motor vehicle, undetermined whether accidentally or purposely inflicted",Undet circ-mot veh crash
+988.6,9886,"Injury by crashing of aircraft, undetermined whether accidentally or purposely inflicted",Undet circ-aircrft crash
+988.7,9887,"Injury by caustic substances, except poisoning, undetermined whether accidentally or purposely inflicted",Undet circ-caustic subst
+988.8,9888,"Injury by other specified means, undetermined whether accidentally or purposely inflicted",Undetermin circumst NEC
+988.9,9889,"Injury by unspecified means, undetermined whether accidentally or purposely inflicted",Undetermin circumst NOS
+989.0,9890,"Late effects of injury, undetermined whether accidentally or purposely inflicted",Late eff inj-undet circ
+990.0,9900,Injury due to war operations from gasoline bomb,War inj:gasoline bomb
+990.1,9901,Injury due to war operations from flamethrower,War inj:flamethrower
+990.2,9902,Injury due to war operations from incendiary bullet,War inj:incndiary bullet
+990.3,9903,Injury due to war operations from fire caused indirectly from conventional weapon,War inj:ind convn weapn
+990.9,9909,Injury due to war operations from other and unspecified source,War injury:fire NEC
+991.0,9910,Injury due to war operations from rubber bullets (rifle),War inj:rubber bullet
+991.1,9911,Injury due to war operations from pellets (rifle),War injury:pellets
+991.2,9912,Injury due to war operations from other bullets,War injury:bullet NEC
+991.3,9913,Injury due to war operations from antipersonnel bomb (fragments),War inj:antiperson bomb
+991.4,9914,Injury due to war operations by fragments from munitions,War inj:munition fragmnt
+991.5,9915,Injury due to war operations by fragments from person-borne improvised explosive device [IED],War inj:prsn-brn fragmnt
+991.6,9916,Injury due to war operations by fragments from vehicle-borne improvised explosive device [IED],War inj:vehic-borne IED
+991.7,9917,Injury due to war operations by fragments from other improvised explosive device [IED],War inj:fragment IED NEC
+991.8,9918,Injury due to war operations by fragments from weapons,War inj:weapon fragments
+991.9,9919,Injury due to war operations from other and unspecified fragments,War inj:fragments NEC
+992.0,9920,Injury due to torpedo,War inj:torpedo
+992.1,9921,Injury due to depth charge,War inj:depth charge
+992.2,9922,Injury due to marine mines,War inj:marine mines
+992.3,9923,Injury due to sea-based artillery shell,War inj:seabase art shel
+992.8,9928,Injury due to war operations by other marine weapons,War inj:marine weapn NEC
+992.9,9929,Injury due to war operations by unspecified marine weapon,War inj:marine weapn NOS
+993.0,9930,Injury due to war operations by aerial bomb,War inj:aerial bomb
+993.1,9931,Injury due to war operations by guided missile,War inj:guided missile
+993.2,9932,Injury due to war operations by mortar,War inj:mortar
+993.3,9933,Injury due to war operations by person-borne improvised explosive device [IED],War inj:person IED
+993.4,9934,Injury due to war operations by vehicle-borne improvised explosive device [IED],War inj:vehicle IED
+993.5,9935,Injury due to war operations by other improvised explosive device [IED],War inj:IED NEC
+993.6,9936,Injury due to war operations by unintentional detonation of own munitions,War inj:acc own munition
+993.7,9937,Injury due to war operations by unintentional discharge of own munitions launch device,War inj:acc disch launch
+993.8,9938,Injury due to war operations by other specified explosion,War inj:explosion NEC
+993.9,9939,Injury due to war operations by unspecified explosion,War inj:explosion NOS
+994.0,9940,Injury due to war operations by destruction of aircraft due to enemy fire or explosives,War inj:aircrft des-enmy
+994.1,9941,Injury due to war operations by unintentional destruction of aircraft due to own onboard explosives,War inj:aircrft-own expl
+994.2,9942,Injury due to war operations by destruction of aircraft due to collision with other aircraft,War inj:aircrft collisn
+994.3,9943,Injury due to war operations by destruction of aircraft due to onboard fire,War inj:aircraft fire
+994.8,9948,Injury due to war operations by other destruction of aircraft,War inj:aircrft dest NEC
+994.9,9949,Injury due to war operations by unspecified destruction of aircraft,War inj:aircrft dest NOS
+995.0,9950,Injury due to war operations by unarmed hand-to-hand combat,War inj:hnd-hnd combat
+995.1,9951,"Injury due to war operations, struck by blunt object",War inj:blunt object
+995.2,9952,Injury due to war operations by piercing object,War inj:piercing object
+995.3,9953,Injury due to war operations by intentional restriction of air and airway,War inj:intn restrct air
+995.4,9954,Injury due to war operations by unintentional drowning due to inability to surface or obtain air,War inj:unintentl drown
+995.8,9958,Injury due to war operations by other forms of conventional warfare,War inj:con warfare NEC
+995.9,9959,Injury due to war operations by unspecified form of conventional warfare,War inj:con warfare NOS
+996.0,9960,Injury due to war operations by direct blast effect of nuclear weapon,War inj:dir nucl weapon
+996.1,9961,Injury due to war operations by indirect blast effect of nuclear weapon,War inj:indir nucl weapn
+996.2,9962,Injury due to war operations by thermal radiation effect of nuclear weapon,War inj:therml radiation
+996.3,9963,Injury due to war operations by nuclear radiation effects,War inj:nuclear rad eff
+996.8,9968,Injury due to war operations by other effects of nuclear weapons,War inj:nucl weapon NEC
+996.9,9969,Injury due to war operations by unspecified effect of nuclear weapon,War inj:nucl weapon NOS
+997.0,9970,Injury due to war operations by lasers,War injury:lasers
+997.1,9971,Injury due to war operations by biological warfare,War injury:biol warfare
+997.2,9972,"Injury due to war operations by gases, fumes, and chemicals",War injury:gas/fum/chem
+997.3,9973,"Injury due to war operations by weapon of mass destruction [WMD], unspecified",War inj:WMD NOS
+997.8,9978,Injury due to other specified forms of unconventional warfare,War inj-unconven war NEC
+997.9,9979,Injury due to unspecified form of unconventional warfare,War inj-unconven war NOS
+998.0,9980,Injury due to war operations but occurring after cessation of hostilities by explosion of mines,War inj:expl mine-cease
+998.1,9981,Injury due to war operations but occurring after cessation of hostilities by explosion of bombs,War inj:expl bomb-cease
+998.8,9988,Injury due to other war operations but occurring after cessation of hostilities,War inj:after cease NEC
+998.9,9989,Injury due to unspecified war operations but occurring after cessation of hostilities,War inj:after cease NOS
+999.0,9990,Late effect of injury due to war operations,"Late effect, war injury"
+999.1,9991,Late effect of injury due to terrorism,"Late effect, terrorism"
