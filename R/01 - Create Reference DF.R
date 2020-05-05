@@ -1,9 +1,9 @@
 
 
 # library(tidytable)
-library(data.table)
-# library(janitor)
-library(usethis)
+# library(data.table)
+# # library(janitor)
+# library(usethis)
 
 # injury_data <- fread("data-raw/injury_data.csv") %>%
 #   as.data.table()
@@ -18,7 +18,7 @@ library(usethis)
 # fwrite(injury_data, "data-raw/injury_data.csv")
 
 #usethis::use_data_raw(name = "injury_data")
-usethis::use_data(injury_data, internal = TRUE, overwrite = TRUE)
+# usethis::use_data(injury_data, internal = TRUE, overwrite = TRUE)
 
 #####################################################################
 
@@ -33,7 +33,7 @@ usethis::use_data(injury_data, internal = TRUE, overwrite = TRUE)
 # fwrite(procedures_data, "data-raw/procedures_data.csv")
 
 #usethis::use_data_raw(name = "procedures_data")
-usethis::use_data(procedures_data, internal = TRUE, overwrite = TRUE)
+# usethis::use_data(procedures_data, internal = TRUE, overwrite = TRUE)
 
 
 #####################################################################
@@ -47,7 +47,7 @@ usethis::use_data(procedures_data, internal = TRUE, overwrite = TRUE)
 # fwrite(diagnosis_data, "data-raw/diagnosis_data.csv")
 
 #usethis::use_data_raw(name = "diagnosis_data")
-usethis::use_data(diagnosis_data, internal = TRUE,overwrite = TRUE)
+# usethis::use_data(diagnosis_data, internal = TRUE,overwrite = TRUE)
 
 #####################################################################
 
