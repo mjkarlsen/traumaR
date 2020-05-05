@@ -35,17 +35,14 @@ create_ptos_data <- function(.data ) {
     mutate.(id = paste0(str_remove_all(d_birth_a, "/"), trauma_num)) %>%
     relocate.(id, .before = 1)
 
-  # ## Renaming Columns for Humans
-  # message("Renaming the columns so we actually understand what they mean")
-  # results <- results %>%
-  #   ptos_rename_columns()
+
+  ## Creating the PTOS Dataframe
+  assign(paste("ptos_df"), data.frame(results), envir = .GlobalEnv)
 
   ## Return the data back to original form
   message("We are almost there!")
   if (!is_data_table) class(results) <- data_class
   knitr::opts_chunk$set(message = FALSE)
 
-  ## Returns final results
-  results
 
 }

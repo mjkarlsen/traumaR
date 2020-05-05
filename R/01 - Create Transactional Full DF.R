@@ -3,7 +3,7 @@
 #' @param .data Pulls the clean pto_df
 #'
 #' @return  Transactional dataframe
-#'
+#' @export
 create_full_trans <- function(.data){
 
   .proc_df <- create_proc_df(.data)

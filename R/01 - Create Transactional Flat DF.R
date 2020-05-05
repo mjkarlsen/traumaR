@@ -4,6 +4,7 @@
 #' @param .data
 #'
 #' @return
+#' @export
 #'
 create_flat_trans <- function(.full_trans) {
   # list('79.02', '79.12', '79.22', '79.32') #forearm surgery
@@ -25,8 +26,6 @@ create_flat_trans <- function(.full_trans) {
                                             pattern = '32'),
             fltr_fasciotomy = str_detect(code_cd_procedure,
                                          pattern = '83.14'))
-
-  .flat_trans <- ptos_rename_columns(.flat_trans)
 
   assign(paste("trans_flat_df"), data.frame(.flat_trans), envir = .GlobalEnv)
 }

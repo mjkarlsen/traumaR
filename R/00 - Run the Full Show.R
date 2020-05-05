@@ -28,7 +28,7 @@ run_full_show <- function(.data) {
 
   ## Create Patient Dataframe
   message("Creating Patient Data")
-  create_patient_df(ptos_df, .trans_flat)
+  create_patient_df(ptos_df, .trans_flat, .trans_full)
 
 
   message("Complete!")

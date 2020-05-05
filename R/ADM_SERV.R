@@ -1,4 +1,3 @@
-
 #' Medical Services
 #'
 #' @param col A column that typically ends in "_SV" or classified using logic ADM_SERV.
@@ -18,6 +17,7 @@ adm_serv <- function(col) {
                       col == 8,    'Obstetrics/Gynecology Service',
                       col == 9,    'Burn Service',
                       col == 10,    'Interventional Radiology',
-                      default = NA)
+                      default = 'Unknown'
+  )
   return(col_value)
 }
