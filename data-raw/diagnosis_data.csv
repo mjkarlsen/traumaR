@@ -1,4 +1,4 @@
-diag_code,Long_desc,Short_Desc
+diag_code,long_desc,short_desc
 0.24,Glanders,Glanders
 0.25,Melioidosis,Melioidosis
 0.35,Erysipelas,Erysipelas
@@ -5261,7 +5261,7 @@ diag_code,Long_desc,Short_Desc
 495.4,Malt workers' lung,Malt workers' lung
 495.5,Mushroom workers' lung,Mushroom workers' lung
 495.6,Maple bark-strippers' lung,Mapl bark-stripprs' lung
-495.7,"""Ventilation"" pneumonitis","""ventilation"" pneumonit"
+495.7,"""""Ventilation"""" pneumonitis","""""ventilation"""" pneumonit"
 495.8,Other specified allergic alveolitis and pneumonitis,Allerg alveol/pneum NEC
 495.9,Unspecified allergic alveolitis and pneumonitis,Allerg alveol/pneum NOS
 506,Bronchitis and pneumonitis due to fumes and vapors,Fum/vapor bronc/pneumon
@@ -8989,36 +8989,36 @@ diag_code,Long_desc,Short_Desc
 763.84,Meconium passage during delivery,Meconium dur del aff NB
 763.89,Other specified complications of labor and delivery affecting fetus or newborn,Compl del NEC aff NB
 763.9,Unspecified complication of labor and delivery affecting fetus or newborn,Compl deliv NOS aff NB
-764,"""Light-for-dates"" without mention of fetal malnutrition, unspecified [weight]",Light-for-dates wtNOS
-764.01,"""Light-for-dates"" without mention of fetal malnutrition, less than 500 grams",Light-for-dates <500g
-764.02,"""Light-for-dates"" without mention of fetal malnutrition, 500-749 grams",Lt-for-dates 500-749g
-764.03,"""Light-for-dates"" without mention of fetal malnutrition, 750-999 grams",Lt-for-dates 750-999g
-764.04,"""Light-for-dates"" without mention of fetal malnutrition, 1,000- 1,249 grams",Lt-for-dates 1000-1249g
-764.05,"""Light-for-dates""without mention of fetal malnutrition, 1,250- 1,499 grams",Lt-for-dates 1250-1499g
-764.06,"""Light-for-dates"" without mention of fetal malnutrition, 1,500- 1,749 grams",Lt-for-dates 1500-1749g
-764.07,"""Light-for-dates"" without mention of fetal malnutrition, 1,750- 1,999 grams",Lt-for-dates 1750-1999g
-764.08,"""Light-for-dates"" without mention of fetal malnutrition, 2,000- 2,499 grams",Lt-for-dates 2000-2499g
-764.09,"""Light-for-dates"" without mention of fetal malnutrition, 2,500 grams and over",Lt-for-dates 2500+g
-764.1,"""Light-for-dates"" with signs of fetal malnutrition, unspecified [weight]",Lt-for-date w/mal wtNOS
-764.11,"""Light-for-dates"" with signs of fetal malnutrition, less than 500 grams",Lt-for-date w/mal <500g
-764.12,"""Light-for-dates""with signs of fetal malnutrition, 500-749 grams",Lt-date w/mal 500-749g
-764.13,"""Light-for-dates"" with signs of fetal malnutrition, 750-999 grams",Lt-date w/mal 750-999g
-764.14,"""Light-for-dates"" with signs of fetal malnutrition, 1,000-1,249 grams",Lt-date w/mal 1000-1249g
-764.15,"""Light-for-dates"" with signs of fetal malnutrition, 1,250-1,499 grams",Lt-date w/mal 1250-1499g
-764.16,"""Light-for-dates"" with signs of fetal malnutrition, 1,500-1,749 grams",Lt-date w/mal 1500-1749g
-764.17,"""Light-for-dates"" with signs of fetal malnutrition, 1,750-1,999 grams",Lt-date w/mal 1750-1999g
-764.18,"""Light-for-dates""with signs of fetal malnutrition, 2,000-2,499 grams",Lt-date w/mal 2000-2499g
-764.19,"""Light-for-dates""with signs of fetal malnutrition, 2,500 grams and over",Lt-for-date w/mal 2500+g
-764.2,"Fetal malnutrition without mention of ""light-for-dates"", unspecified [weight]",Fetal malnutrition wtNOS
-764.21,"Fetal malnutrition without mention of ""light-for-dates"", less than 500 grams",Fetal malnutrition <500g
-764.22,"Fetal malnutrition without mention of ""light-for-dates"", 500-749 grams",Fetal malnutr 500-749g
-764.23,"Fetal malnutrition without mention of ""light-for-dates"", 750-999 grams",Fetal mal 750-999g
-764.24,"Fetal malnutrition without mention of ""light-for-dates"", 1,000-1,249 grams",Fetal mal 1000-1249g
-764.25,"Fetal malnutrition without mention of ""light-for-dates"", 1,250-1,499 grams",Fetal mal 1250-1499g
-764.26,"Fetal malnutrition without mention of ""light-for-dates"", 1,500-1,749 grams",Fetal mal 1500-1749g
-764.27,"Fetal malnutrition without mention of ""light-for-dates"", 1,750-1,999 grams",Fetal malnutr 1750-1999g
-764.28,"Fetal malnutrition without mention of ""light-for-dates"", 2,000-2,499 grams",Fetal malnutr 2000-2499g
-764.29,"Fetal malnutrition without mention of ""light-for-dates"", 2,500 grams and over",Fetal malnutr 2500+g
+764,"""""Light-for-dates"""" without mention of fetal malnutrition, unspecified [weight]",Light-for-dates wtNOS
+764.01,"""""Light-for-dates"""" without mention of fetal malnutrition, less than 500 grams",Light-for-dates <500g
+764.02,"""""Light-for-dates"""" without mention of fetal malnutrition, 500-749 grams",Lt-for-dates 500-749g
+764.03,"""""Light-for-dates"""" without mention of fetal malnutrition, 750-999 grams",Lt-for-dates 750-999g
+764.04,"""""Light-for-dates"""" without mention of fetal malnutrition, 1,000- 1,249 grams",Lt-for-dates 1000-1249g
+764.05,"""""Light-for-dates""""without mention of fetal malnutrition, 1,250- 1,499 grams",Lt-for-dates 1250-1499g
+764.06,"""""Light-for-dates"""" without mention of fetal malnutrition, 1,500- 1,749 grams",Lt-for-dates 1500-1749g
+764.07,"""""Light-for-dates"""" without mention of fetal malnutrition, 1,750- 1,999 grams",Lt-for-dates 1750-1999g
+764.08,"""""Light-for-dates"""" without mention of fetal malnutrition, 2,000- 2,499 grams",Lt-for-dates 2000-2499g
+764.09,"""""Light-for-dates"""" without mention of fetal malnutrition, 2,500 grams and over",Lt-for-dates 2500+g
+764.1,"""""Light-for-dates"""" with signs of fetal malnutrition, unspecified [weight]",Lt-for-date w/mal wtNOS
+764.11,"""""Light-for-dates"""" with signs of fetal malnutrition, less than 500 grams",Lt-for-date w/mal <500g
+764.12,"""""Light-for-dates""""with signs of fetal malnutrition, 500-749 grams",Lt-date w/mal 500-749g
+764.13,"""""Light-for-dates"""" with signs of fetal malnutrition, 750-999 grams",Lt-date w/mal 750-999g
+764.14,"""""Light-for-dates"""" with signs of fetal malnutrition, 1,000-1,249 grams",Lt-date w/mal 1000-1249g
+764.15,"""""Light-for-dates"""" with signs of fetal malnutrition, 1,250-1,499 grams",Lt-date w/mal 1250-1499g
+764.16,"""""Light-for-dates"""" with signs of fetal malnutrition, 1,500-1,749 grams",Lt-date w/mal 1500-1749g
+764.17,"""""Light-for-dates"""" with signs of fetal malnutrition, 1,750-1,999 grams",Lt-date w/mal 1750-1999g
+764.18,"""""Light-for-dates""""with signs of fetal malnutrition, 2,000-2,499 grams",Lt-date w/mal 2000-2499g
+764.19,"""""Light-for-dates""""with signs of fetal malnutrition, 2,500 grams and over",Lt-for-date w/mal 2500+g
+764.2,"Fetal malnutrition without mention of """"light-for-dates"""", unspecified [weight]",Fetal malnutrition wtNOS
+764.21,"Fetal malnutrition without mention of """"light-for-dates"""", less than 500 grams",Fetal malnutrition <500g
+764.22,"Fetal malnutrition without mention of """"light-for-dates"""", 500-749 grams",Fetal malnutr 500-749g
+764.23,"Fetal malnutrition without mention of """"light-for-dates"""", 750-999 grams",Fetal mal 750-999g
+764.24,"Fetal malnutrition without mention of """"light-for-dates"""", 1,000-1,249 grams",Fetal mal 1000-1249g
+764.25,"Fetal malnutrition without mention of """"light-for-dates"""", 1,250-1,499 grams",Fetal mal 1250-1499g
+764.26,"Fetal malnutrition without mention of """"light-for-dates"""", 1,500-1,749 grams",Fetal mal 1500-1749g
+764.27,"Fetal malnutrition without mention of """"light-for-dates"""", 1,750-1,999 grams",Fetal malnutr 1750-1999g
+764.28,"Fetal malnutrition without mention of """"light-for-dates"""", 2,000-2,499 grams",Fetal malnutr 2000-2499g
+764.29,"Fetal malnutrition without mention of """"light-for-dates"""", 2,500 grams and over",Fetal malnutr 2500+g
 764.9,"Fetal growth retardation, unspecified, unspecified [weight]",Fet growth retard wtNOS
 764.91,"Fetal growth retardation, unspecified, less than 500 grams",Fet growth retard <500g
 764.92,"Fetal growth retardation, unspecified, 500-749 grams",Fet growth ret 500-749g
@@ -9060,7 +9060,7 @@ diag_code,Long_desc,Short_Desc
 765.28,35-36 completed weeks of gestation,35-36 comp wks gestation
 765.29,37 or more completed weeks of gestation,37+ comp wks gestation
 766,Exceptionally large baby,Exceptionally large baby
-766.1,"Other ""heavy-for-dates"" infants",Heavy-for-date infan NEC
+766.1,"Other """"heavy-for-dates"""" infants",Heavy-for-date infan NEC
 766.21,Post-term infant,Post-term infant
 766.22,Prolonged gestation of infant,Prolong gestation-infant
 767,Subdural and cerebral hemorrhage,Cerebral hem at birth
@@ -9153,7 +9153,7 @@ diag_code,Long_desc,Short_Desc
 774.5,Perinatal jaundice from other causes,Perinatal jaundice NEC
 774.6,Unspecified fetal and neonatal jaundice,Fetal/neonatal jaund NOS
 774.7,Kernicterus of fetus or newborn not due to isoimmunization,NB kernicterus
-775,"Syndrome of ""infant of a diabetic mother""",Infant diabet mother syn
+775,"Syndrome of """"infant of a diabetic mother""""",Infant diabet mother syn
 775.1,Neonatal diabetes mellitus,Neonat diabetes mellitus
 775.2,Neonatal myasthenia gravis,Neonat myasthenia gravis
 775.3,Neonatal thyrotoxicosis,Neonatal thyrotoxicosis
