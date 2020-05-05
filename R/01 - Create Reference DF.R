@@ -5,8 +5,8 @@ library(data.table)
 # library(janitor)
 library(usethis)
 
-injury_data <- fread("data-raw/injury_data.csv") %>%
-  as.data.table()
+# injury_data <- fread("data-raw/injury_data.csv") %>%
+#   as.data.table()
 # %>%
 #   clean_names()
 # %>%
@@ -17,13 +17,13 @@ injury_data <- fread("data-raw/injury_data.csv") %>%
 
 # fwrite(injury_data, "data-raw/injury_data.csv")
 
-usethis::use_data_raw(name = "injury_data")
+#usethis::use_data_raw(name = "injury_data")
 usethis::use_data(injury_data, internal = TRUE, overwrite = TRUE)
 
 #####################################################################
 
-procedures_data <- fread("data-raw/procedures_data.csv") %>%
-  as.data.table()
+# procedures_data <- fread("data-raw/procedures_data.csv") %>%
+#   as.data.table()
 # %>%
 #   clean_names() %>%
 #   mutate.(proc_code = as.double(proc_code)) %>%
@@ -32,21 +32,21 @@ procedures_data <- fread("data-raw/procedures_data.csv") %>%
 
 # fwrite(procedures_data, "data-raw/procedures_data.csv")
 
-usethis::use_data_raw(name = "procedures_data")
+#usethis::use_data_raw(name = "procedures_data")
 usethis::use_data(procedures_data, internal = TRUE, overwrite = TRUE)
 
 
 #####################################################################
 
-diagnosis_data <- fread("data-raw/diagnosis_data.csv") %>%
-  as.data.table()
+# diagnosis_data <- fread("data-raw/diagnosis_data.csv") %>%
+#   as.data.table()
 # %>%
 #   clean_names() %>%
 #   mutate.(diag_code = as.double(diag_code))
 
 # fwrite(diagnosis_data, "data-raw/diagnosis_data.csv")
 
-usethis::use_data_raw(name = "diagnosis_data")
+#usethis::use_data_raw(name = "diagnosis_data")
 usethis::use_data(diagnosis_data, internal = TRUE,overwrite = TRUE)
 
 #####################################################################
