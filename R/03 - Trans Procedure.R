@@ -33,7 +33,7 @@ create_proc_df <- function(.data) {
       proc_code = as.double(proc_code),
       data_source = "procedure"
     ) %>%
-    left_join.(icd_data, by = "proc_code") %>%
+    left_join.(ptos::procedures_data, by = "proc_code") %>%
     rename.(code_cd = proc_code,
             code_desc = short_desc) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc, data_source)

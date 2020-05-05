@@ -1,12 +1,14 @@
 #' Create the Patient Data Frame
 #'
 #' @param .data Raw PTOS Dataframe
-#' @param df_name Name of Dataframe
+#' @param .trans_flat_df Flat Transactional Dataframe
+#' @param .trans_full_df Full Transactional Dataframe
 #'
 #' @return Returns a data frame for patient information
 #' @export
 #'
 create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
+
   # First Pull the date and times of fasciotomy and forearm procedures by patient
   .fasciotomy_proc_df <- .trans_full_df %>%
     filter.(code_cd == '83.14') %>%
@@ -71,7 +73,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
   patient_df <- .data %>%
     select.(patient_list) %>%
     left_join.(.fasciotomy_proc_df, by = 'id') %>%
-    left_join.(.forearm_proc_df, by = 'id')
+    left_join.(.forearm_proc_df, by = 'id') %>%
     left_join.(.trans_flat_df, by = "id") %>%
     mutate.(fltr_diagnosis = ifelse(is.na(fltr_diagnosis), F, fltr_diagnosis),
             fltr_procedure = ifelse(is.na(fltr_procedure), F, fltr_procedure),

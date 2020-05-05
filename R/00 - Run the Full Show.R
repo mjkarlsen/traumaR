@@ -5,7 +5,6 @@
 #' @return Creates dataframes for patients, medical sequences full, and medical sequences flat
 #' @export
 run_full_show <- function(.data) {
-  require(tidytable)
 
   is_data_table <- is.data.table(.data)
   data_class <- class(.data)
@@ -15,7 +14,7 @@ run_full_show <- function(.data) {
 
   ## Create PTOS Dataframe
   message("Creating PTOS Data")
-  ptos_df <- create_ptos_data(.data)
+  create_ptos_data(.data)
 
   ## Create Transactional Dataframes
   message("Creating Full Transactional Data")

@@ -9,7 +9,9 @@ create_patient_df(.data, .trans_flat_df, .trans_full_df)
 \arguments{
 \item{.data}{Raw PTOS Dataframe}
 
-\item{df_name}{Name of Dataframe}
+\item{.trans_flat_df}{Flat Transactional Dataframe}
+
+\item{.trans_full_df}{Full Transactional Dataframe}
 }
 \value{
 Returns a data frame for patient information
