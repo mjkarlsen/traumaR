@@ -8,6 +8,6 @@
 yes_no <- function(col) {
   col_value <-  case.(col == 1, "YES",
                       col == 2, "NO",
-                      default = "U")
+                      default = "UNK")
   return(col_value)
 }

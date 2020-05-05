@@ -4,7 +4,7 @@
 \alias{create_patient_df}
 \title{Create the Patient Data Frame}
 \usage{
-create_patient_df(.data, .trans_flat_df)
+create_patient_df(.data, .trans_flat_df, .trans_full_df)
 }
 \arguments{
 \item{.data}{Raw PTOS Dataframe}
