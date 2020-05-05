@@ -1,5 +1,6 @@
 # Suppress R CMD check note
 #' @import data.table
+#' @import tidytable
 #' @import tidyselect
 #' @import stringr
 #' @importFrom methods as

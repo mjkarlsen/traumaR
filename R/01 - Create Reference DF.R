@@ -12,7 +12,7 @@ procedures_data <- fread("E:/Northwestern/12 - Capstone/ICD9_Data.csv") %>%
   rename.(procedure_desc = long_desc) %>%
   select.(-org_proc_code)
 
-injury_data <- fread("E:/Northwestern/12 - Capstone/ecode_data.csv") %>%
+injury_data <- fread("E:/Northwestern/12 - Capstone/R Package/ptos/data/ecode_data.csv") %>%
   as.data.table() %>%
   clean_names() %>%
   mutate.(e_code = as.character(e_code)) %>%
@@ -25,6 +25,7 @@ diagnosis_data <- fread("E:/Northwestern/12 - Capstone/diagnosis_data.csv") %>%
   clean_names() %>%
   mutate.(diag_code = as.double(diag_code))
 
-use_data(procedures_data, overwrite = TRUE)
-use_data(injury_data, overwrite = TRUE)
-use_data(diagnosis_data, overwrite = TRUE)
+use_data(procedures_data, overwrite = TRUE, internal = TRUE)
+use_data(injury_data, overwrite = TRUE, internal = TRUE)
+use_data(diagnosis_data, overwrite = TRUE, internal = TRUE)
+
