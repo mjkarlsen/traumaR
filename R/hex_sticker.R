@@ -21,4 +21,4 @@ hexSticker::sticker(image_url,
 
 
 
-usethis::use_logo("~/Desktop/NU/R/Logos/tt_hex12.png")
+usethis::use_logo("E:/Northwestern/12 - Capstone/R Package/traumaR_hex.png")
