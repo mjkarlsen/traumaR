@@ -1,12 +1,12 @@
 
-# ptos
+# traumaR
 
 
 <!-- badges: start -->
-[![R build status](https://github.com/ultramattyice/ptos/workflows/R-CMD-check/badge.svg)](https://github.com/ultramattyice/ptos/actions)
+[![R build status](https://github.com/ultramattyice/ptos/workflows/R-CMD-check/badge.svg)](https://github.com/ultramattyice/traumaR/actions)
 <!-- badges: end -->
 
-The goal of ptos is to provide users with human friendly results in a normalized format.
+The goal of traumaR is to provide users with human friendly results in a normalized format.
 
 ## Installation
 
@@ -15,7 +15,7 @@ with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ultramattyice/ptos")
+devtools::install_github("ultramattyice/traumaR")
 ```
 
 ## Example
@@ -23,7 +23,7 @@ devtools::install_github("ultramattyice/ptos")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(ptos)
+library(traumaR)
 ## basic example code
 ```
 
