@@ -13,9 +13,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
   .fasciotomy_proc_df <- .trans_full_df %>%
     filter.(code_cd == '83.14') %>%
     arrange.(id, date, time) %>%
-    group_by(id) %>%
-    arrange(date, time) %>%
-    slice(1) %>%
+    slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%
     rename.(fasciotomy_dt = date,
             fasciotomy_time = time,
@@ -26,9 +24,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
   .forearm_proc_df <- .trans_full_df %>%
     filter.(code_cd %in% list('79.02', '79.12', '79.22', '79.32')) %>%
     arrange.(id, date, time) %>%
-    group_by(id) %>%
-    arrange(date, time) %>%
-    slice(1) %>%
+    slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%
     rename.(forearm_fx_dt = date,
             forearm_fx_time = time,

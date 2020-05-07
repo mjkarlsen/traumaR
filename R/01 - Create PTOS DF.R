@@ -32,7 +32,7 @@ create_ptos_data <- function(.data ) {
   ## Create Unique ID
   message("Creating a unique ID for the Patients using DOB and Trauma Number")
   results <- results %>%
-    mutate.(id = paste0(str_remove_all(d_birth_a, "/"), trauma_num)) %>%
+    mutate.(id = paste0(stringr::str_remove_all(d_birth_a, "/"), trauma_num)) %>%
     relocate.(id, .before = 1)
 
 
