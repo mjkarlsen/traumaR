@@ -14,12 +14,18 @@ create_full_trans <- function(.data){
   .comp_df <- create_complic_df(.data)
   message("Running Injury")
   .inj_df <- create_injury_df(.data)
+  message("Running Arrival, and Discharge")
+  .arr_df <- create_arrival_discharge_df(.data)
+  message("Running Transportation")
+  .trans_df <- create_transportation_df(.data)
 
   # Row Bind all the transaction data together
   message("Joining it all together")
   .full_trans <- rbind(.proc_df, .diag_df)
   .full_trans <- rbind(.full_trans, .comp_df)
   .full_trans <- rbind(.full_trans, .inj_df)
+  .full_trans <- rbind(.full_trans, .arr_df)
+  .full_trans <- rbind(.full_trans, .trans_df)
 
   message("Reordering the transactions")
   .full_trans <- .full_trans %>%

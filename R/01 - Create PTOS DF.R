@@ -15,11 +15,11 @@ create_ptos_data <- function(.data ) {
 
   ## Make sure all the column names are nice and clean - no need for chaos here
   message("Making the column names nice and pretty")
-  .data <- janitor::clean_names(.data)
+  results <- janitor::clean_names(.data)
 
   ## Drop Useless columns
-  message("Let's drop those useless columns with no observations")
-  results <- drop_blank_columns(.data)
+  # message("Let's drop those useless columns with no observations")
+  # results <- drop_blank_columns(.data)
 
   ## Age Clean-Up, DOB Clean-Up, and Injury Date Clean-Up
   message("Checking on the patient's age - its important to get the age of the patient right")
