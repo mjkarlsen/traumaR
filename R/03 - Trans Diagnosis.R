@@ -20,7 +20,7 @@ create_diag_df <- function(.data) {
     mutate.(diag_code = as.double(code),
             loc_desc = "Diagnosis",
             data_source = "diagnosis") %>%
-    left_join.(ptos::diagnosis_data, by = "diag_code") %>%
+    left_join.(diagnosis_data, by = "diag_code") %>%
     rename.(
       date = ref_ar_d_a,
       time = ref_ar_t_a,
