@@ -164,7 +164,7 @@ rename_columns <- function(.data) {
                        old_names == 'crna_ta',  'crna_arrived_tm',
                        old_names == 'ct_ta',  'ct_study_ordered_tm',
                        old_names == 'ct_tk_ta',  'ct_technician_responsearrival_tm',
-                       old_names == 'd_birth_a',  'date_of_birth',
+                       old_names == 'd_birth_a',  'birth_dt',
                        old_names == 'd_death_a',  'deathdischargetransfer_date',
                        old_names == 'd_disabl_e',  'functional_status_at_discharge_expression',
                        old_names == 'd_disabl_f',  'functional_status_at_discharge_feeding',
@@ -900,13 +900,14 @@ rename_columns <- function(.data) {
                        old_names == 'ver_resp_a',  'admission_gcs_verbal',
                        old_names == 'ver_resp_r',  'referring_facility_gcs_verbal',
                        old_names == 'ver_resp_s',  'scene_gcs_verbal',
-                       old_names == 'vit_ord_da',  'date_of_order_to_change_vital_signs_to_greater_than_1_hour',
+                       old_names == 'vit_ord_da',  'dt_of_order_to_change_vital_signs_to_greater_than_1_hour',
                        old_names == 'vit_ord_ta',  'time_of_order_to_change_vital_signs_to_greater_than_1_hour',
                        old_names == 'vitals_s',  'scene_was_a_complete_set_of_vitals_taken_prior_to_pt_leaving_the_scene',
                        old_names == 'wt_gu_r',  'referring_facility_weight_units',
                        old_names == 'wt_gw',  'admission_weight',
                        old_names == 'wt_gw_r',  'referring_facility_weight',
-                       old_names == 'xfer_time',  'time_for_referral',
+                       old_names == 'xfer_time',  'referral_tm',
+
                        default = old_names)
 
     new_data <- setnames(.data, old_names, as.character(new_names))

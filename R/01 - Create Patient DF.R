@@ -22,7 +22,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
             fasciotomy_desc = code_desc)
 
   .forearm_proc_df <- .trans_full_df %>%
-    filter.(code_cd %in% list('79.02', '79.12', '79.22', '79.32')) %>%
+    filter.(code_cd %in% c('79.02', '79.12', '79.22', '79.32')) %>%
     arrange.(id, date, time) %>%
     slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%
@@ -71,6 +71,10 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     left_join.(.fasciotomy_proc_df, by = 'id') %>%
     left_join.(.forearm_proc_df, by = 'id') %>%
     left_join.(.trans_flat_df, by = "id") %>%
+    # mutate.(fltr_diagnosis = ifelse(fltr_diagnosis == 'NA', F, fltr_diagnosis),
+    #         fltr_procedure = ifelse(fltr_procedure == 'NA', F, fltr_procedure),
+    #         fltr_fasciotomy = ifelse(fltr_fasciotomy  == 'NA', F, fltr_fasciotomy),
+    #         fltr_complication = ifelse(fltr_complication == 'NA', F, fltr_complication))
     mutate.(fltr_diagnosis = ifelse(is.na(fltr_diagnosis), F, fltr_diagnosis),
             fltr_procedure = ifelse(is.na(fltr_procedure), F, fltr_procedure),
             fltr_fasciotomy = ifelse(is.na(fltr_fasciotomy), F, fltr_fasciotomy),

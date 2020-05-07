@@ -20,9 +20,9 @@ create_flat_trans <- function(.full_trans) {
     pivot_wider.(names_from = data_source,
                  values_from = c(code_cd, code_desc)) %>%
     drop_na.() %>%
-    mutate.(fltr_diagnosis = any(str_detect(code_cd_diagnosis, #diagnosis for forearm fx
+    mutate.(fltr_diagnosis = (str_detect(code_cd_diagnosis, #diagnosis for forearm fx
                                             pattern = !!forearm_diag)),
-            fltr_procedure = any(str_detect(code_cd_procedure,
+            fltr_procedure = (str_detect(code_cd_procedure,
                                             pattern = !!forearm_surgery)),#forearm surgery
             fltr_complication = str_detect(code_cd_complication,
                                            pattern = '32'),
