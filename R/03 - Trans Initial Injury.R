@@ -9,7 +9,7 @@ create_injury_df <- function(.data){
   .data %>%
     select.(id, inj_date_a, inj_time_a, e849_x, e_code) %>%
     mutate.(date = ifelse(!is.na(inj_date_a), as.character(inj_date_a), NULL),
-            time =  ifelse(!is.na(inj_time_a), as.character(inj_time_a), NULL),
+            time =  ifelse(!is.na(inj_time_a), as.character(inj_time_a), "NA"),
             loc_desc = injury_loc(e849_x),
             code_cd = e_code,
             code_desc = e_code(e_code),
