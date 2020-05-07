@@ -9,7 +9,7 @@ create_transportation_df <- function(.data){
   .data %>%
     select.(id, starts_with.("pre_")) %>%
     pivot_longer.(cols = -id) %>%
-    drop_na.() %>%
+    filter.(value != 'NA') %>%
     mutate.(type_col = ifelse.(str_detect(name, "_ta"),'time', 'date'),
             loc_desc = case.(name == 'pre_1_a_da', 'transport arrive at scene',
                              name == 'pre_1_a_ta', 'transport arrive at scene',
@@ -31,11 +31,10 @@ create_transportation_df <- function(.data){
                              name == 'pre_s_l_ta', 'scene provider leave scene'),
             code_desc = "transport") %>%
     select.(-name) %>%
-    pivot_wider.(names_from = type_col, values_from = value) %>%
+    pivot_wider.(names_from = type_col, values_from = value, values_fn = list) %>%
     mutate.(code_cd = "NA",
             data_source = code_desc,
             date = as.character(date),
             time = as.character(time)) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
-
 }
