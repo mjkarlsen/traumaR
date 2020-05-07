@@ -12,11 +12,14 @@ create_full_trans <- function(.data){
   .diag_df <- create_diag_df(.data)
   message("Running Complications")
   .comp_df <- create_complic_df(.data)
+  message("Running Injury")
+  .inj_df <- create_injury_df(.data)
 
   # Row Bind all the transaction data together
   message("Joining it all together")
   .full_trans <- rbind(.proc_df, .diag_df)
   .full_trans <- rbind(.full_trans, .comp_df)
+  .full_trans <- rbind(.full_trans, .inj_df)
 
   message("Reordering the transactions")
   .full_trans <- .full_trans %>%

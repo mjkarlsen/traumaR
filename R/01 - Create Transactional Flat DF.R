@@ -12,6 +12,7 @@ create_flat_trans <- function(.full_trans) {
   forearm_diag <- list(seq(from = 813.00, to = 813.99, by = 0.01)) #diagnosis for forearm fx
 
   .flat_trans <- .full_trans %>%
+    filter.(data_source != 'injury') %>%
     summarize.(code_cd = paste(code_cd, collapse = " "),
                code_desc = paste(code_desc, collapse = ", "),
                by = c(id, data_source)
