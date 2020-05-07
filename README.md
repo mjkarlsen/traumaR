@@ -47,10 +47,10 @@ patient_df %>%
   head(10) %>% 
   kable() %>% 
   kable_styling() %>% 
-  scroll_box(width = "100%", height = "300px")
+  scroll_box(width = "100%", height = "100px")
 ```
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:300px; overflow-x: scroll; width:100%; ">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:100px; overflow-x: scroll; width:100%; ">
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 
@@ -3549,10 +3549,10 @@ trans_full_df %>%
   head(10) %>% 
   kable() %>% 
   kable_styling() %>% 
-  scroll_box(width = "100%", height = "300px")
+  scroll_box(width = "100%", height = "100px")
 ```
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:300px; overflow-x: scroll; width:100%; ">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:100px; overflow-x: scroll; width:100%; ">
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 
