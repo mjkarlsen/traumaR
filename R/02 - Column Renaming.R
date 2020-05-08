@@ -880,7 +880,7 @@ rename_columns <- function(.data) {
                        old_names == 'sys_bp_a',  'admission_systolic_blood_pressure',
                        old_names == 'sys_bp_r',  'referring_facility_systolic_blood_pressure',
                        old_names == 'sys_bp_s',  'scene_systolic_blood_pressure',
-                       old_names == 't_death_m',  'deathdischargetransfer_tm',
+                       old_names == 't_death_a',  'deathdischargetransfer_tm',
                        old_names == 'temp_gt_r',  'referring_facility_temperature',
                        old_names == 'temp_gu_r',  'referring_facility_temperature_units',
                        old_names == 'temp_m_r',  'referring_facility_temperature_route',
@@ -907,7 +907,6 @@ rename_columns <- function(.data) {
                        old_names == 'wt_gw',  'admission_weight',
                        old_names == 'wt_gw_r',  'referring_facility_weight',
                        old_names == 'xfer_time',  'referral_tm',
-
                        default = old_names)
 
     new_data <- setnames(.data, old_names, as.character(new_names))
