@@ -16,7 +16,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%
     rename.(fasciotomy_dt = date,
-            fasciotomy_time = time,
+            fasciotomy_tm = time,
             fasciotomy_loc = loc_desc,
             fasciotomy_cd = code_cd,
             fasciotomy_desc = code_desc)
@@ -27,7 +27,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%
     rename.(forearm_fx_dt = date,
-            forearm_fx_time = time,
+            forearm_fx_tm = time,
             forearm_fx_loc = loc_desc,
             forearm_fx_cd = code_cd,
             forearm_fx_desc = code_desc)
@@ -110,6 +110,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
 
   # Rename all columns with human friendly names
   patient_df <- rename_columns(patient_df)
+
 
   # Create the patient_df dataframe
   assign(paste("patient_df"), data.frame(patient_df), envir = .GlobalEnv)
