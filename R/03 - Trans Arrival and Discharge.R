@@ -8,26 +8,26 @@
 create_arrival_discharge_df <- function(.data){
 
 .data %>%
-    select.(id, eda_time_a, eda_date_a, ref_ar_d_a, ref_ar_t_a, ref_dp_d_a, ref_dp_t_a, edl_date_a, edl_time_a, d_death_a, t_death_a) %>%
+    select.(id, eda_time_a, eda_date_a, edl_date_a, edl_time_a, d_death_a, t_death_a) %>%   #ref_ar_d_a, ref_ar_t_a, ref_dp_d_a, ref_dp_t_a,
     pivot_longer.(cols = -id) %>%
     drop_na.() %>%
     mutate.(type_col = ifelse.(str_detect(name, paste(c("date", "_d_", 'd_death'), collapse = '|')),'date', 'time'),
             code_desc = case.(name == 'eda_time_a', 'Arrival' ,
                               name == 'eda_date_a', 'Arrival' ,
-                              name == 'ref_ar_d_a', "Arrival",
-                              name == 'ref_ar_t_a', "Arrival",
-                              name == 'ref_dp_d_a', "Discharge",
-                              name == 'ref_dp_t_a', "Discharge",
+                              # name == 'ref_ar_d_a', "Arrival",
+                              # name == 'ref_ar_t_a', "Arrival",
+                              # name == 'ref_dp_d_a', "Discharge",
+                              # name == 'ref_dp_t_a', "Discharge",
                               name == 'edl_date_a', "Discharge",
                               name == 'edl_time_a', "Discharge",
                               name == 'd_death_a', "Discharge",
                               name == 't_death_a', "Discharge"),
             loc_desc = case.(name == 'eda_time_a', "ED",
                              name == 'eda_date_a', "ED",
-                             name == 'ref_ar_d_a', "Referring Facility",
-                             name == 'ref_ar_t_a', "Referring Facility",
-                             name == 'ref_dp_d_a', "Referring Facility",
-                             name == 'ref_dp_t_a', "Referring Facility",
+                             # name == 'ref_ar_d_a', "Referring Facility",
+                             # name == 'ref_ar_t_a', "Referring Facility",
+                             # name == 'ref_dp_d_a', "Referring Facility",
+                             # name == 'ref_dp_t_a', "Referring Facility",
                              name == 'edl_date_a', "ED",
                              name == 'edl_time_a', "ED",
                              name == 'd_death_a', "Discharge/Death/Transfer",
