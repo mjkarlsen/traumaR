@@ -42,7 +42,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
             arrival_tm = time_Arrival,
             discharge_dt = date_Discharge,
             discharge_tm = time_Discharge) %>%
-    select(id, arrival_dt, arrival_tm, discharge_dt, discharge_tm)
+    select.(id, arrival_dt, arrival_tm, discharge_dt, discharge_tm)
 
   # Select the list of columns important for patient analysis
   patient_list <- c('id',
@@ -88,9 +88,9 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     #         fltr_procedure = ifelse(fltr_procedure == 'NA', F, fltr_procedure),
     #         fltr_fasciotomy = ifelse(fltr_fasciotomy  == 'NA', F, fltr_fasciotomy),
     #         fltr_complication = ifelse(fltr_complication == 'NA', F, fltr_complication))
-    mutate.(fltr_diagnosis = ifelse(is.na(fltr_diagnosis), F, fltr_diagnosis),
-            fltr_procedure = ifelse(is.na(forearm_fx_dt), F, fltr_procedure),
-            fltr_fasciotomy = ifelse(is.na(fasciotomy_dt), F, fltr_fasciotomy),
+    mutate.(fltr_procedure = ifelse(is.na(forearm_fx_dt), F, T),
+            fltr_fasciotomy = ifelse(is.na(fasciotomy_dt), F, T),
+            fltr_diagnosis = ifelse(is.na(fltr_diagnosis), F, fltr_diagnosis),
             fltr_complication = ifelse(is.na(fltr_complication), F, fltr_complication))
 
   # Convert all codes into human friendly translations
