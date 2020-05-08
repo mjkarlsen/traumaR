@@ -32,6 +32,6 @@ create_arrival_discharge_df <- function(.data){
   select.(-name) %>%
   pivot_wider.(names_from = type_col, values_from = value) %>%
   mutate.(code_cd = "NA",
-          data_source = code_desc) %>%
+          data_source = tolower(code_desc)) %>%
   select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
 }
