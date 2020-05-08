@@ -4,14 +4,14 @@
 \alias{age_cleanup}
 \title{Calculating Age if AGE is missing using DOB}
 \usage{
-age_cleanup(age, dob, injury_dt)
+age_cleanup(age, dob, adm_dt)
 }
 \arguments{
 \item{age}{Raw AGE of Patient}
 
 \item{dob}{Date of Birth of Patient}
 
-\item{injury_dt}{Date of Injury}
+\item{adm_dt}{Date of Admission (eda_date_a)}
 }
 \value{
 Returns the AGE of Patient in Years

@@ -2,20 +2,20 @@
 % Please edit documentation in R/02 - Date of Birth Cleanup.R
 \name{dob_cleanup}
 \alias{dob_cleanup}
-\title{Calculating DOB when DOB is missing using AGE MINUS Injury Date}
+\title{Calculating DOB when DOB is missing using AGE MINUS Admission Date}
 \usage{
-dob_cleanup(age, dob, injury_dt)
+dob_cleanup(age, dob, adm_dt)
 }
 \arguments{
 \item{age}{Raw AGE of Patient}
 
 \item{dob}{Date of Birth}
 
-\item{injury_dt}{Date of Injury}
+\item{adm_dt}{Date of Admission (eda_date_a)}
 }
 \value{
 Returns the Date of Birth of Patient
 }
 \description{
-Calculating DOB when DOB is missing using AGE MINUS Injury Date
+Calculating DOB when DOB is missing using AGE MINUS Admission Date
 }
