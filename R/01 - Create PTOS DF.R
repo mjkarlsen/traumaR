@@ -24,9 +24,10 @@ create_ptos_data <- function(.data ) {
   ## Age Clean-Up, DOB Clean-Up, and Injury Date Clean-Up
   message("Checking on the patient's age - its important to get the age of the patient right")
   results <- results %>%
-    mutate.(age_in_yrs = age_cleanup(age_in_yrs, d_birth_a, inj_date_a),
-            d_birth_a = dob_cleanup(age_in_yrs, d_birth_a, inj_date_a),
-            inj_date_a = dob_cleanup(age_in_yrs, d_birth_a, inj_date_a)) %>%
+    mutate.(age_in_yrs = age_cleanup(age_in_yrs, d_birth_a, eda_date_a),
+            d_birth_a = dob_cleanup(age_in_yrs, d_birth_a, eda_date_a),
+            # inj_date_a = dob_cleanup(age_in_yrs, d_birth_a, inj_date_a)
+            ) %>%
     filter.(!is.na(d_birth_a) & !is.na(age_in_yrs))
 
   ## Create Unique ID
