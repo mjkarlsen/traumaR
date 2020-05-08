@@ -76,8 +76,8 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     #         fltr_fasciotomy = ifelse(fltr_fasciotomy  == 'NA', F, fltr_fasciotomy),
     #         fltr_complication = ifelse(fltr_complication == 'NA', F, fltr_complication))
     mutate.(fltr_diagnosis = ifelse(is.na(fltr_diagnosis), F, fltr_diagnosis),
-            fltr_procedure = ifelse(is.na(fltr_procedure), F, fltr_procedure),
-            fltr_fasciotomy = ifelse(is.na(fltr_fasciotomy), F, fltr_fasciotomy),
+            fltr_procedure = ifelse(is.na(forearm_fx_dt), F, fltr_procedure),
+            fltr_fasciotomy = ifelse(is.na(fasciotomy_dt), F, fltr_fasciotomy),
             fltr_complication = ifelse(is.na(fltr_complication), F, fltr_complication))
 
   # Convert all codes into human friendly translations
