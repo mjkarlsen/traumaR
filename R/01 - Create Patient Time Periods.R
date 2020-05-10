@@ -29,8 +29,11 @@ create_patient_timeframe <- function(.patient_df) {
       arrival_tm,
       forearm_fx_dt,
       forearm_fx_tm,
+      forearm_fx_loc,
+      forearm_fx_desc,
       fasciotomy_dt,
       fasciotomy_tm,
+      fasciotomy_loc,
       discharge_dt,
       discharge_tm
     ) %>%
