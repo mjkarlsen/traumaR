@@ -103,7 +103,9 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
     mutate.(fltr_procedure = ifelse(is.na(forearm_fx_dt), F, T),
             fltr_fasciotomy = ifelse(is.na(fasciotomy_dt), F, T),
             fltr_diagnosis = ifelse(is.na(diagnosis_dt), F, T),
-            fltr_complication = ifelse(is.na(fltr_complication), F, fltr_complication))
+            fltr_complication = ifelse(is.na(fltr_complication), F, fltr_complication),
+            peds_adult_flag = ifelse.(age_in_yrs <= 16, 'Peds', 'Adult'),
+            age_grp = as.character(floor(age_in_yrs/10)))
 
   # Convert all codes into human friendly translations
   patient_df <- patient_df %>%

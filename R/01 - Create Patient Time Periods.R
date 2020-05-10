@@ -14,6 +14,14 @@ create_patient_timeframe <- function(.patient_df) {
     mutate_across.(ends_with.("_dt"), mdy) %>%
     select.(
       id,
+      sex,
+      race,
+      age_in_yrs,
+      age_grp,
+      peds_adult_flag,
+      payor_class_primary,
+      primary_injury_type,
+      place_of_injury,
       arrival_dt,
       arrival_tm,
       forearm_fx_dt,
