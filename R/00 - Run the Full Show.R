@@ -27,7 +27,7 @@ run_full_show <- function(.data) {
   create_patient_df(ptos_df, .trans_flat, .trans_full)
 
   ## Create Patient Time Periods
-  message("Creating Patient Time Periods")
+  message("Creating Patient Time Periods") #added
   create_patient_timeframe(patient_df)
 
 
