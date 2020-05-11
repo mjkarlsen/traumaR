@@ -36,7 +36,7 @@ create_patient_timeframe <- function(.patient_df) {
       fasciotomy_loc,
       discharge_dt,
       discharge_tm,
-      deathdischargetransfer_date,
+      deathdischargetransfer_dt,
       deathdischargetransfer_tm,
       discharge_status,
       fltr_fasciotomy,
