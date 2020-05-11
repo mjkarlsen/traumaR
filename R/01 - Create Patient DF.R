@@ -69,6 +69,9 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
                     'inj_type',
                     'inj_date_a',
                     'inj_time_a',
+                    'd_death_a',
+                    't_death_a',
+                    'dis_status',
                     'e_code',
                     'e849_x',
                     'hgt_fall',
@@ -109,6 +112,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
 
   # Convert all codes into human friendly translations
   patient_df <- patient_df %>%
+    mutate_across.(dis_status, traumaR::dis_status) %>%
     mutate_across.(sex, traumaR::sex) %>%
     mutate_across.(race, traumaR::race) %>%
     mutate_across.(county_pa, traumaR::county) %>%

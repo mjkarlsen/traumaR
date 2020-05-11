@@ -7,8 +7,8 @@
 create_patient_timeframe <- function(.patient_df) {
 
   .patient_timeframe <- .patient_df %>%
-    filter.(fltr_fasciotomy == T,
-            fltr_procedure == T,
+    filter.(fltr_procedure == T,
+            # fltr_fasciotomy == T,
     ) %>%
     mutate_across.(ends_with.("_tm"), as.ITime) %>%
     mutate_across.(ends_with.("_dt"), mdy) %>%
@@ -35,9 +35,14 @@ create_patient_timeframe <- function(.patient_df) {
       fasciotomy_tm,
       fasciotomy_loc,
       discharge_dt,
-      discharge_tm
+      discharge_tm,
+      deathdischargetransfer_date,
+      deathdischargetransfer_tm,
+      discharge_status,
+      fltr_fasciotomy,
+      fltr_procedure
     ) %>%
-    drop_na.() %>%
+    # drop_na.() %>%
     mutate.(arrival_dtime = ymd_hms(paste(arrival_dt, arrival_tm)),
             forearm_fx_dtime = ymd_hms(paste(forearm_fx_dt, forearm_fx_tm)),
             fasciotomy_dtime = ymd_hms(paste(fasciotomy_dt, fasciotomy_tm)),
