@@ -7,7 +7,7 @@
 #'
 dis_status <- function(col) {
   col_value <-  case.(col == 6 ,  'Alive' ,
-                      col == 7 ,  'D»ead' ,
+                      col == 7 ,  'Dead' ,
                       default =   'Not Documented' )
   return(col_value)
 }

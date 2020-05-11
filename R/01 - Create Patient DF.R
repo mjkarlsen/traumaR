@@ -107,6 +107,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
             fltr_fasciotomy = ifelse(is.na(fasciotomy_dt), F, T),
             fltr_diagnosis = ifelse(is.na(diagnosis_dt), F, T),
             fltr_complication = ifelse(is.na(fltr_complication), F, fltr_complication),
+            age_in_yrs = as.integer(age_in_yrs),
             peds_adult_flag = ifelse.(age_in_yrs <= 16, 'Peds', 'Adult'),
             age_grp = as.character(floor(age_in_yrs/10)))
 
