@@ -9,7 +9,7 @@ library(icd.data)
 diagnosis_data <-
   icd9cm_billable$`32` %>%
   select.(code, short_desc, long_desc) %>%
-  mutate.(diag_code = as.double(code)/100) %>%
+  mutate.(diag_code = as.double(code)/10) %>%
   select.(diag_code, everything.()) %>%
   drop_na.()
 
