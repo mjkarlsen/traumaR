@@ -47,11 +47,11 @@ create_patient_timeframe <- function(.patient_df) {
             forearm_fx_dtime = ymd_hms(paste(forearm_fx_dt, forearm_fx_tm)),
             fasciotomy_dtime = ymd_hms(paste(fasciotomy_dt, fasciotomy_tm)),
             discharge_dtime = ymd_hms(paste(discharge_dt, discharge_tm)),
-            total_stay_time = as.period(interval(arrival_dtime,  discharge_dtime)),
-            arrival_to_forearm_time = as.period(interval(arrival_dtime, forearm_fx_dtime)),
-            arrival_to_fasciotomy_time = as.period(interval(arrival_dtime, fasciotomy_dtime)),
-            forearm_to_fasciotomy_time = as.period(interval(forearm_fx_dtime,  fasciotomy_dtime)),
-            fasciotomy_to_discharge_time = as.period(interval(fasciotomy_dtime,  discharge_dtime)))
+            total_stay_time = as.period(lubridate::interval(arrival_dtime,  discharge_dtime)),
+            arrival_to_forearm_time = as.period(lubridate::interval(arrival_dtime, forearm_fx_dtime)),
+            arrival_to_fasciotomy_time = as.period(lubridate::interval(arrival_dtime, fasciotomy_dtime)),
+            forearm_to_fasciotomy_time = as.period(lubridate::interval(forearm_fx_dtime,  fasciotomy_dtime)),
+            fasciotomy_to_discharge_time = as.period(lubridate::interval(fasciotomy_dtime,  discharge_dtime)))
 
   # Create the patient_df dataframe
   assign(paste("patient_periods"), data.frame(.patient_timeframe), envir = .GlobalEnv)
