@@ -32,9 +32,13 @@ create_transportation_df <- function(.data){
             code_desc = "transport") %>%
     select.(-name) %>%
     pivot_wider.(names_from = type_col, values_from = value, values_fn = list) %>%
-    mutate.(code_cd = "NA",
+    mutate.(code_cd = "TRANS",
             data_source = code_desc,
             date = as.character(date),
-            time = as.character(time)) %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
+            time = as.character(time),
+            chapter_desc = toupper(stringr::word(loc_desc)),
+            subchapter_desc = toupper(loc_desc)) %>%
+    select.(id, date, time, loc_desc, code_cd, chapter_desc, subchapter_desc, code_desc, data_source)
+
+
 }

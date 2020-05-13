@@ -29,8 +29,10 @@ create_complic_df <- function(.data){
             loc_desc = comp_lc(lc),
             code_cd = pr,
             code_desc = complic(pr),
+            chapter_desc = complic(pr),
+            subchapter_desc = complic(pr),
             data_source = "complication") %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
+    select.(id, date, time, loc_desc, code_cd, chapter_desc, subchapter_desc, code_desc, data_source)
 
 
 }

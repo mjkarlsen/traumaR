@@ -27,8 +27,10 @@ create_diag_df <- function(.data) {
     ) %>%
     inner_join.(diagnosis_data, by = "diag_code") %>%
     rename.(code_cd = diag_code,
-            code_desc = short_desc) %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc, data_source) %>%
+            chapter_desc = diag_chapter,
+            subchapter_desc, diag_subchapter,
+            code_desc = diag_short_desc) %>%
+    select.(id, date, time, loc_desc, code_cd, chapter_desc, subchapter_desc, code_desc, data_source)
     distinct.()
 
   return(.data)

@@ -9,15 +9,21 @@ diagnosis_data <-
   icd9cm_billable$`32` %>%
   select.(code, short_desc, long_desc) %>%
   mutate.(diag_leng = str_length(code),
-          code = as.double(code),
-          diag_code = ifelse.(diag_leng == 5,code/100, code/10),
-          new_code = as.double(code)) %>%
+          new_code = as.double(code),
+          diag_code = case.(diag_leng == 5,new_code/100,
+                            diag_leng == 4,new_code/10,
+                            diag_leng == 3,new_code,
+                            default = new_code/10),
+          new_code = as.double(new_code)) %>%
   select.(diag_code,code, long_desc, short_desc) %>%
-  mutate.(chapter = traumaR::diagnosis_lvl_1(proc_code),
-          subchapter = traumaR::diagnosis_lvl_2(proc_code)) %>%
-  drop_na.()
+  mutate.(diag_chapter = traumaR::diagnosis_lvl_1(diag_code),
+          diag_subchapter = traumaR::diagnosis_lvl_2(diag_code)) %>%
+  drop_na.() %>%
+  rename.(diag_long_desc = long_desc,
+          diag_short_desc = short_desc) %>%
+  select.(diag_code, diag_chapter, diag_subchapter, diag_short_desc, diag_long_desc)
 
-# diagnosis_data %>% View()
+# diagnosis_data %>%  View()
 
 ########################################################
 # For Case Statement Diagnosis Level 1

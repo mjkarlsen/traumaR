@@ -35,7 +35,9 @@ create_arrival_discharge_df <- function(.data){
     select.(-name) %>%
     pivot_wider.(names_from = type_col, values_from = value, values_fn = max) %>%
     filter.(date != 'NA') %>%
-    mutate.(code_cd = "NA",
-            data_source = tolower(code_desc)) %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
+    mutate.(code_cd = "AR_DISC",
+            chapter_desc = toupper(code_desc),
+            subchapter_desc = toupper(paste(code_desc, loc_desc, sep = " ")), #later maybe add in the way the patient was transported
+            data_source = "arrival/discharge") %>%
+        select.(id, date, time, loc_desc, code_cd, chapter_desc, subchapter_desc, code_desc, data_source)
 }

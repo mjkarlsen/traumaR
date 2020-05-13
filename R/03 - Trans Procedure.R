@@ -35,8 +35,10 @@ create_proc_df <- function(.data) {
     ) %>%
     left_join.(procedures_data, by = "proc_code") %>%
     rename.(code_cd = proc_code,
-            code_desc = short_desc) %>%
-    select.(id, date, time, loc_desc, code_cd, code_desc, data_source)
+            chapter_desc = proc_chapter,
+            subchapter_desc, proc_subchapter,
+            code_desc = proc_short_desc) %>%
+    select.(id, date, time, loc_desc, code_cd, chapter_desc, subchapter_desc, code_desc, data_source)
 
 
   return(.data)
