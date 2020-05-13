@@ -25,9 +25,7 @@ create_diag_df <- function(.data) {
       date = ifelse.(is.na(ref_ar_d_a) | ref_ar_d_a == 'NA', eda_date_a, ref_ar_d_a),   #if the diagnosis did not have a date or time - default to arrival dt/tm
       time = ifelse.(is.na(ref_ar_t_a)  | ref_ar_t_a == 'NA', eda_time_a, ref_ar_t_a)
     ) %>%
-    left_join.(diagnosis_data, by = "diag_code")
-
-  .data <- .data %>%
+    inner_join.(traumaR::diagnosis_data, by = "diag_code") %>%
     rename.(code_cd = diag_code,
             chapter_desc = diag_chapter,
             subchapter_desc = diag_subchapter,
