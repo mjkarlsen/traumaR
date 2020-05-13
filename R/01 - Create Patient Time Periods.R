@@ -23,6 +23,7 @@ create_patient_timeframe <- function(.patient_df) {
       primary_injury_type,
       place_of_injury,
       cause_of_injury_e_code,
+      injury_desc,
       patient_county,
       zip_code,
       arrival_dt,
