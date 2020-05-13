@@ -33,7 +33,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
             forearm_fx_desc = code_desc)
 
   .arrival_discharge_df <- .trans_full_df %>%
-    filter.(data_source %in% c('arrival', 'discharge')) %>%   #, 'discharge', 'transport'
+    filter.(data_source %in% c('arrival/discharge')) %>%   #, 'discharge', 'transport'
     select.(id, date, time, code_desc) %>%
     filter.(date != 'NA') %>%
     arrange.(id, date, time) %>%
@@ -95,7 +95,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
                     'mot_resp_a')
 
   patient_df <- .data %>%
-    select.(patient_list) %>%
+    select.(all_of(patient_list)) %>%
     left_join.(.fasciotomy_proc_df, by = 'id') %>%
     left_join.(.forearm_proc_df, by = 'id') %>%
     left_join.(.trans_flat_df, by = "id") %>%
@@ -108,7 +108,8 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
             age_in_yrs = as.integer(age_in_yrs),
             peds_adult_flag = ifelse.(age_in_yrs <= 16, 'Peds', 'Adult'),
             age_grp = as.character(floor(age_in_yrs/10)),
-            injury_desc = traumaR::injury_lvl_1(e_code))
+            injury_desc = traumaR::injury_lvl_1(e_code)
+    )
 
   # Convert all codes into human friendly translations
   patient_df <- patient_df %>%
