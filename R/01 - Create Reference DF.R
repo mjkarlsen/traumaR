@@ -19,6 +19,8 @@
 
 #usethis::use_data_raw(name = "injury_data")
 # usethis::use_data(injury_data, internal = TRUE, overwrite = TRUE)
+#
+# This still needs to be commented out
 
 #####################################################################
 
@@ -50,7 +52,5 @@
 # usethis::use_data(diagnosis_data, internal = TRUE,overwrite = TRUE)
 
 #####################################################################
-
-
 
 

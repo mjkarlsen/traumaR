@@ -47,6 +47,7 @@ create_patient_df <- function(.data, .trans_flat_df, .trans_full_df){
 
   .diagnosis_df <- .trans_full_df %>%
     # filter.(code_cd %in% c(seq(from = 813.00, to = 813.99, by = 0.01))) %>% #Diagnosis only related to forearm fx
+    filter.(data_source %in% c('diagnosis')) %>%   #, 'discharge', 'transport'
     arrange.(id, date, time) %>%
     slice.(1, by = id) %>%
     select.(id, date, time, loc_desc, code_cd, code_desc) %>%

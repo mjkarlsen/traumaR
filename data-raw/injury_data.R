@@ -4,7 +4,8 @@ injury_data <- arrow::read_csv_arrow("E:/Northwestern/12 - Capstone/Data/injury_
 
 
 injury_data <- injury_data %>%
-  mutate.(injury_chapter = injury_lvl_1(e_code)) %>%
+  mutate.(injury_chapter = injury_lvl_1(e_code),
+          injury_subchapter = injury_desc_short) %>%
   rename.(injury_code = e_code) %>%
   select.(injury_code, injury_chapter, everything.())
 

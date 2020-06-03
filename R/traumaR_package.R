@@ -2,5 +2,4 @@
 #' @import data.table
 #' @import tidytable
 #' @import stringr
-#' @importFrom rlang `%|%` `%||%`
 NULL

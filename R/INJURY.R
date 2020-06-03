@@ -1,9 +1,20 @@
-#' Injury ECode Level 1
+#' Injury ECode Descriptions
 #'
 #' @param col A column in PTOS data that typically starts with e_code
 #'
 #' @return It translations of the code into human friendly values.
 #' @export
+
+# injury_lvl_0 <- function(col) {
+#   col_value <- case.(col == 'Motor Vehicle Traffic Accidents', col,
+#                      col == 'Accidental Falls', col,
+#                      col == 'Other Accidents', col,
+#                      col == 'Homicide and Injury Purposely Inflicted By Other Persons', col,
+#                      col == 'Motor Vehicle Nontraffic Accidents', col,
+#                      default = 'Other Injuries' )
+# }
+
+
 injury_lvl_1 <- function(col) {
   col_value <-  case.(col >= 0 & col  < 1, 'External Cause Status',
                       col >= 1 & col  < 800, 'Activity',
@@ -37,3 +48,4 @@ injury_lvl_1 <- function(col) {
                       default = "Unknown")
   return(col_value)
 }
+

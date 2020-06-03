@@ -2,7 +2,7 @@
 % Please edit documentation in R/INJURY.R
 \name{injury_lvl_1}
 \alias{injury_lvl_1}
-\title{Injury ECode Level 1}
+\title{Injury ECode Descriptions}
 \usage{
 injury_lvl_1(col)
 }
@@ -13,5 +13,5 @@ injury_lvl_1(col)
 It translations of the code into human friendly values.
 }
 \description{
-Injury ECode Level 1
+Injury ECode Descriptions
 }
