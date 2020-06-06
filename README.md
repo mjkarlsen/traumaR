@@ -13,13 +13,6 @@ normalized format.
 
 ## Installation
 
-You can install the released version of traumaR from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("traumaR")
-```
-
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
